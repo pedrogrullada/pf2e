@@ -51,7 +51,6 @@ const ARMOR_PROPERTY_RUNE_TYPES = new Set([
     "rockBraced",
     "shadow",
     "sinisterKnight",
-    "sizeChanging",
     "slick",
     "soaring",
     "stanching",
