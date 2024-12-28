@@ -30,23 +30,41 @@
         },
         "rules": [
             {
-                "domain": "all",
+                "domain": "strike-damage",
                 "key": "RollOption",
                 "option": "strategic-repose",
                 "toggleable": true
             },
             {
                 "key": "DamageAlteration",
-                "mode": "override",
+                "mode": "downgrade",
                 "predicate": [
-                    "strategic-repose"
+                    "strategic-repose",
+                    {
+                        "not": "dice:tag:strategic-repose"
+                    }
                 ],
-                "property": "damage-type",
+                "property": "dice-number",
                 "selectors": [
                     "strike-damage"
                 ],
                 "slug": "strategic-strike",
-                "value": "vitality"
+                "value": 0
+            },
+            {
+                "damageType": "vitality",
+                "diceNumber": "floor((@actor.level + 3)/4)",
+                "dieSize": "d6",
+                "key": "DamageDice",
+                "predicate": [
+                    "strategic-repose",
+                    "check:substitution:devise-a-stratagem"
+                ],
+                "selector": "strike-damage",
+                "slug": "strategic-strike",
+                "tags": [
+                    "strategic-repose"
+                ]
             }
         ],
         "traits": {
