@@ -116,6 +116,22 @@
                 ],
                 "reevaluateOnUpdate": true,
                 "uuid": "Compendium.pf2e.conditionitems.Item.Persistent Damage"
+            },
+            {
+                "key": "TokenLight",
+                "value": {
+                    "alpha": 0.2,
+                    "animation": {
+                        "intensity": 1,
+                        "speed": 2,
+                        "type": "flame"
+                    },
+                    "attenuation": 0.4,
+                    "bright": 20,
+                    "color": "#ffae3d",
+                    "dim": 40,
+                    "shadows": 0.2
+                }
             }
         ],
         "traits": {
