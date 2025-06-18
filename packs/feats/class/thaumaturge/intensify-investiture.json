@@ -29,7 +29,29 @@
             "remaster": false,
             "title": "Pathfinder Dark Archive"
         },
-        "rules": [],
+        "rules": [
+            {
+                "key": "RollOption",
+                "option": "intensify-investiture",
+                "toggleable": true
+            },
+            {
+                "key": "AdjustModifier",
+                "mode": "override",
+                "predicate": [
+                    "item:trait:invested",
+                    "intensify-investiture",
+                    {
+                        "gt": [
+                            "{actor|classDCs.thaumaturge.dc.value}",
+                            "inline-dc:value"
+                        ]
+                    }
+                ],
+                "selector": "inline-dc",
+                "value": "@actor.classDCs.thaumaturge.mod"
+            }
+        ],
         "traits": {
             "rarity": "common",
             "value": [
