@@ -37,16 +37,10 @@
             },
             {
                 "key": "AdjustModifier",
-                "mode": "override",
+                "mode": "upgrade",
                 "predicate": [
                     "item:trait:invested",
-                    "intensify-investiture",
-                    {
-                        "gt": [
-                            "{actor|classDCs.thaumaturge.dc.value}",
-                            "inline-dc:value"
-                        ]
-                    }
+                    "intensify-investiture"
                 ],
                 "selector": "inline-dc",
                 "value": "@actor.classDCs.thaumaturge.mod"
