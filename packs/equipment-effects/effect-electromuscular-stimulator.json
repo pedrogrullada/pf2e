@@ -50,6 +50,9 @@
                     }
                 ],
                 "key": "GrantItem",
+                "onDeleteActions": {
+                    "granter": "detach"
+                },
                 "predicate": [
                     "electromuscular-stimulator:success"
                 ],
