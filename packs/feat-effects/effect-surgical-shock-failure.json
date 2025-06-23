@@ -7,10 +7,10 @@
             "value": "<p>Granted by @UUID[Compendium.pf2e.feats-srd.Item.Surgical Shock]</p>\n<p>You gain a +1 circumstance bonus to the next attack action you attempt against the target.</p>"
         },
         "duration": {
-            "expiry": null,
+            "expiry": "turn-end",
             "sustained": false,
-            "unit": "unlimited",
-            "value": -1
+            "unit": "rounds",
+            "value": 0
         },
         "level": {
             "value": 12
