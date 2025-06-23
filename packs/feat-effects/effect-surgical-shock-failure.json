@@ -7,13 +7,13 @@
             "value": "<p>Granted by @UUID[Compendium.pf2e.feats-srd.Item.Surgical Shock]</p>\n<p>You gain a +1 circumstance bonus to the next attack action you attempt against the target.</p>"
         },
         "duration": {
-            "expiry": "turn-end",
+            "expiry": null,
             "sustained": false,
-            "unit": "rounds",
-            "value": 0
+            "unit": "unlimited",
+            "value": -1
         },
         "level": {
-            "value": 1
+            "value": 12
         },
         "publication": {
             "license": "ORC",
@@ -30,7 +30,7 @@
                 "predicate": [
                     "target:mark:surgical-shock"
                 ],
-                "removeAfterRoll": true,
+                "removeAfterRoll": "if-enabled",
                 "selector": "attack",
                 "type": "circumstance",
                 "value": 1
