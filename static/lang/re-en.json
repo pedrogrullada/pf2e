@@ -4417,7 +4417,7 @@
                     "Skill": "Skill Stratagem"
                 },
                 "JustTheFacts": {
-                    "QuickenedAddendum": "You are permanently quickened and can use the extra action to @UUID[Compendium.pf2e.actionspf2e.Item.1OagaWtBpVXExToo]{Recall Knowledge}."
+                    "QuickenedAddendum": "You are permanently quickened and can use the extra action to Recall Knowledge."
                 },
                 "Methodology": {
                     "Prompt": "Select a methodology."
