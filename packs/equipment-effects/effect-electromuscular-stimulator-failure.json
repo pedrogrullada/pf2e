@@ -4,7 +4,7 @@
     "name": "Effect: Electromuscular Stimulator (Failure)",
     "system": {
         "description": {
-            "value": "<p>Granted by @UUID[Compendium.pf2e.equipment-srd.Item.Electromuscular Stimulator]</p>\n<p>You gain the quickened condition and you can use the extra action each round only to Stride or Strike. On a success, you also take 3 persistent electricity damage.</p>"
+            "value": "<p>Granted by @UUID[Compendium.pf2e.equipment-srd.Item.Electromuscular Stimulator]</p>\n<p>You gain the quickened condition and you can use the extra action each round only to Stride or Strike. You also take 3 persistent electricity damage.</p>"
         },
         "duration": {
             "expiry": "turn-start",
