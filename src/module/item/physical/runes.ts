@@ -862,7 +862,7 @@ export const ARMOR_PROPERTY_RUNES: { [T in ArmorPropertyRuneType]: ArmorProperty
         price: 3000,
         rarity: "common",
         slug: "spellwatch",
-        traits: ["magical"]
+        traits: ["magical"],
     },
     stanching: {
         name: "PF2E.ArmorPropertyRuneStanching",
