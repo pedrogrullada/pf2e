@@ -44,6 +44,9 @@
             {
                 "affects": "origin",
                 "key": "EphemeralEffect",
+                "predicate": [
+                    "spirits-interference"
+                ],
                 "selectors": "ranged-attack-roll",
                 "uuid": "Compendium.pf2e.feat-effects.Item.Effect: Spirits' Interference"
             }
