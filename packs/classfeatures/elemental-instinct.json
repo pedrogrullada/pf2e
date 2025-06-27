@@ -60,6 +60,7 @@
             },
             {
                 "actorFlag": true,
+                "adjustName": false,
                 "choices": [
                     {
                         "label": "PF2E.TraitBludgeoning",
