@@ -59,7 +59,7 @@
                 "rollOption": "elemental-instinct"
             },
             {
-                "actorFlag": "elementalInstinctDamage",
+                "actorFlag": true,
                 "choices": [
                     {
                         "label": "PF2E.TraitBludgeoning",
@@ -121,6 +121,7 @@
                         "value": "slashing"
                     }
                 ],
+                "flag": "elementalInstinctDamage",
                 "key": "ChoiceSet",
                 "prompt": "PF2E.SpecificRule.Prompt.DamageType",
                 "rollOption": "elemental-instinct:damage"
