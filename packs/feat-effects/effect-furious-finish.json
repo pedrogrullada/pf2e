@@ -72,12 +72,18 @@
             },
             {
                 "key": "FlatModifier",
+                "predicate": [
+                    "self:effect:rage"
+                ],
                 "selector": "strike-damage",
                 "type": "circumstance",
                 "value": "@item.flags.pf2e.rulesSelections.bonus"
             },
             {
                 "key": "Note",
+                "predicate": [
+                    "self:effect:rage"
+                ],
                 "selector": "strike-damage",
                 "text": "PF2E.SpecificRule.Barbarian.FuriousFinish.Note",
                 "title": "{item|name}"
