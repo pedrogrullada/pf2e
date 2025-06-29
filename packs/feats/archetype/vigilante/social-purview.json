@@ -34,12 +34,6 @@
                 "adjustName": false,
                 "choices": {
                     "filter": [
-                        {
-                            "lte": [
-                                "item:level",
-                                4
-                            ]
-                        },
                         "item:category:class",
                         "item:trait:dedication"
                     ],
