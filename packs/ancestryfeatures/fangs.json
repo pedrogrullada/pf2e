@@ -44,6 +44,16 @@
                     "finesse",
                     "unarmed"
                 ]
+            },
+            {
+                "itemType": "weapon",
+                "key": "ItemAlteration",
+                "mode": "add",
+                "predicate": [
+                    "item:id:{item|id}"
+                ],
+                "property": "other-tags",
+                "value": "anadi-fangs"
             }
         ],
         "traits": {
