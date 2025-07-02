@@ -179,7 +179,7 @@
                 },
                 "category": "defensive",
                 "description": {
-                    "value": "<p>40 feet. Desecrated guardians exude a palpable malice that nauseates all but the most wicked passersby. Non-evil creatures that enter the aura must attempt a @Check[will|dc:37] save. On a failure, the creature becomes @UUID[Compendium.pf2e.conditionitems.Item.Sickened]{Sickened 1} (@UUID[Compendium.pf2e.conditionitems.Item.Sickened]{Sickened 2} on a critical failure). In addition, any non-evil creatures that attempt to Cast a Spell within the aura must succeed at a @Check[flat|dc:5] check or the spell is lost.</p>"
+                    "value": "<p>40 feet. Desecrated guardians exude a palpable malice that nauseates all but the most wicked passersby. Non-evil creatures that enter the aura must attempt a @Check[will|dc:37] save. On a failure, the creature becomes @UUID[Compendium.pf2e.conditionitems.Item.Sickened]{Sickened 1} (@UUID[Compendium.pf2e.conditionitems.Item.Sickened]{Sickened 2} on a critical failure). In addition, any non-evil creatures that attempt to Cast a Spell within the aura must succeed at a @Check[flat|dc:5] or the spell is lost.</p>"
                 },
                 "publication": {
                     "license": "OGL",

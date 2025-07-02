@@ -2082,7 +2082,7 @@
                 },
                 "category": "offensive",
                 "description": {
-                    "value": "<p>If another creature's reaction would disrupt the venom mage's spellcasting action, the venom mage attempts a @Check[flat|dc:15] check. If the venom mage succeeds, their action isn't disrupted.</p>"
+                    "value": "<p>If another creature's reaction would disrupt the venom mage's spellcasting action, the venom mage attempts a @Check[flat|dc:15]. If the venom mage succeeds, their action isn't disrupted.</p>"
                 },
                 "publication": {
                     "license": "OGL",

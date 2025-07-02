@@ -109,7 +109,7 @@
                 },
                 "category": "defensive",
                 "description": {
-                    "value": "<p>30 feet. Any time a nonfeline creature within the aura attempts to use an action that has the concentrate trait, it must attempt a @Check[flat|dc:5] check. On a failure, the action is lost as the creature is too distracted by sneezing to act.</p>"
+                    "value": "<p>30 feet. Any time a nonfeline creature within the aura attempts to use an action that has the concentrate trait, it must attempt a @Check[flat|dc:5]. On a failure, the action is lost as the creature is too distracted by sneezing to act.</p>"
                 },
                 "publication": {
                     "license": "OGL",

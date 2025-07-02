@@ -347,7 +347,7 @@
                 },
                 "category": "offensive",
                 "description": {
-                    "value": "<p>A creature hit by a cat sith's claw must succeed at a @Check[will|dc:23] save or be cursed with misfortune. Whenever the cursed creature rolls a critical success on a skill check or saving throw, it gets a success instead. Each day, a cursed creature can attempt a @Check[flat|dc:10|name:Break Cat Sith's Mark] check to break the curse.</p>\n<hr />\n<p>@UUID[Compendium.pf2e.bestiary-effects.Item.Effect: Cat Sith's Mark]</p>"
+                    "value": "<p>A creature hit by a cat sith's claw must succeed at a @Check[will|dc:23] save or be cursed with misfortune. Whenever the cursed creature rolls a critical success on a skill check or saving throw, it gets a success instead. Each day, a cursed creature can attempt a @Check[flat|dc:10|name:Break Cat Sith's Mark] to break the curse.</p>\n<hr />\n<p>@UUID[Compendium.pf2e.bestiary-effects.Item.Effect: Cat Sith's Mark]</p>"
                 },
                 "publication": {
                     "license": "OGL",

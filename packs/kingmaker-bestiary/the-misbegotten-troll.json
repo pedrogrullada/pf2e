@@ -492,7 +492,7 @@
                 },
                 "category": "defensive",
                 "description": {
-                    "value": "<p><strong>Trigger</strong> The troll king takes @UUID[Compendium.pf2e.conditionitems.Item.Persistent Damage]{Persistent} acid or fire damage.</p>\n<hr />\n<p><strong>Effect</strong> The troll king shakes itself to remove persistent acid or fire effects. The troll king immediately attempts a @Check[flat|dc:15] check to end the persistent damage that triggered this reaction. If the troll king succeeds at this check, it can immediately use Primordial Roar as part of this reaction.</p>"
+                    "value": "<p><strong>Trigger</strong> The troll king takes @UUID[Compendium.pf2e.conditionitems.Item.Persistent Damage]{Persistent} acid or fire damage.</p>\n<hr />\n<p><strong>Effect</strong> The troll king shakes itself to remove persistent acid or fire effects. The troll king immediately attempts a @Check[flat|dc:15] to end the persistent damage that triggered this reaction. If the troll king succeeds at this check, it can immediately use Primordial Roar as part of this reaction.</p>"
                 },
                 "publication": {
                     "license": "OGL",

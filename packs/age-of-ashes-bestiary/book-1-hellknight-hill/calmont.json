@@ -639,7 +639,7 @@
                             "target:condition:concealed"
                         ],
                         "selector": "attack",
-                        "text": "The target is @UUID[Compendium.pf2e.conditionitems.Item.Concealed], make a @Check[flat|dc:3|traits:target:condition:concealed] check",
+                        "text": "The target is @UUID[Compendium.pf2e.conditionitems.Item.Concealed], make a @Check[flat|dc:3|traits:target:condition:concealed].",
                         "title": "{item|name}"
                     },
                     {
@@ -648,7 +648,7 @@
                             "target:condition:hidden"
                         ],
                         "selector": "attack",
-                        "text": "The target is @UUID[Compendium.pf2e.conditionitems.Item.Hidden], make a @Check[flat|dc:9|traits:target:condition:hidden] check",
+                        "text": "The target is @UUID[Compendium.pf2e.conditionitems.Item.Hidden], make a @Check[flat|dc:9|traits:target:condition:hidden].",
                         "title": "{item|name}"
                     }
                 ],

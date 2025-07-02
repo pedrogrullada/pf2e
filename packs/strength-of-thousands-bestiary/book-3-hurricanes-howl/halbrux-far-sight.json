@@ -3043,7 +3043,7 @@
                 },
                 "category": "offensive",
                 "description": {
-                    "value": "<p>If a reaction would disrupt Halbrux's spellcasting action, she attempts a @Check[flat|dc:15|showDC:owner] check. On a success, the action isn't disrupted.</p>"
+                    "value": "<p>If a reaction would disrupt Halbrux's spellcasting action, she attempts a @Check[flat|dc:15|showDC:owner]. On a success, the action isn't disrupted.</p>"
                 },
                 "publication": {
                     "license": "OGL",
