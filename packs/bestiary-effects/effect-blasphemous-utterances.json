@@ -33,11 +33,53 @@
             {
                 "key": "Note",
                 "predicate": [
-                    "concentrate"
+                    "item:trait:concentrate"
                 ],
                 "selector": "all",
-                "text": "<p>A creature in the aura can't take actions that have the concentrate trait unless they succeed at a @Check[flat|dc:10]. On a failure, the action is disrupted.</p>",
-                "title": "Blasphemous Utterances"
+                "text": "PF2E.NPCAbility.Lich.BlasphemousUtterances.Note",
+                "title": "{item|name}"
+            },
+            {
+                "itemType": "feat",
+                "key": "ItemAlteration",
+                "mode": "add",
+                "predicate": [
+                    "item:trait:concentrate"
+                ],
+                "property": "description",
+                "value": [
+                    {
+                        "text": "PF2E.NPCAbility.Lich.BlasphemousUtterances.Note"
+                    }
+                ]
+            },
+            {
+                "itemType": "action",
+                "key": "ItemAlteration",
+                "mode": "add",
+                "predicate": [
+                    "item:trait:concentrate"
+                ],
+                "property": "description",
+                "value": [
+                    {
+                        "text": "PF2E.NPCAbility.Lich.BlasphemousUtterances.Note"
+                    }
+                ]
+            },
+            {
+                "itemType": "spell",
+                "key": "ItemAlteration",
+                "mode": "add",
+                "predicate": [
+                    "item:trait:concentrate"
+                ],
+                "property": "description",
+                "value": [
+                    {
+                        "text": "PF2E.NPCAbility.Lich.BlasphemousUtterances.Note"
+                    }
+                ]
             }
         ],
         "start": {

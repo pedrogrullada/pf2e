@@ -1125,6 +1125,11 @@
                 "Fetch": "Fetch",
                 "Kill": "Kill"
             },
+            "Lich": {
+                "BlasphemousUtterances": {
+                    "Note": "You can't take actions that have the concentrate trait unless you succeed at a @Check[flat|dc:10]. On a failure, the action is disrupted."
+                }
+            },
             "MarilithFocusedAssault": {
                 "Five": "5 Longswords",
                 "Four": "4 Longswords",

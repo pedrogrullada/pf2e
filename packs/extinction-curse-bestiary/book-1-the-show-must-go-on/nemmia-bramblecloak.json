@@ -1612,7 +1612,7 @@
                     {
                         "domain": "perception",
                         "key": "RollOption",
-                        "label": "Seek hidden or undetected creature (Keen Eyes)",
+                        "label": "PF2E.SpecificRule.Halfling.KeenEyes.Label",
                         "option": "keen-eyes",
                         "toggleable": true
                     },
@@ -1624,24 +1624,6 @@
                         "selector": "perception",
                         "type": "circumstance",
                         "value": 2
-                    },
-                    {
-                        "key": "Note",
-                        "predicate": [
-                            "target:condition:concealed"
-                        ],
-                        "selector": "attack",
-                        "text": "The target is @UUID[Compendium.pf2e.conditionitems.Item.Concealed], make a @Check[flat|dc:3|traits:target:condition:concealed].",
-                        "title": "{item|name}"
-                    },
-                    {
-                        "key": "Note",
-                        "predicate": [
-                            "target:condition:hidden"
-                        ],
-                        "selector": "attack",
-                        "text": "The target is @UUID[Compendium.pf2e.conditionitems.Item.Hidden], make a @Check[flat|dc:9|traits:target:condition:concealed].",
-                        "title": "{item|name}"
                     }
                 ],
                 "slug": null,
