@@ -175,6 +175,7 @@
                 ],
                 "key": "ChoiceSet",
                 "predicate": [
+                    "feature:giant-instinct",
                     "instinct-crown-boon:giant-instinct",
                     "self:effect:rage"
                 ],
@@ -222,7 +223,8 @@
                 "predicate": [
                     "self:effect:rage",
                     "instinct-crown-boon:spirit-instinct",
-                    "feature:raging-resistance"
+                    "feature:raging-resistance",
+                    "feature:spirit-instinct"
                 ],
                 "type": [
                     "physical",
@@ -239,7 +241,8 @@
                     "self:effect:rage",
                     "feat:unstoppable-juggernaut",
                     "instinct-crown-boon:spirit-instinct",
-                    "feature:raging-resistance"
+                    "feature:raging-resistance",
+                    "feature:spirit-instinct"
                 ],
                 "type": [
                     "physical",
@@ -252,7 +255,8 @@
                 "predicate": [
                     "self:effect:rage",
                     "instinct-crown-boon:spirit-instinct",
-                    "feature:raging-resistance"
+                    "feature:raging-resistance",
+                    "feature:spirit-instinct"
                 ],
                 "type": [
                     "physical",
@@ -266,7 +270,8 @@
                     "self:effect:rage",
                     "feat:unstoppable-juggernaut",
                     "instinct-crown-boon:spirit-instinct",
-                    "feature:raging-resistance"
+                    "feature:raging-resistance",
+                    "feature:spirit-instinct"
                 ],
                 "type": [
                     "physical",
@@ -278,6 +283,7 @@
                 "keep": "higher",
                 "key": "RollTwice",
                 "predicate": [
+                    "feature:superstition-instinct",
                     "instinct-crown-boon:superstition-instinct",
                     "item:magical",
                     "self:effect:rage"
@@ -302,6 +308,7 @@
                 "predicate": [
                     "self:effect:rage",
                     "feature:raging-resistance",
+                    "feature:superstition-instinct",
                     "instinct-crown-boon:superstition-instinct"
                 ],
                 "type": "custom",
@@ -324,6 +331,7 @@
                 "predicate": [
                     "self:effect:rage",
                     "feature:raging-resistance",
+                    "feature:superstition-instinct",
                     "feat:unstoppable-juggernaut",
                     "instinct-crown-boon:superstition-instinct"
                 ],
