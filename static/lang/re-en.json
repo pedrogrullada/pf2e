@@ -3599,6 +3599,9 @@
                 "HumbugPocket": {
                     "ConcealAnObjectLabel": "Humbug Pocket (Conceal an Object in the Pocket)"
                 },
+                "InstinctCrown": {
+                    "QuickTemperedToggle": "Instinct Crown — Quick Tempered"
+                },
                 "LionsShield": {
                     "LionsBiteLabel": "Lion's Bite",
                     "LionsHeadLabel": "Lion's Head"
