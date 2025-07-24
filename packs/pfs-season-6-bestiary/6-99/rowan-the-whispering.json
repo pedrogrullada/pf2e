@@ -264,48 +264,10 @@
             "type": "armor"
         },
         {
-            "_id": "MALwkH4YqM5tY2fK",
-            "img": "systems/pf2e/icons/default-icons/melee.svg",
-            "name": "Serpent Dagger",
-            "sort": 400000,
-            "system": {
-                "attackEffects": {
-                    "value": []
-                },
-                "bonus": {
-                    "value": 11
-                },
-                "damageRolls": {
-                    "M4Wrugdg0WtMerYl": {
-                        "damage": "2d4+1",
-                        "damageType": "piercing"
-                    }
-                },
-                "description": {
-                    "value": ""
-                },
-                "publication": {
-                    "license": "OGL",
-                    "remaster": false,
-                    "title": ""
-                },
-                "rules": [],
-                "slug": null,
-                "traits": {
-                    "value": [
-                        "agile",
-                        "finesse",
-                        "versatile-s"
-                    ]
-                }
-            },
-            "type": "melee"
-        },
-        {
             "_id": "BRRdnRYHKca2Vowm",
             "img": "systems/pf2e/icons/default-icons/melee.svg",
             "name": "Dagger",
-            "sort": 500000,
+            "sort": 400000,
             "system": {
                 "attackEffects": {
                     "value": []
@@ -344,7 +306,7 @@
             "_id": "m3fe3LQ52uxmzWrf",
             "img": "systems/pf2e/icons/default-icons/melee.svg",
             "name": "Fist",
-            "sort": 600000,
+            "sort": 500000,
             "system": {
                 "attackEffects": {
                     "value": []
@@ -379,10 +341,10 @@
             "type": "melee"
         },
         {
-            "_id": "FJEARsbwVLNlIZSY",
+            "_id": "NP8svTCMc9KAdEIr",
             "img": "systems/pf2e/icons/default-icons/melee.svg",
             "name": "Serpent Dagger",
-            "sort": 700000,
+            "sort": 600000,
             "system": {
                 "attackEffects": {
                     "value": []
@@ -391,7 +353,7 @@
                     "value": 11
                 },
                 "damageRolls": {
-                    "7mTlY87QYt79T2Hx": {
+                    "kyyA4Fj40Iu26ffd": {
                         "damage": "2d4+1",
                         "damageType": "piercing"
                     }
@@ -404,8 +366,68 @@
                     "remaster": false,
                     "title": ""
                 },
-                "rules": [],
-                "slug": null,
+                "rules": [
+                    {
+                        "key": "Note",
+                        "outcome": [
+                            "criticalSuccess"
+                        ],
+                        "selector": "{item|id}-attack",
+                        "text": "PF2E.SpecificRule.Equipment.SerpentDagger.Note",
+                        "title": "{item|name}",
+                        "visibility": "owner"
+                    }
+                ],
+                "slug": "serpent-dagger",
+                "traits": {
+                    "value": [
+                        "agile",
+                        "finesse",
+                        "versatile-s"
+                    ]
+                }
+            },
+            "type": "melee"
+        },
+        {
+            "_id": "pyhmy5V653yCCAZ5",
+            "img": "systems/pf2e/icons/default-icons/melee.svg",
+            "name": "Serpent Dagger",
+            "sort": 700000,
+            "system": {
+                "attackEffects": {
+                    "value": []
+                },
+                "bonus": {
+                    "value": 11
+                },
+                "damageRolls": {
+                    "ceY7ywtpekgrsA0L": {
+                        "damage": "2d4+1",
+                        "damageType": "piercing"
+                    }
+                },
+                "description": {
+                    "value": ""
+                },
+                "publication": {
+                    "license": "OGL",
+                    "remaster": false,
+                    "title": ""
+                },
+                "rules": [
+                    {
+                        "key": "Note",
+                        "outcome": [
+                            "criticalSuccess"
+                        ],
+                        "selector": "{item|id}-attack",
+                        "text": "PF2E.SpecificRule.Equipment.SerpentDagger.Note",
+                        "title": "{item|name}",
+                        "visibility": "owner"
+                    }
+                ],
+                "slug": "serpent-dagger",
                 "traits": {
                     "value": [
                         "magical",

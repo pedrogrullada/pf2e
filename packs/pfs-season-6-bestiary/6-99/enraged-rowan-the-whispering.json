@@ -289,12 +289,24 @@
                     "remaster": false,
                     "title": ""
                 },
-                "rules": [],
+                "rules": [
+                    {
+                        "key": "Note",
+                        "outcome": [
+                            "criticalSuccess"
+                        ],
+                        "selector": "{item|id}-attack",
+                        "text": "PF2E.SpecificRule.Equipment.SerpentDagger.Note",
+                        "title": "{item|name}",
+                        "visibility": "owner"
+                    }
+                ],
                 "slug": null,
                 "traits": {
                     "value": [
                         "agile",
                         "finesse",
+                        "magical",
                         "versatile-s"
                     ]
                 }
@@ -333,7 +345,6 @@
                     "value": [
                         "agile",
                         "finesse",
-                        "magical",
                         "versatile-s"
                     ]
                 }
@@ -404,7 +415,18 @@
                     "remaster": false,
                     "title": ""
                 },
-                "rules": [],
+                "rules": [
+                    {
+                        "key": "Note",
+                        "outcome": [
+                            "criticalSuccess"
+                        ],
+                        "selector": "{item|id}-attack",
+                        "text": "PF2E.SpecificRule.Equipment.SerpentDagger.Note",
+                        "title": "{item|name}",
+                        "visibility": "owner"
+                    }
+                ],
                 "slug": null,
                 "traits": {
                     "value": [
