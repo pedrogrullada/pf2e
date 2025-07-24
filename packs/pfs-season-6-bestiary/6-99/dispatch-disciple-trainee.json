@@ -463,9 +463,6 @@
         }
     ],
     "name": "Dispatch Disciple Trainee",
-    "prototypeToken": {
-        "name": "Dispatch Disciple Trainees"
-    },
     "system": {
         "abilities": {
             "cha": {

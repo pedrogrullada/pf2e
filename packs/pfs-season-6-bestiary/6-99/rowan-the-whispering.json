@@ -378,7 +378,7 @@
                         "visibility": "owner"
                     }
                 ],
-                "slug": "serpent-dagger",
+                "slug": null,
                 "traits": {
                     "value": [
                         "agile",
@@ -427,7 +427,7 @@
                         "visibility": "owner"
                     }
                 ],
-                "slug": "serpent-dagger",
+                "slug": null,
                 "traits": {
                     "value": [
                         "magical",
