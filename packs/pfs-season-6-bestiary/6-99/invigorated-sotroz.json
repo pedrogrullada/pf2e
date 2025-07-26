@@ -1622,7 +1622,6 @@
                 },
                 "rules": [
                     {
-                        "effects": [],
                         "key": "Aura",
                         "radius": 10,
                         "slug": "stench",

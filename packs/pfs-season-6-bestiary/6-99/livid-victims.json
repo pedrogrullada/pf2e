@@ -46,7 +46,7 @@
                 },
                 "category": null,
                 "description": {
-                    "value": "<p>The haunt emits a cacophony of the ghoul victims' death rattles, forcing all living creatures within 80 feet to attempt a @Check[will|dc:17|options:area-effect,inflicts:frightened] save. On a failure, the creature becomes @UUID[Compendium.pf2e.conditionitems.Item.Frightened]{Frightened 2} (@UUID[Compendium.pf2e.conditionitems.Item.Frightened]{Frightened 3} on a critical failure). On a success, a creature is temporarily immune to gurgling gasp for 1 hour. The haunt cannot use gurgling gasp again for [[/gmr 1d6 #rounds]]{1d6 rounds}.</p>"
+                    "value": "<p>The haunt emits a cacophony of the ghoul victims' death rattles, forcing all living creatures within @Template[emanation|distance:80]{80 feet} to attempt a @Check[will|dc:17|options:area-effect,inflicts:frightened] save. On a failure, the creature becomes @UUID[Compendium.pf2e.conditionitems.Item.Frightened]{Frightened 2} (@UUID[Compendium.pf2e.conditionitems.Item.Frightened]{Frightened 3} on a critical failure). On a success, a creature is temporarily immune to gurgling gasp for 1 hour. The haunt cannot use gurgling gasp again for [[/gmr 1d6 #Recharge Gurgling Gasp]]{1d6 rounds}.</p>"
                 },
                 "publication": {
                     "license": "OGL",
