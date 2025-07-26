@@ -3785,6 +3785,9 @@
                 "ThreePillaredYangNa": {
                     "ToggleLabel": "Three-Pillared Yang Na — Third Blessing"
                 },
+                "ToothyKnife": {
+                    "ToggleLabel": "Toothy Knife — Adjust for assisted recovery"
+                },
                 "UnholyPlate": {
                     "Note": "On a critical hit with the horns, the target must succeed at a @Check[fortitude|dc:30] or become @UUID[Compendium.pf2e.conditionitems.Item.4D2KBtexWXa6oUMR]{Drained 1} (or @UUID[Compendium.pf2e.conditionitems.Item.4D2KBtexWXa6oUMR]{Drained 2} on a critical failure)."
                 },
@@ -6455,6 +6458,9 @@
                 "GourdHead": "Gourd Head: Increase perception DC",
                 "TagTeam": "Flanking with another member of the Secret Society",
                 "Triangulate": "Spotter can see target"
+            },
+            "Traits": {
+                "FungusAndPlant": "Fungus and Plant"
             },
             "TrapFinder": {
                 "DefendingLabel": "Trap Finder (defending against traps)",
