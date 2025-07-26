@@ -4,7 +4,7 @@
     "name": "Effect: Bosun's Command",
     "system": {
         "description": {
-            "value": "<p>You gain a +2 status bonus to your attack rolls or a +10 status bonus to your Speeds.</p>"
+            "value": "<p>The creature gains the bosun's choice of a +2 status bonus to attack rolls or a +10 status bonus to its Speeds.</p>"
         },
         "duration": {
             "expiry": "turn-end",
@@ -16,9 +16,9 @@
             "value": 3
         },
         "publication": {
-            "license": "ORC",
-            "remaster": true,
-            "title": "Pathfinder NPC Core"
+            "license": "OGL",
+            "remaster": false,
+            "title": "Pathfinder Gamemastery Guide"
         },
         "rules": [
             {
@@ -27,14 +27,14 @@
                         "label": "PF2E.AttackLabel",
                         "value": {
                             "modifier": 2,
-                            "selector": "attack-roll"
+                            "selector": "attack"
                         }
                     },
                     {
                         "label": "PF2E.Actor.Speed.Label",
                         "value": {
                             "modifier": 10,
-                            "selector": "all-speeds"
+                            "selector": "land-speed"
                         }
                     }
                 ],
