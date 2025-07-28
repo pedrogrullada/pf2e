@@ -3677,6 +3677,9 @@
                     "TitanicLabel": "Titanic",
                     "WyrmhideLabel": "Wyrmhide"
                 },
+                "GoldenGreaves": {
+                    "ToggleLabel": "Golden Greaves — Increase Fortitude and Reflex DC"
+                },
                 "HeadbandsOfTranslocation": {
                     "ToggleLabel": "Headbands of Translocation — Aiding ally with paired headband"
                 },
@@ -3689,6 +3692,9 @@
                 "HydraHeadClub": "Hydra Head Club — Reactive Snap",
                 "InstinctCrown": {
                     "QuickTemperedToggle": "Instinct Crown — Quick Tempered"
+                },
+                "LieutenantsSash": {
+                    "ToggleLabel": "Lieutenant's Sash — Bonus to AC and saves against reactions"
                 },
                 "LionsShield": {
                     "LionsBiteLabel": "Lion's Bite",
@@ -3787,6 +3793,9 @@
                 },
                 "ToothyKnife": {
                     "ToggleLabel": "Toothy Knife — Adjust for assisted recovery"
+                },
+                "TrustyHelmet": {
+                    "HunkerDownLabel": "Trusty Helmet — Hunker Down"
                 },
                 "UnholyPlate": {
                     "Note": "On a critical hit with the horns, the target must succeed at a @Check[fortitude|dc:30] or become @UUID[Compendium.pf2e.conditionitems.Item.4D2KBtexWXa6oUMR]{Drained 1} (or @UUID[Compendium.pf2e.conditionitems.Item.4D2KBtexWXa6oUMR]{Drained 2} on a critical failure)."
