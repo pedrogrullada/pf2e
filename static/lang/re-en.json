@@ -2589,6 +2589,7 @@
             },
             "BonusLabel": {
                 "NegativeOne": "-1",
+                "NegativeFour": "-4",
                 "NegativeThree": "-3",
                 "NegativeTwo": "-2",
                 "PlusFour": "+4",

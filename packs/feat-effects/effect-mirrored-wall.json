@@ -25,19 +25,19 @@
             {
                 "choices": [
                     {
-                        "label": "-1",
+                        "label": "PF2E.SpecificRule.BonusLabel.NegativeOne",
                         "value": -1
                     },
                     {
-                        "label": "-2",
+                        "label": "PF2E.SpecificRule.BonusLabel.NegativeTwo",
                         "value": -2
                     },
                     {
-                        "label": "-3",
+                        "label": "PF2E.SpecificRule.BonusLabel.NegativeThree",
                         "value": -3
                     },
                     {
-                        "label": "-4",
+                        "label": "PF2E.SpecificRule.BonusLabel.NegativeFour",
                         "value": -4
                     }
                 ],
