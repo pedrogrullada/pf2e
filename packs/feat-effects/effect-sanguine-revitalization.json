@@ -25,24 +25,25 @@
             {
                 "choices": [
                     {
-                        "label": "PF2E.SpecificRule.BonusLabel.NegativeOne",
+                        "label": "-1",
                         "value": -1
                     },
                     {
-                        "label": "PF2E.SpecificRule.BonusLabel.NegativeTwo",
+                        "label": "-2",
                         "value": -2
                     },
                     {
-                        "label": "PF2E.SpecificRule.BonusLabel.NegativeThree",
+                        "label": "-3",
                         "value": -3
                     },
                     {
-                        "label": "PF2E.SpecificRule.BonusLabel.NegativeFour",
+                        "label": "-4",
                         "value": -4
                     }
                 ],
                 "flag": "penalty",
-                "key": "ChoiceSet"
+                "key": "ChoiceSet",
+                "prompt": "PF2E.SpecificRule.Prompt.Penalty"
             },
             {
                 "key": "FlatModifier",
