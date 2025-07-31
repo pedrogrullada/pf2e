@@ -30,6 +30,11 @@
             "title": "Pathfinder Battlecry!"
         },
         "rules": [],
+        "subfeatures": {
+            "proficiencies": {},
+            "senses": {},
+            "suppressedFeatures": []
+        },
         "traits": {
             "rarity": "common",
             "value": [
