@@ -2193,7 +2193,7 @@
     "prototypeToken": {
         "name": "Grimmyr",
         "texture": {
-            "src": "systems/pf2e/icons/iconics/GrimmyrFull.web"
+            "src": "systems/pf2e/icons/iconics/GrimmyrFull.webp"
         }
     },
     "system": {
