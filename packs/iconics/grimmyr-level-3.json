@@ -3,234 +3,6 @@
     "img": "systems/pf2e/icons/iconics/GrimmyrFull.webp",
     "items": [
         {
-            "_id": "9a0c4XQ1v281kjFw",
-            "img": "systems/pf2e/icons/default-icons/class.svg",
-            "name": "Guardian",
-            "sort": 0,
-            "system": {
-                "ancestryFeatLevels": {
-                    "value": [
-                        1,
-                        5,
-                        9,
-                        13,
-                        17
-                    ]
-                },
-                "attacks": {
-                    "advanced": 0,
-                    "martial": 1,
-                    "other": {
-                        "name": "",
-                        "rank": 0
-                    },
-                    "simple": 1,
-                    "unarmed": 1
-                },
-                "classFeatLevels": {
-                    "value": [
-                        1,
-                        2,
-                        4,
-                        6,
-                        8,
-                        10,
-                        12,
-                        14,
-                        16,
-                        18,
-                        20
-                    ]
-                },
-                "defenses": {
-                    "heavy": 1,
-                    "light": 1,
-                    "medium": 1,
-                    "unarmored": 1
-                },
-                "description": {
-                    "value": ""
-                },
-                "generalFeatLevels": {
-                    "value": [
-                        3,
-                        7,
-                        11,
-                        15,
-                        19
-                    ]
-                },
-                "hp": 12,
-                "items": {
-                    "2Ur8k": {
-                        "img": "icons/equipment/head/helm-barbute-white.webp",
-                        "level": 11,
-                        "name": "Unbreakable Mastery",
-                        "uuid": "Compendium.pf2e.classfeatures.Item.Unbreakable Mastery"
-                    },
-                    "2tPnm": {
-                        "img": "icons/magic/time/arrows-circling-pink.webp",
-                        "level": 7,
-                        "name": "Reaction Time",
-                        "uuid": "Compendium.pf2e.classfeatures.Item.Reaction Time"
-                    },
-                    "7bBfA": {
-                        "img": "icons/skills/melee/shield-block-gray-yellow.webp",
-                        "level": 19,
-                        "name": "Guardian Mastery",
-                        "uuid": "Compendium.pf2e.classfeatures.Item.Guardian Mastery"
-                    },
-                    "8JFr0": {
-                        "img": "icons/magic/control/silhouette-hold-beam-blue.webp",
-                        "level": 17,
-                        "name": "Unyielding Resolve",
-                        "uuid": "Compendium.pf2e.classfeatures.Item.Unyielding Resolve"
-                    },
-                    "9IQk9": {
-                        "img": "icons/creatures/magical/construct-iron-stomping-yellow.webp",
-                        "level": 1,
-                        "name": "Taunt",
-                        "uuid": "Compendium.pf2e.classfeatures.Item.Taunt"
-                    },
-                    "FuOWN": {
-                        "img": "icons/magic/symbols/symbol-lightning-bolt.webp",
-                        "level": 7,
-                        "name": "Reflex Expertise",
-                        "uuid": "Compendium.pf2e.classfeatures.Item.Reflex Expertise"
-                    },
-                    "HlMjU": {
-                        "img": "icons/skills/wounds/injury-eyes-blood-red-pink.webp",
-                        "level": 3,
-                        "name": "Tough To Kill",
-                        "uuid": "Compendium.pf2e.classfeatures.Item.Tough To Kill"
-                    },
-                    "JA1lH": {
-                        "img": "icons/equipment/head/helm-barbute-brown-tan.webp",
-                        "level": 5,
-                        "name": "Unbreakable Expertise",
-                        "uuid": "Compendium.pf2e.classfeatures.Item.Unbreakable Expertise"
-                    },
-                    "QMRps": {
-                        "img": "icons/skills/melee/shield-block-bash-yellow.webp",
-                        "level": 1,
-                        "name": "Guardian's Techniques",
-                        "uuid": "Compendium.pf2e.classfeatures.Item.Guardian's Techniques"
-                    },
-                    "TEGsM": {
-                        "img": "icons/skills/melee/hand-grip-sword-red.webp",
-                        "level": 5,
-                        "name": "Weapon Expertise",
-                        "uuid": "Compendium.pf2e.classfeatures.Item.Weapon Expertise"
-                    },
-                    "bRaJT": {
-                        "img": "systems/pf2e/icons/features/classes/weapon-specialization.webp",
-                        "level": 11,
-                        "name": "Weapon Specialization",
-                        "uuid": "Compendium.pf2e.classfeatures.Item.Weapon Specialization"
-                    },
-                    "dKx3l": {
-                        "img": "icons/magic/control/buff-strength-muscle-damage-red.webp",
-                        "level": 9,
-                        "name": "Battle Hardened",
-                        "uuid": "Compendium.pf2e.classfeatures.Item.Battle Hardened"
-                    },
-                    "eQFUE": {
-                        "img": "icons/skills/melee/shield-block-gray-orange.webp",
-                        "level": 9,
-                        "name": "Guardian Expertise",
-                        "uuid": "Compendium.pf2e.classfeatures.Item.Guardian Expertise"
-                    },
-                    "imvIA": {
-                        "img": "icons/equipment/shield/round-wooden-boss-gold-brown.webp",
-                        "level": 1,
-                        "name": "Shield Block",
-                        "uuid": "Compendium.pf2e.classfeatures.Item.Shield Block"
-                    },
-                    "mAmxz": {
-                        "img": "icons/equipment/chest/breastplate-helmet-metal.webp",
-                        "level": 1,
-                        "name": "Guardian's Armor",
-                        "uuid": "Compendium.pf2e.classfeatures.Item.Guardian's Armor"
-                    },
-                    "n96dR": {
-                        "img": "icons/equipment/head/helm-barbute-horned-tan.webp",
-                        "level": 15,
-                        "name": "Unbreakable Legend",
-                        "uuid": "Compendium.pf2e.classfeatures.Item.Unbreakable Legend"
-                    },
-                    "nWDhx": {
-                        "img": "icons/skills/melee/blade-tip-chipped-blood-red.webp",
-                        "level": 13,
-                        "name": "Weapon Mastery",
-                        "uuid": "Compendium.pf2e.classfeatures.Item.Weapon Mastery"
-                    },
-                    "v713d": {
-                        "img": "icons/skills/melee/hand-grip-sword-orange.webp",
-                        "level": 17,
-                        "name": "Greater Weapon Specialization",
-                        "uuid": "Compendium.pf2e.classfeatures.Item.Greater Weapon Specialization"
-                    }
-                },
-                "keyAbility": {
-                    "selected": null,
-                    "value": [
-                        "str"
-                    ]
-                },
-                "perception": 1,
-                "publication": {
-                    "license": "ORC",
-                    "remaster": true,
-                    "title": "Pathfinder Battlecry!"
-                },
-                "rules": [],
-                "savingThrows": {
-                    "fortitude": 2,
-                    "reflex": 1,
-                    "will": 2
-                },
-                "skillFeatLevels": {
-                    "value": [
-                        2,
-                        4,
-                        6,
-                        8,
-                        10,
-                        12,
-                        14,
-                        16,
-                        18,
-                        20
-                    ]
-                },
-                "skillIncreaseLevels": {
-                    "value": [
-                        3,
-                        5,
-                        7,
-                        9,
-                        11,
-                        13,
-                        15,
-                        17,
-                        19
-                    ]
-                },
-                "slug": "guardian",
-                "spellcasting": 0,
-                "trainedSkills": {
-                    "additional": 3,
-                    "value": [
-                        "athletics"
-                    ]
-                },
-                "traits": {
-                    "rarity": "common"
-                }
-            },
-            "type": "class"
-        },
-        {
             "_id": "02vW07MkfZ2DGaso",
             "img": "systems/pf2e/icons/default-icons/lore.svg",
             "name": "Fray Lore",
@@ -255,382 +27,6 @@
                 "traits": {}
             },
             "type": "lore"
-        },
-        {
-            "_id": "DNK6vr0BZJjs2Z75",
-            "flags": {
-                "pf2e": {
-                    "itemGrants": {
-                        "taunt": {
-                            "id": "Jhgr13umuAq4SHIx",
-                            "onDelete": "detach"
-                        }
-                    }
-                }
-            },
-            "img": "icons/creatures/magical/construct-iron-stomping-yellow.webp",
-            "name": "Taunt",
-            "sort": 0,
-            "system": {
-                "actionType": {
-                    "value": "passive"
-                },
-                "actions": {
-                    "value": null
-                },
-                "category": "classfeature",
-                "description": {
-                    "value": "<p>Often, the best way to protect your allies is to have the enemy want to attack you instead. You gain the @UUID[Compendium.pf2e.actionspf2e.Item.Taunt] action.</p>"
-                },
-                "level": {
-                    "value": 1
-                },
-                "location": "9a0c4XQ1v281kjFw",
-                "prerequisites": {
-                    "value": []
-                },
-                "publication": {
-                    "license": "ORC",
-                    "remaster": true,
-                    "title": "Pathfinder Battlecry!"
-                },
-                "rules": [
-                    {
-                        "flag": "taunt",
-                        "key": "GrantItem",
-                        "uuid": "Compendium.pf2e.actionspf2e.Item.Taunt"
-                    }
-                ],
-                "slug": "taunt",
-                "subfeatures": {
-                    "proficiencies": {},
-                    "senses": {},
-                    "suppressedFeatures": []
-                },
-                "traits": {
-                    "rarity": "common",
-                    "value": [
-                        "guardian"
-                    ]
-                }
-            },
-            "type": "feat"
-        },
-        {
-            "_id": "7kx9LcSi95h38ijc",
-            "flags": {
-                "pf2e": {
-                    "itemGrants": {
-                        "interceptAttack": {
-                            "id": "CfdUo9sQJFKjEH5s",
-                            "onDelete": "detach"
-                        }
-                    }
-                }
-            },
-            "img": "icons/skills/melee/shield-block-bash-yellow.webp",
-            "name": "Guardian's Techniques",
-            "sort": 0,
-            "system": {
-                "actionType": {
-                    "value": "passive"
-                },
-                "actions": {
-                    "value": null
-                },
-                "category": "classfeature",
-                "description": {
-                    "value": "<p>As a guardian, you have learned certain techniques to help keep your allies safe.</p><h3>Ever Ready</h3><p>You always gain a reaction whenever you roll initiative for combat, but you can use it only for reactions from guardian feats or class features. The GM might still rule that you can use other reactions before your first turn based on the situation, as normal.</p><h3>Intercept Attack</h3><p>You keep your charges safe from harm, even if it means you get hurt yourself. You gain the @UUID[Compendium.pf2e.actionspf2e.Item.Intercept Attack] reaction.</p>"
-                },
-                "level": {
-                    "value": 1
-                },
-                "location": "9a0c4XQ1v281kjFw",
-                "prerequisites": {
-                    "value": []
-                },
-                "publication": {
-                    "license": "ORC",
-                    "remaster": true,
-                    "title": "Pathfinder Battlecry!"
-                },
-                "rules": [
-                    {
-                        "flag": "interceptAttack",
-                        "key": "GrantItem",
-                        "uuid": "Compendium.pf2e.actionspf2e.Item.Intercept Attack"
-                    }
-                ],
-                "slug": "guardians-techniques",
-                "subfeatures": {
-                    "proficiencies": {},
-                    "senses": {},
-                    "suppressedFeatures": []
-                },
-                "traits": {
-                    "rarity": "common",
-                    "value": [
-                        "guardian"
-                    ]
-                }
-            },
-            "type": "feat"
-        },
-        {
-            "_id": "vuQdvnH0ugfoOFGx",
-            "flags": {
-                "pf2e": {
-                    "itemGrants": {
-                        "shieldBlock": {
-                            "id": "1pcDScSYXJJ7HZJn",
-                            "onDelete": "detach"
-                        }
-                    }
-                }
-            },
-            "img": "icons/equipment/shield/round-wooden-boss-gold-brown.webp",
-            "name": "Shield Block",
-            "sort": 0,
-            "system": {
-                "actionType": {
-                    "value": "passive"
-                },
-                "actions": {
-                    "value": null
-                },
-                "category": "classfeature",
-                "description": {
-                    "value": "<p>You gain the @UUID[Compendium.pf2e.feats-srd.Item.Shield Block] general feat, a reaction that lets you reduce damage with your shield.</p>"
-                },
-                "level": {
-                    "value": 1
-                },
-                "location": "9a0c4XQ1v281kjFw",
-                "prerequisites": {
-                    "value": []
-                },
-                "publication": {
-                    "license": "ORC",
-                    "remaster": true,
-                    "title": "Pathfinder Player Core"
-                },
-                "rules": [
-                    {
-                        "flag": "shieldBlock",
-                        "key": "GrantItem",
-                        "uuid": "Compendium.pf2e.feats-srd.Item.Shield Block"
-                    }
-                ],
-                "slug": "shield-block",
-                "subfeatures": {
-                    "proficiencies": {},
-                    "senses": {},
-                    "suppressedFeatures": []
-                },
-                "traits": {
-                    "rarity": "common",
-                    "value": [
-                        "champion",
-                        "commander",
-                        "druid",
-                        "exemplar",
-                        "fighter",
-                        "guardian",
-                        "inventor"
-                    ]
-                }
-            },
-            "type": "feat"
-        },
-        {
-            "_id": "Jhgr13umuAq4SHIx",
-            "flags": {
-                "pf2e": {
-                    "grantedBy": {
-                        "id": "DNK6vr0BZJjs2Z75",
-                        "onDelete": "cascade"
-                    }
-                }
-            },
-            "img": "systems/pf2e/icons/actions/OneAction.webp",
-            "name": "Taunt",
-            "sort": 0,
-            "system": {
-                "actionType": {
-                    "value": "action"
-                },
-                "actions": {
-                    "value": 1
-                },
-                "category": "offensive",
-                "description": {
-                    "value": "<p>With an attention-grabbing gesture, noise, cutting remark, or threatening shout, you attempt to draw an enemy to you instead of your allies. Taunt gains the auditory trait, visual trait, or both, depending on how you draw the target's attention. Even mindless creatures are drawn to your taunts. Choose an enemy within 30 feet to be your taunted enemy. If your taunted enemy takes a hostile action that includes at least one of your allies but doesn't include you, they take a –1 circumstance penalty to their attack rolls and DCs for that action, and they also become @UUID[Compendium.pf2e.conditionitems.Item.Off-Guard] until the start of their next turn.</p>\n<p>Your enemy remains taunted until the start of your next turn, and you can have only one Taunt in effect at a time. Taunting a new enemy ends this effect on any current target.</p>\n<p>@UUID[Compendium.pf2e.feat-effects.Item.Effect: Taunt]</p>"
-                },
-                "publication": {
-                    "license": "ORC",
-                    "remaster": true,
-                    "title": "Pathfinder Battlecry!"
-                },
-                "rules": [],
-                "slug": "taunt",
-                "traits": {
-                    "value": [
-                        "concentrate",
-                        "guardian"
-                    ]
-                }
-            },
-            "type": "action"
-        },
-        {
-            "_id": "CfdUo9sQJFKjEH5s",
-            "flags": {
-                "pf2e": {
-                    "grantedBy": {
-                        "id": "7kx9LcSi95h38ijc",
-                        "onDelete": "cascade"
-                    }
-                }
-            },
-            "img": "systems/pf2e/icons/actions/Reaction.webp",
-            "name": "Intercept Attack",
-            "sort": 0,
-            "system": {
-                "actionType": {
-                    "value": "reaction"
-                },
-                "actions": {
-                    "value": null
-                },
-                "category": "defensive",
-                "description": {
-                    "value": "<p><strong>Trigger</strong> An ally within 10 feet of you takes physical damage.</p><hr /><p>You fling yourself in the way of oncoming harm to protect an ally. You can Step, but you must end your movement adjacent to the triggering ally. You take the damage instead of the triggering ally. Apply your own immunities, weaknesses, and resistances to the damage, not the ally's.</p><hr /><p><strong>Special</strong> You can extend this ability to an ally within 15 feet of you if the damage comes from your taunted enemy. If this ally is farther than you can Step to reach, you can Stride instead of Stepping; you still must end the movement adjacent to your ally.</p>"
-                },
-                "publication": {
-                    "license": "ORC",
-                    "remaster": true,
-                    "title": "Pathfinder Battlecry!"
-                },
-                "rules": [],
-                "slug": "intercept-attack",
-                "traits": {
-                    "value": [
-                        "guardian"
-                    ]
-                }
-            },
-            "type": "action"
-        },
-        {
-            "_id": "1pcDScSYXJJ7HZJn",
-            "flags": {
-                "pf2e": {
-                    "grantedBy": {
-                        "id": "vuQdvnH0ugfoOFGx",
-                        "onDelete": "cascade"
-                    }
-                }
-            },
-            "folder": "waujsnHrfCsPk0zO",
-            "img": "icons/sundries/books/book-red-exclamation.webp",
-            "name": "Shield Block",
-            "sort": 0,
-            "system": {
-                "actionType": {
-                    "value": "reaction"
-                },
-                "actions": {
-                    "value": null
-                },
-                "category": "general",
-                "description": {
-                    "value": "<p><strong>Trigger</strong> While you have your shield raised, you would take physical damage (bludgeoning, piercing, or slashing) from an attack.</p>\n<hr />\n<p>You snap your shield in place to ward off a blow. Your shield prevents you from taking an amount of damage up to the shield's Hardness. You and the shield each take any remaining damage, possibly breaking or destroying the shield.</p>"
-                },
-                "level": {
-                    "value": 1
-                },
-                "location": null,
-                "prerequisites": {
-                    "value": []
-                },
-                "publication": {
-                    "license": "ORC",
-                    "remaster": true,
-                    "title": "Pathfinder Battlecry!"
-                },
-                "rules": [],
-                "slug": "shield-block",
-                "subfeatures": {
-                    "proficiencies": {},
-                    "senses": {},
-                    "suppressedFeatures": []
-                },
-                "traits": {
-                    "rarity": "common",
-                    "value": [
-                        "general"
-                    ]
-                }
-            },
-            "type": "feat"
-        },
-        {
-            "_id": "SUiaWhBBKlRkfwXI",
-            "img": "icons/equipment/chest/breastplate-helmet-metal.webp",
-            "name": "Guardian's Armor",
-            "sort": 0,
-            "system": {
-                "actionType": {
-                    "value": "passive"
-                },
-                "actions": {
-                    "value": null
-                },
-                "category": "classfeature",
-                "description": {
-                    "value": "<p>Even when you are struck, your armor protects you from some harm. While wearing medium or heavy armor, you gain resistance to physical damage equal to 1 + half your level. In addition, you can rest normally while wearing medium and heavy armor.</p>"
-                },
-                "level": {
-                    "value": 1
-                },
-                "location": "9a0c4XQ1v281kjFw",
-                "prerequisites": {
-                    "value": []
-                },
-                "publication": {
-                    "license": "ORC",
-                    "remaster": true,
-                    "title": "Pathfinder Battlecry!"
-                },
-                "rules": [
-                    {
-                        "key": "Resistance",
-                        "predicate": [
-                            {
-                                "or": [
-                                    "armor:category:heavy",
-                                    "armor:category:medium"
-                                ]
-                            }
-                        ],
-                        "type": "physical",
-                        "value": "1 + floor(@actor.level / 2)"
-                    }
-                ],
-                "slug": "guardians-armor",
-                "subfeatures": {
-                    "proficiencies": {},
-                    "senses": {},
-                    "suppressedFeatures": []
-                },
-                "traits": {
-                    "rarity": "common",
-                    "value": [
-                        "guardian"
-                    ]
-                }
-            },
-            "type": "feat"
         },
         {
             "_id": "zJm8hgKQH596kyF5",
@@ -2123,126 +1519,6 @@
             "type": "equipment"
         },
         {
-            "_id": "1uvZzOjkZyAia0Bs",
-            "flags": {
-                "pf2e": {
-                    "itemGrants": {
-                        "diehard": {
-                            "id": "lF6PDPG7U9a0KjgN",
-                            "onDelete": "detach"
-                        }
-                    }
-                }
-            },
-            "img": "icons/skills/wounds/injury-eyes-blood-red-pink.webp",
-            "name": "Tough To Kill",
-            "sort": 0,
-            "system": {
-                "actionType": {
-                    "value": "passive"
-                },
-                "actions": {
-                    "value": null
-                },
-                "category": "classfeature",
-                "description": {
-                    "value": "<p>The protectiveness of your armor ensures that even if you fall, you take longer to die. You gain the @UUID[Compendium.pf2e.feats-srd.Item.Diehard] general feat. If you already have the Diehard feat, you can retrain it when you get Tough to Kill. Additionally, the first time each day you'd be reduced to @UUID[Compendium.pf2e.conditionitems.Item.Dying] 3 or higher, you stay at dying 2 instead.</p>"
-                },
-                "level": {
-                    "value": 3
-                },
-                "location": "9a0c4XQ1v281kjFw",
-                "prerequisites": {
-                    "value": []
-                },
-                "publication": {
-                    "license": "ORC",
-                    "remaster": true,
-                    "title": "Pathfinder Battlecry!"
-                },
-                "rules": [
-                    {
-                        "flag": "diehard",
-                        "key": "GrantItem",
-                        "uuid": "Compendium.pf2e.feats-srd.Item.Diehard"
-                    }
-                ],
-                "slug": "tough-to-kill",
-                "subfeatures": {
-                    "proficiencies": {},
-                    "senses": {},
-                    "suppressedFeatures": []
-                },
-                "traits": {
-                    "rarity": "common",
-                    "value": [
-                        "guardian"
-                    ]
-                }
-            },
-            "type": "feat"
-        },
-        {
-            "_id": "lF6PDPG7U9a0KjgN",
-            "flags": {
-                "pf2e": {
-                    "grantedBy": {
-                        "id": "1uvZzOjkZyAia0Bs",
-                        "onDelete": "cascade"
-                    }
-                }
-            },
-            "folder": "waujsnHrfCsPk0zO",
-            "img": "icons/sundries/books/book-red-exclamation.webp",
-            "name": "Diehard",
-            "sort": 0,
-            "system": {
-                "actionType": {
-                    "value": "passive"
-                },
-                "actions": {
-                    "value": null
-                },
-                "category": "general",
-                "description": {
-                    "value": "<p>It takes more to kill you than most. You die from the @UUID[Compendium.pf2e.conditionitems.Item.Dying] condition at dying 5, rather than dying 4.</p>"
-                },
-                "level": {
-                    "value": 1
-                },
-                "location": null,
-                "prerequisites": {
-                    "value": []
-                },
-                "publication": {
-                    "license": "ORC",
-                    "remaster": true,
-                    "title": "Pathfinder Player Core"
-                },
-                "rules": [
-                    {
-                        "key": "ActiveEffectLike",
-                        "mode": "upgrade",
-                        "path": "system.attributes.dying.max",
-                        "value": 5
-                    }
-                ],
-                "slug": "diehard",
-                "subfeatures": {
-                    "proficiencies": {},
-                    "senses": {},
-                    "suppressedFeatures": []
-                },
-                "traits": {
-                    "rarity": "common",
-                    "value": [
-                        "general"
-                    ]
-                }
-            },
-            "type": "feat"
-        },
-        {
             "_id": "G0Exs25cvJfIe3BL",
             "img": "icons/equipment/chest/breastplate-layered-steel-green.webp",
             "name": "Full Plate",
@@ -2492,13 +1768,767 @@
                 }
             },
             "type": "feat"
+        },
+        {
+            "_id": "uxDYFe44k2uCHQl5",
+            "_stats": {
+                "compendiumSource": "Compendium.pf2e.classes.Item.1L7geK3aoosye3Xj"
+            },
+            "img": "systems/pf2e/icons/default-icons/class.svg",
+            "name": "Guardian",
+            "sort": 0,
+            "system": {
+                "ancestryFeatLevels": {
+                    "value": [
+                        1,
+                        5,
+                        9,
+                        13,
+                        17
+                    ]
+                },
+                "attacks": {
+                    "advanced": 0,
+                    "martial": 1,
+                    "other": {
+                        "name": "",
+                        "rank": 0
+                    },
+                    "simple": 1,
+                    "unarmed": 1
+                },
+                "classFeatLevels": {
+                    "value": [
+                        1,
+                        2,
+                        4,
+                        6,
+                        8,
+                        10,
+                        12,
+                        14,
+                        16,
+                        18,
+                        20
+                    ]
+                },
+                "defenses": {
+                    "heavy": 1,
+                    "light": 1,
+                    "medium": 1,
+                    "unarmored": 1
+                },
+                "description": {
+                    "value": "<p><em>Death and danger from all manner of enemies threaten all that you and your companions hold dear. But you are the shield, the steel wall that holds back the tide of opposition. You're clad in armor you wear like a second skin and can angle it to protect yourself and your allies from damage and keep foes at bay. Allies look to you to safeguard them, whether they stand beside you on the battlefield or remain on the back lines, and enemies see you for the imposing threat you are. Be it to friend or foe, your presence is difficult to ignore.</em></p>\n<p>@UUID[Compendium.pf2e.journals.JournalEntry.kzxu2dI7tFxv6Ix6.JournalEntryPage.SUwUvef7khs2ZlrK]{Guardian}</p>"
+                },
+                "generalFeatLevels": {
+                    "value": [
+                        3,
+                        7,
+                        11,
+                        15,
+                        19
+                    ]
+                },
+                "hp": 12,
+                "items": {
+                    "2Ur8k": {
+                        "img": "icons/equipment/head/helm-barbute-white.webp",
+                        "level": 11,
+                        "name": "Unbreakable Mastery",
+                        "uuid": "Compendium.pf2e.classfeatures.Item.Unbreakable Mastery"
+                    },
+                    "2tPnm": {
+                        "img": "icons/magic/time/arrows-circling-pink.webp",
+                        "level": 7,
+                        "name": "Reaction Time",
+                        "uuid": "Compendium.pf2e.classfeatures.Item.Reaction Time"
+                    },
+                    "7bBfA": {
+                        "img": "icons/skills/melee/shield-block-gray-yellow.webp",
+                        "level": 19,
+                        "name": "Guardian Mastery",
+                        "uuid": "Compendium.pf2e.classfeatures.Item.Guardian Mastery"
+                    },
+                    "8JFr0": {
+                        "img": "icons/magic/control/silhouette-hold-beam-blue.webp",
+                        "level": 17,
+                        "name": "Unyielding Resolve",
+                        "uuid": "Compendium.pf2e.classfeatures.Item.Unyielding Resolve"
+                    },
+                    "9IQk9": {
+                        "img": "icons/creatures/magical/construct-iron-stomping-yellow.webp",
+                        "level": 1,
+                        "name": "Taunt",
+                        "uuid": "Compendium.pf2e.classfeatures.Item.Taunt"
+                    },
+                    "FuOWN": {
+                        "img": "icons/magic/symbols/symbol-lightning-bolt.webp",
+                        "level": 7,
+                        "name": "Reflex Expertise",
+                        "uuid": "Compendium.pf2e.classfeatures.Item.Reflex Expertise"
+                    },
+                    "HlMjU": {
+                        "img": "icons/skills/wounds/injury-eyes-blood-red-pink.webp",
+                        "level": 3,
+                        "name": "Tough To Kill",
+                        "uuid": "Compendium.pf2e.classfeatures.Item.Tough To Kill"
+                    },
+                    "JA1lH": {
+                        "img": "icons/equipment/head/helm-barbute-brown-tan.webp",
+                        "level": 5,
+                        "name": "Unbreakable Expertise",
+                        "uuid": "Compendium.pf2e.classfeatures.Item.Unbreakable Expertise"
+                    },
+                    "QMRps": {
+                        "img": "icons/skills/melee/shield-block-bash-yellow.webp",
+                        "level": 1,
+                        "name": "Guardian's Techniques",
+                        "uuid": "Compendium.pf2e.classfeatures.Item.Guardian's Techniques"
+                    },
+                    "TEGsM": {
+                        "img": "icons/skills/melee/hand-grip-sword-red.webp",
+                        "level": 5,
+                        "name": "Weapon Expertise",
+                        "uuid": "Compendium.pf2e.classfeatures.Item.Weapon Expertise"
+                    },
+                    "bRaJT": {
+                        "img": "systems/pf2e/icons/features/classes/weapon-specialization.webp",
+                        "level": 11,
+                        "name": "Weapon Specialization",
+                        "uuid": "Compendium.pf2e.classfeatures.Item.Weapon Specialization"
+                    },
+                    "dKx3l": {
+                        "img": "icons/magic/control/buff-strength-muscle-damage-red.webp",
+                        "level": 9,
+                        "name": "Battle Hardened",
+                        "uuid": "Compendium.pf2e.classfeatures.Item.Battle Hardened"
+                    },
+                    "eQFUE": {
+                        "img": "icons/skills/melee/shield-block-gray-orange.webp",
+                        "level": 9,
+                        "name": "Guardian Expertise",
+                        "uuid": "Compendium.pf2e.classfeatures.Item.Guardian Expertise"
+                    },
+                    "imvIA": {
+                        "img": "icons/equipment/shield/round-wooden-boss-gold-brown.webp",
+                        "level": 1,
+                        "name": "Shield Block",
+                        "uuid": "Compendium.pf2e.classfeatures.Item.Shield Block"
+                    },
+                    "mAmxz": {
+                        "img": "icons/equipment/chest/breastplate-helmet-metal.webp",
+                        "level": 1,
+                        "name": "Guardian's Armor",
+                        "uuid": "Compendium.pf2e.classfeatures.Item.Guardian's Armor"
+                    },
+                    "n96dR": {
+                        "img": "icons/equipment/head/helm-barbute-horned-tan.webp",
+                        "level": 15,
+                        "name": "Unbreakable Legend",
+                        "uuid": "Compendium.pf2e.classfeatures.Item.Unbreakable Legend"
+                    },
+                    "nWDhx": {
+                        "img": "icons/skills/melee/blade-tip-chipped-blood-red.webp",
+                        "level": 13,
+                        "name": "Weapon Mastery",
+                        "uuid": "Compendium.pf2e.classfeatures.Item.Weapon Mastery"
+                    },
+                    "v713d": {
+                        "img": "icons/skills/melee/hand-grip-sword-orange.webp",
+                        "level": 17,
+                        "name": "Greater Weapon Specialization",
+                        "uuid": "Compendium.pf2e.classfeatures.Item.Greater Weapon Specialization"
+                    }
+                },
+                "keyAbility": {
+                    "selected": null,
+                    "value": [
+                        "str"
+                    ]
+                },
+                "perception": 1,
+                "publication": {
+                    "license": "ORC",
+                    "remaster": true,
+                    "title": "Pathfinder Battlecry!"
+                },
+                "rules": [],
+                "savingThrows": {
+                    "fortitude": 2,
+                    "reflex": 1,
+                    "will": 2
+                },
+                "skillFeatLevels": {
+                    "value": [
+                        2,
+                        4,
+                        6,
+                        8,
+                        10,
+                        12,
+                        14,
+                        16,
+                        18,
+                        20
+                    ]
+                },
+                "skillIncreaseLevels": {
+                    "value": [
+                        3,
+                        5,
+                        7,
+                        9,
+                        11,
+                        13,
+                        15,
+                        17,
+                        19
+                    ]
+                },
+                "slug": "guardian",
+                "spellcasting": 0,
+                "trainedSkills": {
+                    "additional": 3,
+                    "value": [
+                        "athletics"
+                    ]
+                },
+                "traits": {
+                    "rarity": "common"
+                }
+            },
+            "type": "class"
+        },
+        {
+            "_id": "HvAwW5TvdAnSm2Wb",
+            "_stats": {
+                "compendiumSource": "Compendium.pf2e.classfeatures.Item.e6PhXRpuyZkVoCQb"
+            },
+            "flags": {
+                "pf2e": {
+                    "itemGrants": {
+                        "taunt": {
+                            "id": "fhnHaOvKDwZFjYuB",
+                            "onDelete": "detach"
+                        }
+                    }
+                }
+            },
+            "img": "icons/creatures/magical/construct-iron-stomping-yellow.webp",
+            "name": "Taunt",
+            "sort": 0,
+            "system": {
+                "actionType": {
+                    "value": "passive"
+                },
+                "actions": {
+                    "value": null
+                },
+                "category": "classfeature",
+                "description": {
+                    "value": "<p>Often, the best way to protect your allies is to have the enemy want to attack you instead. You gain the @UUID[Compendium.pf2e.actionspf2e.Item.Taunt] action.</p>"
+                },
+                "level": {
+                    "value": 1
+                },
+                "location": "uxDYFe44k2uCHQl5",
+                "prerequisites": {
+                    "value": []
+                },
+                "publication": {
+                    "license": "ORC",
+                    "remaster": true,
+                    "title": "Pathfinder Battlecry!"
+                },
+                "rules": [
+                    {
+                        "flag": "taunt",
+                        "key": "GrantItem",
+                        "uuid": "Compendium.pf2e.actionspf2e.Item.Taunt"
+                    }
+                ],
+                "slug": "taunt",
+                "subfeatures": {
+                    "proficiencies": {},
+                    "senses": {},
+                    "suppressedFeatures": []
+                },
+                "traits": {
+                    "rarity": "common",
+                    "value": [
+                        "guardian"
+                    ]
+                }
+            },
+            "type": "feat"
+        },
+        {
+            "_id": "9ztb9L1WjADxl3uc",
+            "_stats": {
+                "compendiumSource": "Compendium.pf2e.classfeatures.Item.uSRq2tneVCknhI0P"
+            },
+            "flags": {
+                "pf2e": {
+                    "itemGrants": {
+                        "interceptAttack": {
+                            "id": "MRn4hsHendKzbNTq",
+                            "onDelete": "detach"
+                        }
+                    }
+                }
+            },
+            "img": "icons/skills/melee/shield-block-bash-yellow.webp",
+            "name": "Guardian's Techniques",
+            "sort": 100,
+            "system": {
+                "actionType": {
+                    "value": "passive"
+                },
+                "actions": {
+                    "value": null
+                },
+                "category": "classfeature",
+                "description": {
+                    "value": "<p>As a guardian, you have learned certain techniques to help keep your allies safe.</p><h3>Ever Ready</h3><p>You always gain a reaction whenever you roll initiative for combat, but you can use it only for reactions from guardian feats or class features. The GM might still rule that you can use other reactions before your first turn based on the situation, as normal.</p><h3>Intercept Attack</h3><p>You keep your charges safe from harm, even if it means you get hurt yourself. You gain the @UUID[Compendium.pf2e.actionspf2e.Item.Intercept Attack] reaction.</p>"
+                },
+                "level": {
+                    "value": 1
+                },
+                "location": "uxDYFe44k2uCHQl5",
+                "prerequisites": {
+                    "value": []
+                },
+                "publication": {
+                    "license": "ORC",
+                    "remaster": true,
+                    "title": "Pathfinder Battlecry!"
+                },
+                "rules": [
+                    {
+                        "flag": "interceptAttack",
+                        "key": "GrantItem",
+                        "uuid": "Compendium.pf2e.actionspf2e.Item.Intercept Attack"
+                    }
+                ],
+                "slug": "guardians-techniques",
+                "subfeatures": {
+                    "proficiencies": {},
+                    "senses": {},
+                    "suppressedFeatures": []
+                },
+                "traits": {
+                    "rarity": "common",
+                    "value": [
+                        "guardian"
+                    ]
+                }
+            },
+            "type": "feat"
+        },
+        {
+            "_id": "Q30jwRAbe2FYdHxH",
+            "_stats": {
+                "compendiumSource": "Compendium.pf2e.classfeatures.Item.eZNCckLzbH3GyncH"
+            },
+            "flags": {
+                "pf2e": {
+                    "itemGrants": {
+                        "shieldBlock": {
+                            "id": "s4IiQEjXUbhcsDUO",
+                            "onDelete": "detach"
+                        }
+                    }
+                }
+            },
+            "img": "icons/equipment/shield/round-wooden-boss-gold-brown.webp",
+            "name": "Shield Block",
+            "sort": 200,
+            "system": {
+                "actionType": {
+                    "value": "passive"
+                },
+                "actions": {
+                    "value": null
+                },
+                "category": "classfeature",
+                "description": {
+                    "value": "<p>You gain the @UUID[Compendium.pf2e.feats-srd.Item.Shield Block] general feat, a reaction that lets you reduce damage with your shield.</p>"
+                },
+                "level": {
+                    "value": 1
+                },
+                "location": "uxDYFe44k2uCHQl5",
+                "prerequisites": {
+                    "value": []
+                },
+                "publication": {
+                    "license": "ORC",
+                    "remaster": true,
+                    "title": "Pathfinder Player Core"
+                },
+                "rules": [
+                    {
+                        "flag": "shieldBlock",
+                        "key": "GrantItem",
+                        "uuid": "Compendium.pf2e.feats-srd.Item.Shield Block"
+                    }
+                ],
+                "slug": "shield-block",
+                "subfeatures": {
+                    "proficiencies": {},
+                    "senses": {},
+                    "suppressedFeatures": []
+                },
+                "traits": {
+                    "rarity": "common",
+                    "value": [
+                        "champion",
+                        "commander",
+                        "druid",
+                        "exemplar",
+                        "fighter",
+                        "guardian",
+                        "inventor"
+                    ]
+                }
+            },
+            "type": "feat"
+        },
+        {
+            "_id": "vvDULZHCWhRSPnjb",
+            "_stats": {
+                "compendiumSource": "Compendium.pf2e.classfeatures.Item.U9t3cmF4eXFiF7oI"
+            },
+            "flags": {
+                "pf2e": {
+                    "itemGrants": {
+                        "diehard": {
+                            "id": "cAHICi8UnRsNgC06",
+                            "onDelete": "detach"
+                        }
+                    }
+                }
+            },
+            "img": "icons/skills/wounds/injury-eyes-blood-red-pink.webp",
+            "name": "Tough To Kill",
+            "sort": 1200,
+            "system": {
+                "actionType": {
+                    "value": "passive"
+                },
+                "actions": {
+                    "value": null
+                },
+                "category": "classfeature",
+                "description": {
+                    "value": "<p>The protectiveness of your armor ensures that even if you fall, you take longer to die. You gain the @UUID[Compendium.pf2e.feats-srd.Item.Diehard] general feat. If you already have the Diehard feat, you can retrain it when you get Tough to Kill. Additionally, the first time each day you'd be reduced to @UUID[Compendium.pf2e.conditionitems.Item.Dying] 3 or higher, you stay at dying 2 instead.</p>"
+                },
+                "level": {
+                    "value": 3
+                },
+                "location": "uxDYFe44k2uCHQl5",
+                "prerequisites": {
+                    "value": []
+                },
+                "publication": {
+                    "license": "ORC",
+                    "remaster": true,
+                    "title": "Pathfinder Battlecry!"
+                },
+                "rules": [
+                    {
+                        "flag": "diehard",
+                        "key": "GrantItem",
+                        "uuid": "Compendium.pf2e.feats-srd.Item.Diehard"
+                    }
+                ],
+                "slug": "tough-to-kill",
+                "subfeatures": {
+                    "proficiencies": {},
+                    "senses": {},
+                    "suppressedFeatures": []
+                },
+                "traits": {
+                    "rarity": "common",
+                    "value": [
+                        "guardian"
+                    ]
+                }
+            },
+            "type": "feat"
+        },
+        {
+            "_id": "fhnHaOvKDwZFjYuB",
+            "_stats": {
+                "compendiumSource": "Compendium.pf2e.actionspf2e.Item.4DYFJ4TUsNkgFBDb"
+            },
+            "flags": {
+                "pf2e": {
+                    "grantedBy": {
+                        "id": "HvAwW5TvdAnSm2Wb",
+                        "onDelete": "cascade"
+                    }
+                }
+            },
+            "img": "systems/pf2e/icons/actions/OneAction.webp",
+            "name": "Taunt",
+            "sort": 0,
+            "system": {
+                "actionType": {
+                    "value": "action"
+                },
+                "actions": {
+                    "value": 1
+                },
+                "category": "offensive",
+                "description": {
+                    "value": "<p>With an attention-grabbing gesture, noise, cutting remark, or threatening shout, you attempt to draw an enemy to you instead of your allies. Taunt gains the auditory trait, visual trait, or both, depending on how you draw the target's attention. Even mindless creatures are drawn to your taunts. Choose an enemy within 30 feet to be your taunted enemy. If your taunted enemy takes a hostile action that includes at least one of your allies but doesn't include you, they take a –1 circumstance penalty to their attack rolls and DCs for that action, and they also become @UUID[Compendium.pf2e.conditionitems.Item.Off-Guard] until the start of their next turn.</p>\n<p>Your enemy remains taunted until the start of your next turn, and you can have only one Taunt in effect at a time. Taunting a new enemy ends this effect on any current target.</p>\n<p>@UUID[Compendium.pf2e.feat-effects.Item.Effect: Taunt]</p>"
+                },
+                "publication": {
+                    "license": "ORC",
+                    "remaster": true,
+                    "title": "Pathfinder Battlecry!"
+                },
+                "rules": [],
+                "slug": "taunt",
+                "traits": {
+                    "value": [
+                        "concentrate",
+                        "guardian"
+                    ]
+                }
+            },
+            "type": "action"
+        },
+        {
+            "_id": "MRn4hsHendKzbNTq",
+            "_stats": {
+                "compendiumSource": "Compendium.pf2e.actionspf2e.Item.vhO1f7oTD2s3Ncg9"
+            },
+            "flags": {
+                "pf2e": {
+                    "grantedBy": {
+                        "id": "9ztb9L1WjADxl3uc",
+                        "onDelete": "cascade"
+                    }
+                }
+            },
+            "img": "systems/pf2e/icons/actions/Reaction.webp",
+            "name": "Intercept Attack",
+            "sort": 0,
+            "system": {
+                "actionType": {
+                    "value": "reaction"
+                },
+                "actions": {
+                    "value": null
+                },
+                "category": "defensive",
+                "description": {
+                    "value": "<p><strong>Trigger</strong> An ally within 10 feet of you takes physical damage.</p><hr /><p>You fling yourself in the way of oncoming harm to protect an ally. You can Step, but you must end your movement adjacent to the triggering ally. You take the damage instead of the triggering ally. Apply your own immunities, weaknesses, and resistances to the damage, not the ally's.</p><hr /><p><strong>Special</strong> You can extend this ability to an ally within 15 feet of you if the damage comes from your taunted enemy. If this ally is farther than you can Step to reach, you can Stride instead of Stepping; you still must end the movement adjacent to your ally.</p>"
+                },
+                "publication": {
+                    "license": "ORC",
+                    "remaster": true,
+                    "title": "Pathfinder Battlecry!"
+                },
+                "rules": [],
+                "slug": "intercept-attack",
+                "traits": {
+                    "value": [
+                        "guardian"
+                    ]
+                }
+            },
+            "type": "action"
+        },
+        {
+            "_id": "s4IiQEjXUbhcsDUO",
+            "_stats": {
+                "compendiumSource": "Compendium.pf2e.feats-srd.Item.jM72TjJ965jocBV8"
+            },
+            "flags": {
+                "pf2e": {
+                    "grantedBy": {
+                        "id": "Q30jwRAbe2FYdHxH",
+                        "onDelete": "cascade"
+                    }
+                }
+            },
+            "folder": "waujsnHrfCsPk0zO",
+            "img": "icons/sundries/books/book-red-exclamation.webp",
+            "name": "Shield Block",
+            "sort": 0,
+            "system": {
+                "actionType": {
+                    "value": "reaction"
+                },
+                "actions": {
+                    "value": null
+                },
+                "category": "general",
+                "description": {
+                    "value": "<p><strong>Trigger</strong> While you have your shield raised, you would take physical damage (bludgeoning, piercing, or slashing) from an attack.</p>\n<hr />\n<p>You snap your shield in place to ward off a blow. Your shield prevents you from taking an amount of damage up to the shield's Hardness. You and the shield each take any remaining damage, possibly breaking or destroying the shield.</p>"
+                },
+                "level": {
+                    "value": 1
+                },
+                "location": null,
+                "prerequisites": {
+                    "value": []
+                },
+                "publication": {
+                    "license": "ORC",
+                    "remaster": true,
+                    "title": "Pathfinder Battlecry!"
+                },
+                "rules": [],
+                "slug": "shield-block",
+                "subfeatures": {
+                    "proficiencies": {},
+                    "senses": {},
+                    "suppressedFeatures": []
+                },
+                "traits": {
+                    "rarity": "common",
+                    "value": [
+                        "general"
+                    ]
+                }
+            },
+            "type": "feat"
+        },
+        {
+            "_id": "cAHICi8UnRsNgC06",
+            "_stats": {
+                "compendiumSource": "Compendium.pf2e.feats-srd.Item.I0BhPWqYf1bbzEYg"
+            },
+            "flags": {
+                "pf2e": {
+                    "grantedBy": {
+                        "id": "vvDULZHCWhRSPnjb",
+                        "onDelete": "cascade"
+                    }
+                }
+            },
+            "folder": "waujsnHrfCsPk0zO",
+            "img": "icons/sundries/books/book-red-exclamation.webp",
+            "name": "Diehard",
+            "sort": 0,
+            "system": {
+                "actionType": {
+                    "value": "passive"
+                },
+                "actions": {
+                    "value": null
+                },
+                "category": "general",
+                "description": {
+                    "value": "<p>It takes more to kill you than most. You die from the @UUID[Compendium.pf2e.conditionitems.Item.Dying] condition at dying 5, rather than dying 4.</p>"
+                },
+                "level": {
+                    "value": 1
+                },
+                "location": null,
+                "prerequisites": {
+                    "value": []
+                },
+                "publication": {
+                    "license": "ORC",
+                    "remaster": true,
+                    "title": "Pathfinder Player Core"
+                },
+                "rules": [
+                    {
+                        "key": "ActiveEffectLike",
+                        "mode": "upgrade",
+                        "path": "system.attributes.dying.max",
+                        "value": 5
+                    }
+                ],
+                "slug": "diehard",
+                "subfeatures": {
+                    "proficiencies": {},
+                    "senses": {},
+                    "suppressedFeatures": []
+                },
+                "traits": {
+                    "rarity": "common",
+                    "value": [
+                        "general"
+                    ]
+                }
+            },
+            "type": "feat"
+        },
+        {
+            "_id": "UpTqV48iMapQ7Win",
+            "_stats": {
+                "compendiumSource": "Compendium.pf2e.classfeatures.Item.qbTwR81TKsv4fOHk"
+            },
+            "img": "icons/equipment/chest/breastplate-helmet-metal.webp",
+            "name": "Guardian's Armor",
+            "sort": 300,
+            "system": {
+                "actionType": {
+                    "value": "passive"
+                },
+                "actions": {
+                    "value": null
+                },
+                "category": "classfeature",
+                "description": {
+                    "value": "<p>Even when you are struck, your armor protects you from some harm. While wearing medium or heavy armor, you gain resistance to physical damage equal to 1 + half your level. In addition, you can rest normally while wearing medium and heavy armor.</p>"
+                },
+                "level": {
+                    "value": 1
+                },
+                "location": "uxDYFe44k2uCHQl5",
+                "prerequisites": {
+                    "value": []
+                },
+                "publication": {
+                    "license": "ORC",
+                    "remaster": true,
+                    "title": "Pathfinder Battlecry!"
+                },
+                "rules": [
+                    {
+                        "key": "Resistance",
+                        "predicate": [
+                            {
+                                "or": [
+                                    "armor:category:heavy",
+                                    "armor:category:medium"
+                                ]
+                            }
+                        ],
+                        "type": "physical",
+                        "value": "1 + floor(@actor.level / 2)"
+                    }
+                ],
+                "slug": "guardians-armor",
+                "subfeatures": {
+                    "proficiencies": {},
+                    "senses": {},
+                    "suppressedFeatures": []
+                },
+                "traits": {
+                    "rarity": "common",
+                    "value": [
+                        "guardian"
+                    ]
+                }
+            },
+            "type": "feat"
         }
     ],
     "name": "Grimmyr (Level 3)",
     "prototypeToken": {
         "name": "Grimmyr",
         "texture": {
-            "src": "systems/pf2e/icons/iconics/Grimmyr.webp"
+            "src": "systems/pf2e/icons/iconics/GrimmyrFull.webp"
         }
     },
     "system": {

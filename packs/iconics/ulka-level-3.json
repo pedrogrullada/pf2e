@@ -300,877 +300,6 @@
             "type": "feat"
         },
         {
-            "_id": "Yjcl0h6op5eK2ZFl",
-            "img": "systems/pf2e/icons/default-icons/class.svg",
-            "name": "Commander",
-            "sort": 0,
-            "system": {
-                "ancestryFeatLevels": {
-                    "value": [
-                        1,
-                        5,
-                        9,
-                        13,
-                        17
-                    ]
-                },
-                "attacks": {
-                    "advanced": 0,
-                    "martial": 1,
-                    "other": {
-                        "name": "",
-                        "rank": 0
-                    },
-                    "simple": 1,
-                    "unarmed": 1
-                },
-                "classFeatLevels": {
-                    "value": [
-                        1,
-                        2,
-                        4,
-                        6,
-                        8,
-                        10,
-                        12,
-                        14,
-                        16,
-                        18,
-                        20
-                    ]
-                },
-                "defenses": {
-                    "heavy": 1,
-                    "light": 1,
-                    "medium": 1,
-                    "unarmored": 1
-                },
-                "description": {
-                    "value": ""
-                },
-                "generalFeatLevels": {
-                    "value": [
-                        3,
-                        7,
-                        11,
-                        15,
-                        19
-                    ]
-                },
-                "hp": 8,
-                "items": {
-                    "6KTe8": {
-                        "img": "icons/sundries/flags/banner-yellow.webp",
-                        "level": 15,
-                        "name": "Master Tactician",
-                        "uuid": "Compendium.pf2e.classfeatures.Item.Master Tactician"
-                    },
-                    "6bfwR": {
-                        "img": "icons/sundries/flags/banner-sword-blue.webp",
-                        "level": 1,
-                        "name": "Commander's Banner",
-                        "uuid": "Compendium.pf2e.classfeatures.Item.Commander's Banner"
-                    },
-                    "EHEBL": {
-                        "img": "icons/equipment/chest/breastplate-sculpted-grey.webp",
-                        "level": 17,
-                        "name": "Armor Mastery",
-                        "uuid": "Compendium.pf2e.classfeatures.Item.Armor Mastery"
-                    },
-                    "IDV7O": {
-                        "img": "icons/tools/navigation/map-chart-tan.webp",
-                        "level": 1,
-                        "name": "Tactics",
-                        "uuid": "Compendium.pf2e.classfeatures.Item.Tactics"
-                    },
-                    "JicQ8": {
-                        "img": "icons/sundries/flags/banner-pink.webp",
-                        "level": 19,
-                        "name": "Legendary Tactician",
-                        "uuid": "Compendium.pf2e.classfeatures.Item.Legendary Tactician"
-                    },
-                    "Juhyo": {
-                        "img": "icons/sundries/flags/banner-purple.webp",
-                        "level": 7,
-                        "name": "Expert Tactician",
-                        "uuid": "Compendium.pf2e.classfeatures.Item.Expert Tactician"
-                    },
-                    "N7CSO": {
-                        "img": "icons/skills/melee/swords-parry-block-blue.webp",
-                        "level": 1,
-                        "name": "Drilled Reactions",
-                        "uuid": "Compendium.pf2e.classfeatures.Item.Drilled Reactions"
-                    },
-                    "UuNHs": {
-                        "img": "icons/magic/control/silhouette-hold-change-blue.webp",
-                        "level": 11,
-                        "name": "Commanding Will",
-                        "uuid": "Compendium.pf2e.classfeatures.Item.Commanding Will"
-                    },
-                    "Xprz7": {
-                        "img": "icons/magic/life/cross-explosion-burst-green.webp",
-                        "level": 9,
-                        "name": "Fortitude Expertise",
-                        "uuid": "Compendium.pf2e.classfeatures.Item.Fortitude Expertise"
-                    },
-                    "Ya4yr": {
-                        "img": "icons/equipment/chest/breastplate-banded-steel-gold.webp",
-                        "level": 11,
-                        "name": "Armor Expertise",
-                        "uuid": "Compendium.pf2e.classfeatures.Item.Armor Expertise"
-                    },
-                    "dRthW": {
-                        "img": "icons/skills/melee/hand-grip-sword-orange.webp",
-                        "level": 5,
-                        "name": "Military Expertise",
-                        "uuid": "Compendium.pf2e.classfeatures.Item.Military Expertise"
-                    },
-                    "doet9": {
-                        "img": "icons/skills/melee/blade-tip-chipped-blood-red.webp",
-                        "level": 13,
-                        "name": "Weapon Mastery",
-                        "uuid": "Compendium.pf2e.classfeatures.Item.Weapon Mastery"
-                    },
-                    "dqN7K": {
-                        "img": "icons/skills/melee/hand-grip-sword-orange.webp",
-                        "level": 15,
-                        "name": "Greater Weapon Specialization",
-                        "uuid": "Compendium.pf2e.classfeatures.Item.Greater Weapon Specialization"
-                    },
-                    "jC00u": {
-                        "img": "icons/skills/movement/arrow-upward-yellow.webp",
-                        "level": 15,
-                        "name": "Battlefield Intuition",
-                        "uuid": "Compendium.pf2e.classfeatures.Item.Battlefield Intuition"
-                    },
-                    "oL4s6": {
-                        "img": "systems/pf2e/icons/features/classes/weapon-specialization.webp",
-                        "level": 7,
-                        "name": "Weapon Specialization",
-                        "uuid": "Compendium.pf2e.classfeatures.Item.Weapon Specialization"
-                    },
-                    "pNx7B": {
-                        "img": "icons/skills/melee/maneuver-greatsword-yellow.webp",
-                        "level": 3,
-                        "name": "Warfare Expertise",
-                        "uuid": "Compendium.pf2e.classfeatures.Item.Warfare Expertise"
-                    },
-                    "vIK1C": {
-                        "img": "icons/magic/perception/eye-tendrils-web-purple.webp",
-                        "level": 13,
-                        "name": "Perception Mastery",
-                        "uuid": "Compendium.pf2e.classfeatures.Item.Perception Mastery"
-                    },
-                    "wiw7F": {
-                        "img": "icons/equipment/shield/round-wooden-boss-gold-brown.webp",
-                        "level": 1,
-                        "name": "Shield Block",
-                        "uuid": "Compendium.pf2e.classfeatures.Item.Shield Block"
-                    }
-                },
-                "keyAbility": {
-                    "selected": null,
-                    "value": [
-                        "int"
-                    ]
-                },
-                "perception": 2,
-                "publication": {
-                    "license": "ORC",
-                    "remaster": true,
-                    "title": "Pathfinder Battlecry!"
-                },
-                "rules": [],
-                "savingThrows": {
-                    "fortitude": 1,
-                    "reflex": 2,
-                    "will": 2
-                },
-                "skillFeatLevels": {
-                    "value": [
-                        2,
-                        4,
-                        6,
-                        8,
-                        10,
-                        12,
-                        14,
-                        16,
-                        18,
-                        20
-                    ]
-                },
-                "skillIncreaseLevels": {
-                    "value": [
-                        3,
-                        5,
-                        7,
-                        9,
-                        11,
-                        13,
-                        15,
-                        17,
-                        19
-                    ]
-                },
-                "slug": "commander",
-                "spellcasting": 0,
-                "trainedSkills": {
-                    "additional": 2,
-                    "value": [
-                        "society"
-                    ]
-                },
-                "traits": {
-                    "rarity": "common"
-                }
-            },
-            "type": "class"
-        },
-        {
-            "_id": "qQlzgbCwZYEn7rBe",
-            "flags": {
-                "pf2e": {
-                    "itemGrants": {
-                        "coordinatingManeuvers": {
-                            "id": "gDQbjADjZEQcL73K",
-                            "onDelete": "detach"
-                        },
-                        "gatherToMe": {
-                            "id": "QMhUg9rKTruamuzN",
-                            "onDelete": "detach"
-                        },
-                        "pincerAttack": {
-                            "id": "dDIQhcOPNR7kbftY",
-                            "onDelete": "detach"
-                        },
-                        "protectiveScreen": {
-                            "id": "PDKOjA67NQWv9MDx",
-                            "onDelete": "detach"
-                        },
-                        "strikeHard": {
-                            "id": "EZucSXFveFrZghml",
-                            "onDelete": "detach"
-                        }
-                    }
-                }
-            },
-            "img": "icons/tools/navigation/map-chart-tan.webp",
-            "name": "Tactics",
-            "sort": 100,
-            "system": {
-                "actionType": {
-                    "value": "passive"
-                },
-                "actions": {
-                    "value": null
-                },
-                "category": "classfeature",
-                "description": {
-                    "value": "<p>By studying and practicing the strategic arts of war, you can guide your allies to victory. You begin play with a folio containing five tactics. These are combat techniques and coordinated maneuvers you can instruct your allies in, enabling them to respond to your signals in combat. As you increase in level, you gain the ability to learn more potent tactics. When you gain the @UUID[Compendium.pf2e.classfeatures.Item.Expert Tactician] class feature, you gain the ability to add expert tactics to your folio; when you gain the @UUID[Compendium.pf2e.classfeatures.Item.Master Tactician] class feature, you can add master tactics to your folio; and when you gain the @UUID[Compendium.pf2e.classfeatures.Item.Legendary Tactician] class feature, you can add legendary tactics to your folio.</p><h2>Preparing and Changing Tactics</h2><p>Each day during your daily preparations, you prepare three tactics from your folio and drill in them alongside your allies, enabling you to use these tactics until your next daily preparations. When you drill, you can instruct a total number of allies equal to 2 + your Intelligence modifier, enabling these allies to respond to your tactics in combat. These allies are your squadmates. A squadmate always has the option not to respond to your tactical signal if they do not wish to. You count as one of your squadmates for the purposes of participating in or benefiting from a tactic (though you do not count against your own maximum number of squadmates). The tactics trait is explained in more detail in the key terms sidebar on this page.</p>\n<p>You can change which tactics you have prepared from those in your folio by spending 10 minutes to drill, replacing all previously prepared tactics and squadmates. This does not prevent your allies from performing their own activities during this time frame. Some tactics have a limited usage, such as the Valkyrie's Charge tactic, which can be used once per day. These tactics can never exceed their indicated use limit even if you replace them with a different tactic and then prepare them again later that same day, but you can replace a tactic whose limited use has been expended with another tactic you know any time you are able to change your prepared tactics.</p><h2>Gaining New Tactics</h2><p>You add additional tactics to your folio and increase the number of tactics you can prepare when you gain the expert tactician, master tactician, and legendary tactician class features. You can also add tactics to your folio with the Tactical Expansion feat, though this does not change the number you can have prepared. Because tactics folios use shorthand and signals unique to each commander, there is typically no benefit to using (or stealing) another commander's folio, though you can train with another commander to retrain one tactic in your folio to another that they know.</p>"
-                },
-                "level": {
-                    "value": 1
-                },
-                "location": "Yjcl0h6op5eK2ZFl",
-                "prerequisites": {
-                    "value": []
-                },
-                "publication": {
-                    "license": "ORC",
-                    "remaster": true,
-                    "title": "Pathfinder Battlecry!"
-                },
-                "rules": [
-                    {
-                        "adjustName": false,
-                        "choices": {
-                            "filter": [
-                                "item:trait:tactic",
-                                {
-                                    "or": [
-                                        "item:tag:commander-mobility-tactic",
-                                        "item:tag:commander-offensive-tactic"
-                                    ]
-                                }
-                            ],
-                            "itemType": "action"
-                        },
-                        "flag": "firstTactic",
-                        "key": "ChoiceSet",
-                        "prompt": "PF2E.SpecificRule.Commander.Tactics.Prompt",
-                        "selection": "Compendium.pf2e.actionspf2e.Item.Coordinating Maneuvers"
-                    },
-                    {
-                        "flag": "coordinatingManeuvers",
-                        "key": "GrantItem",
-                        "uuid": "{item|flags.pf2e.rulesSelections.firstTactic}"
-                    },
-                    {
-                        "adjustName": false,
-                        "choices": {
-                            "filter": [
-                                "item:trait:tactic",
-                                {
-                                    "or": [
-                                        "item:tag:commander-mobility-tactic",
-                                        "item:tag:commander-offensive-tactic"
-                                    ]
-                                }
-                            ],
-                            "itemType": "action"
-                        },
-                        "flag": "secondTactic",
-                        "key": "ChoiceSet",
-                        "prompt": "PF2E.SpecificRule.Commander.Tactics.Prompt",
-                        "selection": "Compendium.pf2e.actionspf2e.Item.Gather to Me!"
-                    },
-                    {
-                        "flag": "gatherToMe",
-                        "key": "GrantItem",
-                        "uuid": "{item|flags.pf2e.rulesSelections.secondTactic}"
-                    },
-                    {
-                        "adjustName": false,
-                        "choices": {
-                            "filter": [
-                                "item:trait:tactic",
-                                {
-                                    "or": [
-                                        "item:tag:commander-mobility-tactic",
-                                        "item:tag:commander-offensive-tactic"
-                                    ]
-                                }
-                            ],
-                            "itemType": "action"
-                        },
-                        "flag": "thirdTactic",
-                        "key": "ChoiceSet",
-                        "prompt": "PF2E.SpecificRule.Commander.Tactics.Prompt",
-                        "selection": "Compendium.pf2e.actionspf2e.Item.Pincer Attack"
-                    },
-                    {
-                        "flag": "pincerAttack",
-                        "key": "GrantItem",
-                        "uuid": "{item|flags.pf2e.rulesSelections.thirdTactic}"
-                    },
-                    {
-                        "adjustName": false,
-                        "choices": {
-                            "filter": [
-                                "item:trait:tactic",
-                                {
-                                    "or": [
-                                        "item:tag:commander-mobility-tactic",
-                                        "item:tag:commander-offensive-tactic"
-                                    ]
-                                }
-                            ],
-                            "itemType": "action"
-                        },
-                        "flag": "fourthTactic",
-                        "key": "ChoiceSet",
-                        "prompt": "PF2E.SpecificRule.Commander.Tactics.Prompt",
-                        "selection": "Compendium.pf2e.actionspf2e.Item.Protective Screen"
-                    },
-                    {
-                        "flag": "protectiveScreen",
-                        "key": "GrantItem",
-                        "uuid": "{item|flags.pf2e.rulesSelections.fourthTactic}"
-                    },
-                    {
-                        "adjustName": false,
-                        "choices": {
-                            "filter": [
-                                "item:trait:tactic",
-                                {
-                                    "or": [
-                                        "item:tag:commander-mobility-tactic",
-                                        "item:tag:commander-offensive-tactic"
-                                    ]
-                                }
-                            ],
-                            "itemType": "action"
-                        },
-                        "flag": "fifthTactic",
-                        "key": "ChoiceSet",
-                        "prompt": "PF2E.SpecificRule.Commander.Tactics.Prompt",
-                        "selection": "Compendium.pf2e.actionspf2e.Item.Strike Hard!"
-                    },
-                    {
-                        "flag": "strikeHard",
-                        "key": "GrantItem",
-                        "uuid": "{item|flags.pf2e.rulesSelections.fifthTactic}"
-                    }
-                ],
-                "slug": "tactics",
-                "subfeatures": {
-                    "proficiencies": {},
-                    "senses": {},
-                    "suppressedFeatures": []
-                },
-                "traits": {
-                    "rarity": "common",
-                    "value": [
-                        "commander"
-                    ]
-                }
-            },
-            "type": "feat"
-        },
-        {
-            "_id": "zBuw26CcJvHw2hfC",
-            "flags": {
-                "pf2e": {
-                    "itemGrants": {
-                        "shieldBlock": {
-                            "id": "wfIKKFanvyN8p4jT",
-                            "onDelete": "detach"
-                        }
-                    }
-                }
-            },
-            "img": "icons/equipment/shield/round-wooden-boss-gold-brown.webp",
-            "name": "Shield Block",
-            "sort": 300,
-            "system": {
-                "actionType": {
-                    "value": "passive"
-                },
-                "actions": {
-                    "value": null
-                },
-                "category": "classfeature",
-                "description": {
-                    "value": "<p>You gain the @UUID[Compendium.pf2e.feats-srd.Item.Shield Block] general feat, a reaction that lets you reduce damage with your shield.</p>"
-                },
-                "level": {
-                    "value": 1
-                },
-                "location": "Yjcl0h6op5eK2ZFl",
-                "prerequisites": {
-                    "value": []
-                },
-                "publication": {
-                    "license": "ORC",
-                    "remaster": true,
-                    "title": "Pathfinder Player Core"
-                },
-                "rules": [
-                    {
-                        "flag": "shieldBlock",
-                        "key": "GrantItem",
-                        "uuid": "Compendium.pf2e.feats-srd.Item.Shield Block"
-                    }
-                ],
-                "slug": "shield-block",
-                "subfeatures": {
-                    "proficiencies": {},
-                    "senses": {},
-                    "suppressedFeatures": []
-                },
-                "traits": {
-                    "rarity": "common",
-                    "value": [
-                        "champion",
-                        "commander",
-                        "druid",
-                        "exemplar",
-                        "fighter",
-                        "guardian",
-                        "inventor"
-                    ]
-                }
-            },
-            "type": "feat"
-        },
-        {
-            "_id": "gDQbjADjZEQcL73K",
-            "flags": {
-                "pf2e": {
-                    "grantedBy": {
-                        "id": "qQlzgbCwZYEn7rBe",
-                        "onDelete": "cascade"
-                    }
-                }
-            },
-            "img": "systems/pf2e/icons/actions/OneAction.webp",
-            "name": "Coordinating Maneuvers",
-            "sort": 0,
-            "system": {
-                "actionType": {
-                    "value": "action"
-                },
-                "actions": {
-                    "value": 1
-                },
-                "category": "offensive",
-                "description": {
-                    "value": "<p>Your team works to slip enemies into a disadvantageous position. Signal one squadmate within the aura of your banner; that squadmate can immediately Step as a free action. If they end this movement next to an opponent, they can attempt to @UUID[Compendium.pf2e.actionspf2e.Item.Reposition] that target as a reaction.</p>"
-                },
-                "publication": {
-                    "license": "ORC",
-                    "remaster": true,
-                    "title": "Pathfinder Battlecry!"
-                },
-                "rules": [],
-                "slug": "coordinating-maneuvers",
-                "traits": {
-                    "otherTags": [
-                        "commander-mobility-tactic"
-                    ],
-                    "value": [
-                        "brandish",
-                        "commander",
-                        "tactic"
-                    ]
-                }
-            },
-            "type": "action"
-        },
-        {
-            "_id": "QMhUg9rKTruamuzN",
-            "flags": {
-                "pf2e": {
-                    "grantedBy": {
-                        "id": "qQlzgbCwZYEn7rBe",
-                        "onDelete": "cascade"
-                    }
-                }
-            },
-            "img": "systems/pf2e/icons/actions/OneAction.webp",
-            "name": "Gather to Me!",
-            "sort": 0,
-            "system": {
-                "actionType": {
-                    "value": "action"
-                },
-                "actions": {
-                    "value": 1
-                },
-                "category": "offensive",
-                "description": {
-                    "value": "<p>You signal your team to move into position together. Signal all squadmates; each can immediately Stride as a reaction, though each must end their movement inside your banner's aura, or as close to your banner's aura as their movement Speed allows.</p>\n<p>Squadmates can use Gather to Me! while Burrowing, Climbing, Flying, or Swimming instead of Striding if they have the corresponding movement type.</p>"
-                },
-                "publication": {
-                    "license": "ORC",
-                    "remaster": true,
-                    "title": "Pathfinder Battlecry!"
-                },
-                "rules": [],
-                "slug": "gather-to-me",
-                "traits": {
-                    "otherTags": [
-                        "commander-mobility-tactic"
-                    ],
-                    "value": [
-                        "commander",
-                        "tactic"
-                    ]
-                }
-            },
-            "type": "action"
-        },
-        {
-            "_id": "dDIQhcOPNR7kbftY",
-            "flags": {
-                "pf2e": {
-                    "grantedBy": {
-                        "id": "qQlzgbCwZYEn7rBe",
-                        "onDelete": "cascade"
-                    }
-                }
-            },
-            "img": "systems/pf2e/icons/actions/OneAction.webp",
-            "name": "Pincer Attack",
-            "sort": 0,
-            "system": {
-                "actionType": {
-                    "value": "action"
-                },
-                "actions": {
-                    "value": 1
-                },
-                "category": "offensive",
-                "description": {
-                    "value": "<p>You call for an aggressive formation designed for exploiting enemies' vulnerabilities. Signal all squadmates; each can Step as a reaction. If any of your allies ends this movement adjacent to an opponent, that opponent is @UUID[Compendium.pf2e.conditionitems.Item.Off-Guard] to melee attacks from you and all other squadmates who responded to Pincer Attack until the start of your next turn.</p>"
-                },
-                "publication": {
-                    "license": "ORC",
-                    "remaster": true,
-                    "title": "Pathfinder Battlecry!"
-                },
-                "rules": [],
-                "slug": "pincer-attack",
-                "traits": {
-                    "otherTags": [
-                        "commander-offensive-tactic"
-                    ],
-                    "value": [
-                        "commander",
-                        "tactic"
-                    ]
-                }
-            },
-            "type": "action"
-        },
-        {
-            "_id": "PDKOjA67NQWv9MDx",
-            "flags": {
-                "pf2e": {
-                    "grantedBy": {
-                        "id": "qQlzgbCwZYEn7rBe",
-                        "onDelete": "cascade"
-                    }
-                }
-            },
-            "img": "systems/pf2e/icons/actions/OneAction.webp",
-            "name": "Protective Screen",
-            "sort": 0,
-            "system": {
-                "actionType": {
-                    "value": "action"
-                },
-                "actions": {
-                    "value": 1
-                },
-                "category": "offensive",
-                "description": {
-                    "value": "<p>You've trained your allies in a technique designed to protect war mages. Signal one squadmate; as a reaction, that squadmate Strides directly toward any other squadmate who is within the aura of your banner. If the first squadmate ends their movement adjacent to another squadmate, the second squadmate does not trigger reactions when casting spells or making ranged attacks until the end of their next turn or until they are no longer adjacent to the first squadmate, whichever comes first. If the first squadmate ends their movement adjacent to more than one other squadmate, the first squadmate must choose which of the adjacent squadmates gains this benefit.</p>"
-                },
-                "publication": {
-                    "license": "ORC",
-                    "remaster": true,
-                    "title": "Pathfinder Battlecry!"
-                },
-                "rules": [],
-                "slug": "protective-screen",
-                "traits": {
-                    "otherTags": [
-                        "commander-mobility-tactic"
-                    ],
-                    "value": [
-                        "brandish",
-                        "commander",
-                        "tactic"
-                    ]
-                }
-            },
-            "type": "action"
-        },
-        {
-            "_id": "EZucSXFveFrZghml",
-            "flags": {
-                "pf2e": {
-                    "grantedBy": {
-                        "id": "qQlzgbCwZYEn7rBe",
-                        "onDelete": "cascade"
-                    }
-                }
-            },
-            "img": "systems/pf2e/icons/actions/TwoActions.webp",
-            "name": "Strike Hard!",
-            "sort": 0,
-            "system": {
-                "actionType": {
-                    "value": "action"
-                },
-                "actions": {
-                    "value": 2
-                },
-                "category": "offensive",
-                "description": {
-                    "value": "<p>You command an ally to attack. Signal a squadmate within the aura of your commander's banner. That ally immediately attempts a Strike as a reaction.</p>"
-                },
-                "publication": {
-                    "license": "ORC",
-                    "remaster": true,
-                    "title": "Pathfinder Battlecry!"
-                },
-                "rules": [],
-                "slug": "strike-hard",
-                "traits": {
-                    "otherTags": [
-                        "commander-offensive-tactic"
-                    ],
-                    "value": [
-                        "brandish",
-                        "commander",
-                        "tactic"
-                    ]
-                }
-            },
-            "type": "action"
-        },
-        {
-            "_id": "wfIKKFanvyN8p4jT",
-            "flags": {
-                "pf2e": {
-                    "grantedBy": {
-                        "id": "zBuw26CcJvHw2hfC",
-                        "onDelete": "cascade"
-                    }
-                }
-            },
-            "folder": "waujsnHrfCsPk0zO",
-            "img": "icons/sundries/books/book-red-exclamation.webp",
-            "name": "Shield Block",
-            "sort": 0,
-            "system": {
-                "actionType": {
-                    "value": "reaction"
-                },
-                "actions": {
-                    "value": null
-                },
-                "category": "general",
-                "description": {
-                    "value": "<p><strong>Trigger</strong> While you have your shield raised, you would take physical damage (bludgeoning, piercing, or slashing) from an attack.</p>\n<hr />\n<p>You snap your shield in place to ward off a blow. Your shield prevents you from taking an amount of damage up to the shield's Hardness. You and the shield each take any remaining damage, possibly breaking or destroying the shield.</p>"
-                },
-                "level": {
-                    "value": 1
-                },
-                "location": null,
-                "prerequisites": {
-                    "value": []
-                },
-                "publication": {
-                    "license": "ORC",
-                    "remaster": true,
-                    "title": "Pathfinder Battlecry!"
-                },
-                "rules": [],
-                "slug": "shield-block",
-                "subfeatures": {
-                    "proficiencies": {},
-                    "senses": {},
-                    "suppressedFeatures": []
-                },
-                "traits": {
-                    "rarity": "common",
-                    "value": [
-                        "general"
-                    ]
-                }
-            },
-            "type": "feat"
-        },
-        {
-            "_id": "SncdGmnOMohJopgi",
-            "img": "icons/sundries/flags/banner-sword-blue.webp",
-            "name": "Commander's Banner",
-            "sort": 0,
-            "system": {
-                "actionType": {
-                    "value": "passive"
-                },
-                "actions": {
-                    "value": null
-                },
-                "category": "classfeature",
-                "description": {
-                    "value": "<p>A commander needs a battle standard to help guide their allies on the field. You start play with a custom banner that you can use to signal allies when using tactics (see below) or to deploy specific abilities. Your banner can be affixed to a weapon or shield you are wielding, attached to a simple pole or handle and held in one hand, or worn affixed to a pole alongside your backpack. Your banner might be a literal flag or pennant, a decorated fan, a personalized totem, or some other highly visible and item of negligible or light Bulk. Your banner requires customization and influences your allies' morale, so you can have only one banner at a time designated as your commander's banner; designating a new banner or standard as your commander's banner takes 1 minute.</p>\n<p>As long as your banner is visible and in your possession, it provides an aura that gives you and all allies in a @Template[type:emanation|distance:30] a +1 status bonus to Will saves and DCs against fear effects. You can pause or resume this effect as part of any action you would typically use to stow or retrieve your banner. If your banner is destroyed or stolen, allies currently benefiting from its bonuses become @UUID[Compendium.pf2e.conditionitems.Item.Frightened]{Frightened 1}. This effect has the aura, emotion, mental, and visual traits.</p>\n<p>Some abilities allow you to place your banner in a specialized manner, such as the Commander's Companion and Plant Banner feats. As long as you have placed your banner in this way, any banner abilities originate from your banner's space instead of your own, and you gain the same basic benefits as when it is in your possession. An unattended banner has the base Hardness and Hit Points of a standard item of its type (usually cloth, thin leather, or thin wood) or the Hardness and Hit Points of the object it is affixed to, whichever is greater.</p>"
-                },
-                "level": {
-                    "value": 1
-                },
-                "location": "Yjcl0h6op5eK2ZFl",
-                "prerequisites": {
-                    "value": []
-                },
-                "publication": {
-                    "license": "ORC",
-                    "remaster": true,
-                    "title": "Pathfinder Battlecry!"
-                },
-                "rules": [
-                    {
-                        "key": "RollOption",
-                        "option": "commanders-banner",
-                        "toggleable": true,
-                        "value": true
-                    },
-                    {
-                        "effects": [
-                            {
-                                "affects": "allies",
-                                "uuid": "Compendium.pf2e.feat-effects.Item.Effect: Commander's Banner"
-                            }
-                        ],
-                        "key": "Aura",
-                        "predicate": [
-                            "commanders-banner"
-                        ],
-                        "radius": 30,
-                        "slug": "commanders-banner",
-                        "traits": [
-                            "emotion",
-                            "mental",
-                            "visual",
-                            "aura"
-                        ]
-                    }
-                ],
-                "slug": "commanders-banner",
-                "subfeatures": {
-                    "proficiencies": {},
-                    "senses": {},
-                    "suppressedFeatures": []
-                },
-                "traits": {
-                    "rarity": "common",
-                    "value": [
-                        "commander"
-                    ]
-                }
-            },
-            "type": "feat"
-        },
-        {
-            "_id": "P4in0f54i24blsvL",
-            "img": "icons/skills/melee/swords-parry-block-blue.webp",
-            "name": "Drilled Reactions",
-            "sort": 200,
-            "system": {
-                "actionType": {
-                    "value": "passive"
-                },
-                "actions": {
-                    "value": null
-                },
-                "category": "classfeature",
-                "description": {
-                    "value": "<p>Your time spent training your allies allows them to respond quickly and instinctively to your commands. Once per round when you use a tactic, you can grant one ally of your choice benefiting from that tactic an extra reaction. This reaction has to be used for that tactic and is lost if not used.</p>"
-                },
-                "level": {
-                    "value": 1
-                },
-                "location": "Yjcl0h6op5eK2ZFl",
-                "prerequisites": {
-                    "value": []
-                },
-                "publication": {
-                    "license": "ORC",
-                    "remaster": true,
-                    "title": "Pathfinder Battlecry!"
-                },
-                "rules": [],
-                "slug": "drilled-reactions",
-                "subfeatures": {
-                    "proficiencies": {},
-                    "senses": {},
-                    "suppressedFeatures": []
-                },
-                "traits": {
-                    "rarity": "common",
-                    "value": [
-                        "commander"
-                    ]
-                }
-            },
-            "type": "feat"
-        },
-        {
             "_id": "3YYPFaf4Gj40g8DB",
             "folder": "pCqf1zzdYxJ29gRS",
             "img": "icons/sundries/books/book-red-exclamation.webp",
@@ -2197,50 +1326,6 @@
             "type": "equipment"
         },
         {
-            "_id": "ETOpFWEEhgSkJ4iR",
-            "img": "icons/skills/melee/maneuver-greatsword-yellow.webp",
-            "name": "Warfare Expertise",
-            "sort": 0,
-            "system": {
-                "actionType": {
-                    "value": "passive"
-                },
-                "actions": {
-                    "value": null
-                },
-                "category": "classfeature",
-                "description": {
-                    "value": "<p>Your knowledge of war and strategy grows and guides your decisions in battle. You gain expert proficiency in Warfare Lore. You can use Warfare Lore to @UUID[Compendium.pf2e.actionspf2e.Item.Recall Knowledge] about most creatures regardless of type, but typically only to determine whether they can be reasoned with, their most notable offensive abilities, and whether one of their saving throws is particularly weak. In addition, as long as you are observing at least one opponent when initiative is rolled, you can use Warfare Lore for your initiative roll.</p>"
-                },
-                "level": {
-                    "value": 3
-                },
-                "location": "Yjcl0h6op5eK2ZFl",
-                "prerequisites": {
-                    "value": []
-                },
-                "publication": {
-                    "license": "ORC",
-                    "remaster": true,
-                    "title": "Pathfinder Battlecry!"
-                },
-                "rules": [],
-                "slug": "warfare-expertise",
-                "subfeatures": {
-                    "proficiencies": {},
-                    "senses": {},
-                    "suppressedFeatures": []
-                },
-                "traits": {
-                    "rarity": "common",
-                    "value": [
-                        "commander"
-                    ]
-                }
-            },
-            "type": "feat"
-        },
-        {
             "_id": "RhKSWBJQIY7Bs14L",
             "folder": "UdfuJ9pRYdG9nJej",
             "img": "icons/sundries/books/book-red-exclamation.webp",
@@ -2639,13 +1724,964 @@
                 }
             },
             "type": "armor"
+        },
+        {
+            "_id": "zNfbNtnPKx0gUBCP",
+            "_stats": {
+                "compendiumSource": "Compendium.pf2e.classes.Item.Oyee5Ds9uwYLEkD0"
+            },
+            "img": "systems/pf2e/icons/default-icons/class.svg",
+            "name": "Commander",
+            "sort": 0,
+            "system": {
+                "ancestryFeatLevels": {
+                    "value": [
+                        1,
+                        5,
+                        9,
+                        13,
+                        17
+                    ]
+                },
+                "attacks": {
+                    "advanced": 0,
+                    "martial": 1,
+                    "other": {
+                        "name": "",
+                        "rank": 0
+                    },
+                    "simple": 1,
+                    "unarmed": 1
+                },
+                "classFeatLevels": {
+                    "value": [
+                        1,
+                        2,
+                        4,
+                        6,
+                        8,
+                        10,
+                        12,
+                        14,
+                        16,
+                        18,
+                        20
+                    ]
+                },
+                "defenses": {
+                    "heavy": 1,
+                    "light": 1,
+                    "medium": 1,
+                    "unarmored": 1
+                },
+                "description": {
+                    "value": "<p><em>You approach battle with the knowledge that tactics and strategy are every bit as crucial as brute strength or numbers. You might have trained in classical theories of warfare and strategy at a military academy, or you might have refined your techniques through hard-won experience as part of an army or mercenary company. Regardless of how you came by your knowledge, you have a gift for signaling your allies from across the battlefield and deploying commands to rout even the most desperate conflicts, empowering your squad to exceed their limits and claim victory.</em></p>\n<p>@UUID[Compendium.pf2e.journals.JournalEntry.kzxu2dI7tFxv6Ix6.JournalEntryPage.BhnMSPWXfCshRvR0]{Commander}</p>"
+                },
+                "generalFeatLevels": {
+                    "value": [
+                        3,
+                        7,
+                        11,
+                        15,
+                        19
+                    ]
+                },
+                "hp": 8,
+                "items": {
+                    "6KTe8": {
+                        "img": "icons/sundries/flags/banner-yellow.webp",
+                        "level": 15,
+                        "name": "Master Tactician",
+                        "uuid": "Compendium.pf2e.classfeatures.Item.Master Tactician"
+                    },
+                    "6bfwR": {
+                        "img": "icons/sundries/flags/banner-sword-blue.webp",
+                        "level": 1,
+                        "name": "Commander's Banner",
+                        "uuid": "Compendium.pf2e.classfeatures.Item.Commander's Banner"
+                    },
+                    "EHEBL": {
+                        "img": "icons/equipment/chest/breastplate-sculpted-grey.webp",
+                        "level": 17,
+                        "name": "Armor Mastery",
+                        "uuid": "Compendium.pf2e.classfeatures.Item.Armor Mastery"
+                    },
+                    "IDV7O": {
+                        "img": "icons/tools/navigation/map-chart-tan.webp",
+                        "level": 1,
+                        "name": "Tactics",
+                        "uuid": "Compendium.pf2e.classfeatures.Item.Tactics"
+                    },
+                    "JicQ8": {
+                        "img": "icons/sundries/flags/banner-pink.webp",
+                        "level": 19,
+                        "name": "Legendary Tactician",
+                        "uuid": "Compendium.pf2e.classfeatures.Item.Legendary Tactician"
+                    },
+                    "Juhyo": {
+                        "img": "icons/sundries/flags/banner-purple.webp",
+                        "level": 7,
+                        "name": "Expert Tactician",
+                        "uuid": "Compendium.pf2e.classfeatures.Item.Expert Tactician"
+                    },
+                    "N7CSO": {
+                        "img": "icons/skills/melee/swords-parry-block-blue.webp",
+                        "level": 1,
+                        "name": "Drilled Reactions",
+                        "uuid": "Compendium.pf2e.classfeatures.Item.Drilled Reactions"
+                    },
+                    "UuNHs": {
+                        "img": "icons/magic/control/silhouette-hold-change-blue.webp",
+                        "level": 11,
+                        "name": "Commanding Will",
+                        "uuid": "Compendium.pf2e.classfeatures.Item.Commanding Will"
+                    },
+                    "Xprz7": {
+                        "img": "icons/magic/life/cross-explosion-burst-green.webp",
+                        "level": 9,
+                        "name": "Fortitude Expertise",
+                        "uuid": "Compendium.pf2e.classfeatures.Item.Fortitude Expertise"
+                    },
+                    "Ya4yr": {
+                        "img": "icons/equipment/chest/breastplate-banded-steel-gold.webp",
+                        "level": 11,
+                        "name": "Armor Expertise",
+                        "uuid": "Compendium.pf2e.classfeatures.Item.Armor Expertise"
+                    },
+                    "dRthW": {
+                        "img": "icons/skills/melee/hand-grip-sword-orange.webp",
+                        "level": 5,
+                        "name": "Military Expertise",
+                        "uuid": "Compendium.pf2e.classfeatures.Item.Military Expertise"
+                    },
+                    "doet9": {
+                        "img": "icons/skills/melee/blade-tip-chipped-blood-red.webp",
+                        "level": 13,
+                        "name": "Weapon Mastery",
+                        "uuid": "Compendium.pf2e.classfeatures.Item.Weapon Mastery"
+                    },
+                    "dqN7K": {
+                        "img": "icons/skills/melee/hand-grip-sword-orange.webp",
+                        "level": 15,
+                        "name": "Greater Weapon Specialization",
+                        "uuid": "Compendium.pf2e.classfeatures.Item.Greater Weapon Specialization"
+                    },
+                    "jC00u": {
+                        "img": "icons/skills/movement/arrow-upward-yellow.webp",
+                        "level": 15,
+                        "name": "Battlefield Intuition",
+                        "uuid": "Compendium.pf2e.classfeatures.Item.Battlefield Intuition"
+                    },
+                    "oL4s6": {
+                        "img": "systems/pf2e/icons/features/classes/weapon-specialization.webp",
+                        "level": 7,
+                        "name": "Weapon Specialization",
+                        "uuid": "Compendium.pf2e.classfeatures.Item.Weapon Specialization"
+                    },
+                    "pNx7B": {
+                        "img": "icons/skills/melee/maneuver-greatsword-yellow.webp",
+                        "level": 3,
+                        "name": "Warfare Expertise",
+                        "uuid": "Compendium.pf2e.classfeatures.Item.Warfare Expertise"
+                    },
+                    "vIK1C": {
+                        "img": "icons/magic/perception/eye-tendrils-web-purple.webp",
+                        "level": 13,
+                        "name": "Perception Mastery",
+                        "uuid": "Compendium.pf2e.classfeatures.Item.Perception Mastery"
+                    },
+                    "wiw7F": {
+                        "img": "icons/equipment/shield/round-wooden-boss-gold-brown.webp",
+                        "level": 1,
+                        "name": "Shield Block",
+                        "uuid": "Compendium.pf2e.classfeatures.Item.Shield Block"
+                    }
+                },
+                "keyAbility": {
+                    "selected": null,
+                    "value": [
+                        "int"
+                    ]
+                },
+                "perception": 2,
+                "publication": {
+                    "license": "ORC",
+                    "remaster": true,
+                    "title": "Pathfinder Battlecry!"
+                },
+                "rules": [],
+                "savingThrows": {
+                    "fortitude": 1,
+                    "reflex": 2,
+                    "will": 2
+                },
+                "skillFeatLevels": {
+                    "value": [
+                        2,
+                        4,
+                        6,
+                        8,
+                        10,
+                        12,
+                        14,
+                        16,
+                        18,
+                        20
+                    ]
+                },
+                "skillIncreaseLevels": {
+                    "value": [
+                        3,
+                        5,
+                        7,
+                        9,
+                        11,
+                        13,
+                        15,
+                        17,
+                        19
+                    ]
+                },
+                "slug": "commander",
+                "spellcasting": 0,
+                "trainedSkills": {
+                    "additional": 2,
+                    "value": [
+                        "society"
+                    ]
+                },
+                "traits": {
+                    "rarity": "common"
+                }
+            },
+            "type": "class"
+        },
+        {
+            "_id": "9i4vGlwPV34NIfj6",
+            "_stats": {
+                "compendiumSource": "Compendium.pf2e.classfeatures.Item.2IysodKQuf62jmd7"
+            },
+            "flags": {
+                "pf2e": {
+                    "itemGrants": {
+                        "coordinatingManeuvers": {
+                            "id": "cMGM2gcQdsBlPFvn",
+                            "onDelete": "detach"
+                        },
+                        "gatherToMe": {
+                            "id": "Q6003J2k6VJq9BXe",
+                            "onDelete": "detach"
+                        },
+                        "pincerAttack": {
+                            "id": "YQJOnoNWkyy7Ra4O",
+                            "onDelete": "detach"
+                        },
+                        "protectiveScreen": {
+                            "id": "vFqbZbMInlpHlxYX",
+                            "onDelete": "detach"
+                        },
+                        "strikeHard": {
+                            "id": "W357CnTwsBJs13h5",
+                            "onDelete": "detach"
+                        }
+                    }
+                }
+            },
+            "img": "icons/tools/navigation/map-chart-tan.webp",
+            "name": "Tactics",
+            "sort": 100,
+            "system": {
+                "actionType": {
+                    "value": "passive"
+                },
+                "actions": {
+                    "value": null
+                },
+                "category": "classfeature",
+                "description": {
+                    "value": "<p>By studying and practicing the strategic arts of war, you can guide your allies to victory. You begin play with a folio containing five tactics. These are combat techniques and coordinated maneuvers you can instruct your allies in, enabling them to respond to your signals in combat. As you increase in level, you gain the ability to learn more potent tactics. When you gain the @UUID[Compendium.pf2e.classfeatures.Item.Expert Tactician] class feature, you gain the ability to add expert tactics to your folio; when you gain the @UUID[Compendium.pf2e.classfeatures.Item.Master Tactician] class feature, you can add master tactics to your folio; and when you gain the @UUID[Compendium.pf2e.classfeatures.Item.Legendary Tactician] class feature, you can add legendary tactics to your folio.</p><h2>Preparing and Changing Tactics</h2><p>Each day during your daily preparations, you prepare three tactics from your folio and drill in them alongside your allies, enabling you to use these tactics until your next daily preparations. When you drill, you can instruct a total number of allies equal to 2 + your Intelligence modifier, enabling these allies to respond to your tactics in combat. These allies are your squadmates. A squadmate always has the option not to respond to your tactical signal if they do not wish to. You count as one of your squadmates for the purposes of participating in or benefiting from a tactic (though you do not count against your own maximum number of squadmates). The tactics trait is explained in more detail in the key terms sidebar on this page.</p>\n<p>You can change which tactics you have prepared from those in your folio by spending 10 minutes to drill, replacing all previously prepared tactics and squadmates. This does not prevent your allies from performing their own activities during this time frame. Some tactics have a limited usage, such as the Valkyrie's Charge tactic, which can be used once per day. These tactics can never exceed their indicated use limit even if you replace them with a different tactic and then prepare them again later that same day, but you can replace a tactic whose limited use has been expended with another tactic you know any time you are able to change your prepared tactics.</p><h2>Gaining New Tactics</h2><p>You add additional tactics to your folio and increase the number of tactics you can prepare when you gain the expert tactician, master tactician, and legendary tactician class features. You can also add tactics to your folio with the Tactical Expansion feat, though this does not change the number you can have prepared. Because tactics folios use shorthand and signals unique to each commander, there is typically no benefit to using (or stealing) another commander's folio, though you can train with another commander to retrain one tactic in your folio to another that they know.</p>"
+                },
+                "level": {
+                    "value": 1
+                },
+                "location": "zNfbNtnPKx0gUBCP",
+                "prerequisites": {
+                    "value": []
+                },
+                "publication": {
+                    "license": "ORC",
+                    "remaster": true,
+                    "title": "Pathfinder Battlecry!"
+                },
+                "rules": [
+                    {
+                        "adjustName": false,
+                        "choices": {
+                            "filter": [
+                                "item:trait:tactic",
+                                {
+                                    "or": [
+                                        "item:tag:commander-mobility-tactic",
+                                        "item:tag:commander-offensive-tactic"
+                                    ]
+                                }
+                            ],
+                            "itemType": "action"
+                        },
+                        "flag": "firstTactic",
+                        "key": "ChoiceSet",
+                        "prompt": "PF2E.SpecificRule.Commander.Tactics.Prompt",
+                        "selection": "Compendium.pf2e.actionspf2e.Item.Coordinating Maneuvers"
+                    },
+                    {
+                        "flag": "coordinatingManeuvers",
+                        "key": "GrantItem",
+                        "uuid": "{item|flags.pf2e.rulesSelections.firstTactic}"
+                    },
+                    {
+                        "adjustName": false,
+                        "choices": {
+                            "filter": [
+                                "item:trait:tactic",
+                                {
+                                    "or": [
+                                        "item:tag:commander-mobility-tactic",
+                                        "item:tag:commander-offensive-tactic"
+                                    ]
+                                }
+                            ],
+                            "itemType": "action"
+                        },
+                        "flag": "secondTactic",
+                        "key": "ChoiceSet",
+                        "prompt": "PF2E.SpecificRule.Commander.Tactics.Prompt",
+                        "selection": "Compendium.pf2e.actionspf2e.Item.Gather to Me!"
+                    },
+                    {
+                        "flag": "gatherToMe",
+                        "key": "GrantItem",
+                        "uuid": "{item|flags.pf2e.rulesSelections.secondTactic}"
+                    },
+                    {
+                        "adjustName": false,
+                        "choices": {
+                            "filter": [
+                                "item:trait:tactic",
+                                {
+                                    "or": [
+                                        "item:tag:commander-mobility-tactic",
+                                        "item:tag:commander-offensive-tactic"
+                                    ]
+                                }
+                            ],
+                            "itemType": "action"
+                        },
+                        "flag": "thirdTactic",
+                        "key": "ChoiceSet",
+                        "prompt": "PF2E.SpecificRule.Commander.Tactics.Prompt",
+                        "selection": "Compendium.pf2e.actionspf2e.Item.Pincer Attack"
+                    },
+                    {
+                        "flag": "pincerAttack",
+                        "key": "GrantItem",
+                        "uuid": "{item|flags.pf2e.rulesSelections.thirdTactic}"
+                    },
+                    {
+                        "adjustName": false,
+                        "choices": {
+                            "filter": [
+                                "item:trait:tactic",
+                                {
+                                    "or": [
+                                        "item:tag:commander-mobility-tactic",
+                                        "item:tag:commander-offensive-tactic"
+                                    ]
+                                }
+                            ],
+                            "itemType": "action"
+                        },
+                        "flag": "fourthTactic",
+                        "key": "ChoiceSet",
+                        "prompt": "PF2E.SpecificRule.Commander.Tactics.Prompt",
+                        "selection": "Compendium.pf2e.actionspf2e.Item.Protective Screen"
+                    },
+                    {
+                        "flag": "protectiveScreen",
+                        "key": "GrantItem",
+                        "uuid": "{item|flags.pf2e.rulesSelections.fourthTactic}"
+                    },
+                    {
+                        "adjustName": false,
+                        "choices": {
+                            "filter": [
+                                "item:trait:tactic",
+                                {
+                                    "or": [
+                                        "item:tag:commander-mobility-tactic",
+                                        "item:tag:commander-offensive-tactic"
+                                    ]
+                                }
+                            ],
+                            "itemType": "action"
+                        },
+                        "flag": "fifthTactic",
+                        "key": "ChoiceSet",
+                        "prompt": "PF2E.SpecificRule.Commander.Tactics.Prompt",
+                        "selection": "Compendium.pf2e.actionspf2e.Item.Strike Hard!"
+                    },
+                    {
+                        "flag": "strikeHard",
+                        "key": "GrantItem",
+                        "uuid": "{item|flags.pf2e.rulesSelections.fifthTactic}"
+                    }
+                ],
+                "slug": "tactics",
+                "subfeatures": {
+                    "proficiencies": {},
+                    "senses": {},
+                    "suppressedFeatures": []
+                },
+                "traits": {
+                    "rarity": "common",
+                    "value": [
+                        "commander"
+                    ]
+                }
+            },
+            "type": "feat"
+        },
+        {
+            "_id": "9NpWFbQA6R1spE9l",
+            "_stats": {
+                "compendiumSource": "Compendium.pf2e.classfeatures.Item.eZNCckLzbH3GyncH"
+            },
+            "flags": {
+                "pf2e": {
+                    "itemGrants": {
+                        "shieldBlock": {
+                            "id": "VHYzoLnl7s5UeYRV",
+                            "onDelete": "detach"
+                        }
+                    }
+                }
+            },
+            "img": "icons/equipment/shield/round-wooden-boss-gold-brown.webp",
+            "name": "Shield Block",
+            "sort": 300,
+            "system": {
+                "actionType": {
+                    "value": "passive"
+                },
+                "actions": {
+                    "value": null
+                },
+                "category": "classfeature",
+                "description": {
+                    "value": "<p>You gain the @UUID[Compendium.pf2e.feats-srd.Item.Shield Block] general feat, a reaction that lets you reduce damage with your shield.</p>"
+                },
+                "level": {
+                    "value": 1
+                },
+                "location": "zNfbNtnPKx0gUBCP",
+                "prerequisites": {
+                    "value": []
+                },
+                "publication": {
+                    "license": "ORC",
+                    "remaster": true,
+                    "title": "Pathfinder Player Core"
+                },
+                "rules": [
+                    {
+                        "flag": "shieldBlock",
+                        "key": "GrantItem",
+                        "uuid": "Compendium.pf2e.feats-srd.Item.Shield Block"
+                    }
+                ],
+                "slug": "shield-block",
+                "subfeatures": {
+                    "proficiencies": {},
+                    "senses": {},
+                    "suppressedFeatures": []
+                },
+                "traits": {
+                    "rarity": "common",
+                    "value": [
+                        "champion",
+                        "commander",
+                        "druid",
+                        "exemplar",
+                        "fighter",
+                        "guardian",
+                        "inventor"
+                    ]
+                }
+            },
+            "type": "feat"
+        },
+        {
+            "_id": "cMGM2gcQdsBlPFvn",
+            "_stats": {
+                "compendiumSource": "Compendium.pf2e.actionspf2e.Item.Kp325Qf0qpF6RCDE"
+            },
+            "flags": {
+                "pf2e": {
+                    "grantedBy": {
+                        "id": "9i4vGlwPV34NIfj6",
+                        "onDelete": "cascade"
+                    }
+                }
+            },
+            "img": "systems/pf2e/icons/actions/OneAction.webp",
+            "name": "Coordinating Maneuvers",
+            "sort": 0,
+            "system": {
+                "actionType": {
+                    "value": "action"
+                },
+                "actions": {
+                    "value": 1
+                },
+                "category": "offensive",
+                "description": {
+                    "value": "<p>Your team works to slip enemies into a disadvantageous position. Signal one squadmate within the aura of your banner; that squadmate can immediately Step as a free action. If they end this movement next to an opponent, they can attempt to @UUID[Compendium.pf2e.actionspf2e.Item.Reposition] that target as a reaction.</p>"
+                },
+                "publication": {
+                    "license": "ORC",
+                    "remaster": true,
+                    "title": "Pathfinder Battlecry!"
+                },
+                "rules": [],
+                "slug": "coordinating-maneuvers",
+                "traits": {
+                    "otherTags": [
+                        "commander-mobility-tactic"
+                    ],
+                    "value": [
+                        "brandish",
+                        "commander",
+                        "tactic"
+                    ]
+                }
+            },
+            "type": "action"
+        },
+        {
+            "_id": "Q6003J2k6VJq9BXe",
+            "_stats": {
+                "compendiumSource": "Compendium.pf2e.actionspf2e.Item.URxnrN8ji84AoVup"
+            },
+            "flags": {
+                "pf2e": {
+                    "grantedBy": {
+                        "id": "9i4vGlwPV34NIfj6",
+                        "onDelete": "cascade"
+                    }
+                }
+            },
+            "img": "systems/pf2e/icons/actions/OneAction.webp",
+            "name": "Gather to Me!",
+            "sort": 0,
+            "system": {
+                "actionType": {
+                    "value": "action"
+                },
+                "actions": {
+                    "value": 1
+                },
+                "category": "offensive",
+                "description": {
+                    "value": "<p>You signal your team to move into position together. Signal all squadmates; each can immediately Stride as a reaction, though each must end their movement inside your banner's aura, or as close to your banner's aura as their movement Speed allows.</p>\n<p>Squadmates can use Gather to Me! while Burrowing, Climbing, Flying, or Swimming instead of Striding if they have the corresponding movement type.</p>"
+                },
+                "publication": {
+                    "license": "ORC",
+                    "remaster": true,
+                    "title": "Pathfinder Battlecry!"
+                },
+                "rules": [],
+                "slug": "gather-to-me",
+                "traits": {
+                    "otherTags": [
+                        "commander-mobility-tactic"
+                    ],
+                    "value": [
+                        "commander",
+                        "tactic"
+                    ]
+                }
+            },
+            "type": "action"
+        },
+        {
+            "_id": "YQJOnoNWkyy7Ra4O",
+            "_stats": {
+                "compendiumSource": "Compendium.pf2e.actionspf2e.Item.zLFfwNmmPTND6OMO"
+            },
+            "flags": {
+                "pf2e": {
+                    "grantedBy": {
+                        "id": "9i4vGlwPV34NIfj6",
+                        "onDelete": "cascade"
+                    }
+                }
+            },
+            "img": "systems/pf2e/icons/actions/OneAction.webp",
+            "name": "Pincer Attack",
+            "sort": 0,
+            "system": {
+                "actionType": {
+                    "value": "action"
+                },
+                "actions": {
+                    "value": 1
+                },
+                "category": "offensive",
+                "description": {
+                    "value": "<p>You call for an aggressive formation designed for exploiting enemies' vulnerabilities. Signal all squadmates; each can Step as a reaction. If any of your allies ends this movement adjacent to an opponent, that opponent is @UUID[Compendium.pf2e.conditionitems.Item.Off-Guard] to melee attacks from you and all other squadmates who responded to Pincer Attack until the start of your next turn.</p>"
+                },
+                "publication": {
+                    "license": "ORC",
+                    "remaster": true,
+                    "title": "Pathfinder Battlecry!"
+                },
+                "rules": [],
+                "slug": "pincer-attack",
+                "traits": {
+                    "otherTags": [
+                        "commander-offensive-tactic"
+                    ],
+                    "value": [
+                        "commander",
+                        "tactic"
+                    ]
+                }
+            },
+            "type": "action"
+        },
+        {
+            "_id": "vFqbZbMInlpHlxYX",
+            "_stats": {
+                "compendiumSource": "Compendium.pf2e.actionspf2e.Item.5yBBgZ7OCWWJsnLo"
+            },
+            "flags": {
+                "pf2e": {
+                    "grantedBy": {
+                        "id": "9i4vGlwPV34NIfj6",
+                        "onDelete": "cascade"
+                    }
+                }
+            },
+            "img": "systems/pf2e/icons/actions/OneAction.webp",
+            "name": "Protective Screen",
+            "sort": 0,
+            "system": {
+                "actionType": {
+                    "value": "action"
+                },
+                "actions": {
+                    "value": 1
+                },
+                "category": "offensive",
+                "description": {
+                    "value": "<p>You've trained your allies in a technique designed to protect war mages. Signal one squadmate; as a reaction, that squadmate Strides directly toward any other squadmate who is within the aura of your banner. If the first squadmate ends their movement adjacent to another squadmate, the second squadmate does not trigger reactions when casting spells or making ranged attacks until the end of their next turn or until they are no longer adjacent to the first squadmate, whichever comes first. If the first squadmate ends their movement adjacent to more than one other squadmate, the first squadmate must choose which of the adjacent squadmates gains this benefit.</p>"
+                },
+                "publication": {
+                    "license": "ORC",
+                    "remaster": true,
+                    "title": "Pathfinder Battlecry!"
+                },
+                "rules": [],
+                "slug": "protective-screen",
+                "traits": {
+                    "otherTags": [
+                        "commander-mobility-tactic"
+                    ],
+                    "value": [
+                        "brandish",
+                        "commander",
+                        "tactic"
+                    ]
+                }
+            },
+            "type": "action"
+        },
+        {
+            "_id": "W357CnTwsBJs13h5",
+            "_stats": {
+                "compendiumSource": "Compendium.pf2e.actionspf2e.Item.73W3mBLXRPfeVl3G"
+            },
+            "flags": {
+                "pf2e": {
+                    "grantedBy": {
+                        "id": "9i4vGlwPV34NIfj6",
+                        "onDelete": "cascade"
+                    }
+                }
+            },
+            "img": "systems/pf2e/icons/actions/TwoActions.webp",
+            "name": "Strike Hard!",
+            "sort": 0,
+            "system": {
+                "actionType": {
+                    "value": "action"
+                },
+                "actions": {
+                    "value": 2
+                },
+                "category": "offensive",
+                "description": {
+                    "value": "<p>You command an ally to attack. Signal a squadmate within the aura of your commander's banner. That ally immediately attempts a Strike as a reaction.</p>"
+                },
+                "publication": {
+                    "license": "ORC",
+                    "remaster": true,
+                    "title": "Pathfinder Battlecry!"
+                },
+                "rules": [],
+                "slug": "strike-hard",
+                "traits": {
+                    "otherTags": [
+                        "commander-offensive-tactic"
+                    ],
+                    "value": [
+                        "brandish",
+                        "commander",
+                        "tactic"
+                    ]
+                }
+            },
+            "type": "action"
+        },
+        {
+            "_id": "VHYzoLnl7s5UeYRV",
+            "_stats": {
+                "compendiumSource": "Compendium.pf2e.feats-srd.Item.jM72TjJ965jocBV8"
+            },
+            "flags": {
+                "pf2e": {
+                    "grantedBy": {
+                        "id": "9NpWFbQA6R1spE9l",
+                        "onDelete": "cascade"
+                    }
+                }
+            },
+            "folder": "waujsnHrfCsPk0zO",
+            "img": "icons/sundries/books/book-red-exclamation.webp",
+            "name": "Shield Block",
+            "sort": 0,
+            "system": {
+                "actionType": {
+                    "value": "reaction"
+                },
+                "actions": {
+                    "value": null
+                },
+                "category": "general",
+                "description": {
+                    "value": "<p><strong>Trigger</strong> While you have your shield raised, you would take physical damage (bludgeoning, piercing, or slashing) from an attack.</p>\n<hr />\n<p>You snap your shield in place to ward off a blow. Your shield prevents you from taking an amount of damage up to the shield's Hardness. You and the shield each take any remaining damage, possibly breaking or destroying the shield.</p>"
+                },
+                "level": {
+                    "value": 1
+                },
+                "location": null,
+                "prerequisites": {
+                    "value": []
+                },
+                "publication": {
+                    "license": "ORC",
+                    "remaster": true,
+                    "title": "Pathfinder Battlecry!"
+                },
+                "rules": [],
+                "slug": "shield-block",
+                "subfeatures": {
+                    "proficiencies": {},
+                    "senses": {},
+                    "suppressedFeatures": []
+                },
+                "traits": {
+                    "rarity": "common",
+                    "value": [
+                        "general"
+                    ]
+                }
+            },
+            "type": "feat"
+        },
+        {
+            "_id": "LzBxb8XMYlhhjUiR",
+            "_stats": {
+                "compendiumSource": "Compendium.pf2e.classfeatures.Item.8NtRuNYGiU2iTwgL"
+            },
+            "img": "icons/sundries/flags/banner-sword-blue.webp",
+            "name": "Commander's Banner",
+            "sort": 0,
+            "system": {
+                "actionType": {
+                    "value": "passive"
+                },
+                "actions": {
+                    "value": null
+                },
+                "category": "classfeature",
+                "description": {
+                    "value": "<p>A commander needs a battle standard to help guide their allies on the field. You start play with a custom banner that you can use to signal allies when using tactics (see below) or to deploy specific abilities. Your banner can be affixed to a weapon or shield you are wielding, attached to a simple pole or handle and held in one hand, or worn affixed to a pole alongside your backpack. Your banner might be a literal flag or pennant, a decorated fan, a personalized totem, or some other highly visible and item of negligible or light Bulk. Your banner requires customization and influences your allies' morale, so you can have only one banner at a time designated as your commander's banner; designating a new banner or standard as your commander's banner takes 1 minute.</p>\n<p>As long as your banner is visible and in your possession, it provides an aura that gives you and all allies in a @Template[type:emanation|distance:30] a +1 status bonus to Will saves and DCs against fear effects. You can pause or resume this effect as part of any action you would typically use to stow or retrieve your banner. If your banner is destroyed or stolen, allies currently benefiting from its bonuses become @UUID[Compendium.pf2e.conditionitems.Item.Frightened]{Frightened 1}. This effect has the aura, emotion, mental, and visual traits.</p>\n<p>Some abilities allow you to place your banner in a specialized manner, such as the Commander's Companion and Plant Banner feats. As long as you have placed your banner in this way, any banner abilities originate from your banner's space instead of your own, and you gain the same basic benefits as when it is in your possession. An unattended banner has the base Hardness and Hit Points of a standard item of its type (usually cloth, thin leather, or thin wood) or the Hardness and Hit Points of the object it is affixed to, whichever is greater.</p>"
+                },
+                "level": {
+                    "value": 1
+                },
+                "location": "zNfbNtnPKx0gUBCP",
+                "prerequisites": {
+                    "value": []
+                },
+                "publication": {
+                    "license": "ORC",
+                    "remaster": true,
+                    "title": "Pathfinder Battlecry!"
+                },
+                "rules": [
+                    {
+                        "key": "RollOption",
+                        "option": "commanders-banner",
+                        "toggleable": true,
+                        "value": true
+                    },
+                    {
+                        "effects": [
+                            {
+                                "affects": "allies",
+                                "uuid": "Compendium.pf2e.feat-effects.Item.Effect: Commander's Banner"
+                            }
+                        ],
+                        "key": "Aura",
+                        "predicate": [
+                            "commanders-banner"
+                        ],
+                        "radius": 30,
+                        "slug": "commanders-banner",
+                        "traits": [
+                            "emotion",
+                            "mental",
+                            "visual",
+                            "aura"
+                        ]
+                    }
+                ],
+                "slug": "commanders-banner",
+                "subfeatures": {
+                    "proficiencies": {},
+                    "senses": {},
+                    "suppressedFeatures": []
+                },
+                "traits": {
+                    "rarity": "common",
+                    "value": [
+                        "commander"
+                    ]
+                }
+            },
+            "type": "feat"
+        },
+        {
+            "_id": "mBKDucOQiEGesgOS",
+            "_stats": {
+                "compendiumSource": "Compendium.pf2e.classfeatures.Item.A5nOG2HuM8ZhMJ5p"
+            },
+            "img": "icons/skills/melee/swords-parry-block-blue.webp",
+            "name": "Drilled Reactions",
+            "sort": 200,
+            "system": {
+                "actionType": {
+                    "value": "passive"
+                },
+                "actions": {
+                    "value": null
+                },
+                "category": "classfeature",
+                "description": {
+                    "value": "<p>Your time spent training your allies allows them to respond quickly and instinctively to your commands. Once per round when you use a tactic, you can grant one ally of your choice benefiting from that tactic an extra reaction. This reaction has to be used for that tactic and is lost if not used.</p>"
+                },
+                "level": {
+                    "value": 1
+                },
+                "location": "zNfbNtnPKx0gUBCP",
+                "prerequisites": {
+                    "value": []
+                },
+                "publication": {
+                    "license": "ORC",
+                    "remaster": true,
+                    "title": "Pathfinder Battlecry!"
+                },
+                "rules": [],
+                "slug": "drilled-reactions",
+                "subfeatures": {
+                    "proficiencies": {},
+                    "senses": {},
+                    "suppressedFeatures": []
+                },
+                "traits": {
+                    "rarity": "common",
+                    "value": [
+                        "commander"
+                    ]
+                }
+            },
+            "type": "feat"
+        },
+        {
+            "_id": "VZrSPgqY0hcs2Tao",
+            "_stats": {
+                "compendiumSource": "Compendium.pf2e.classfeatures.Item.WXATTZWhe3QpyrYR"
+            },
+            "img": "icons/skills/melee/maneuver-greatsword-yellow.webp",
+            "name": "Warfare Expertise",
+            "sort": 1200,
+            "system": {
+                "actionType": {
+                    "value": "passive"
+                },
+                "actions": {
+                    "value": null
+                },
+                "category": "classfeature",
+                "description": {
+                    "value": "<p>Your knowledge of war and strategy grows and guides your decisions in battle. You gain expert proficiency in Warfare Lore. You can use Warfare Lore to @UUID[Compendium.pf2e.actionspf2e.Item.Recall Knowledge] about most creatures regardless of type, but typically only to determine whether they can be reasoned with, their most notable offensive abilities, and whether one of their saving throws is particularly weak. In addition, as long as you are observing at least one opponent when initiative is rolled, you can use Warfare Lore for your initiative roll.</p>"
+                },
+                "level": {
+                    "value": 3
+                },
+                "location": "zNfbNtnPKx0gUBCP",
+                "prerequisites": {
+                    "value": []
+                },
+                "publication": {
+                    "license": "ORC",
+                    "remaster": true,
+                    "title": "Pathfinder Battlecry!"
+                },
+                "rules": [],
+                "slug": "warfare-expertise",
+                "subfeatures": {
+                    "proficiencies": {},
+                    "senses": {},
+                    "suppressedFeatures": []
+                },
+                "traits": {
+                    "rarity": "common",
+                    "value": [
+                        "commander"
+                    ]
+                }
+            },
+            "type": "feat"
         }
     ],
     "name": "Ulka (Level 3)",
     "prototypeToken": {
         "name": "Ulka",
         "texture": {
-            "src": "systems/pf2e/icons/iconics/Ulka.webp"
+            "src": "systems/pf2e/icons/iconics/UlkaFull.webp"
         }
     },
     "system": {
