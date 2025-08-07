@@ -27,19 +27,73 @@
         "rules": [
             {
                 "key": "RollOption",
-                "label": "PF2E.SpecificRule.Ranger.HuntersEdge.FirstAttack",
-                "option": "first-attack",
+                "label": "PF2E.SpecificRule.Ranger.HuntersEdge.Precision.ToggleLabel",
+                "option": "precision-hunters-edge",
+                "suboptions": [
+                    {
+                        "label": "PF2E.SpecificRule.Numbers.Ordinals.First",
+                        "value": "first-hit"
+                    },
+                    {
+                        "label": "PF2E.SpecificRule.Numbers.Ordinals.Second",
+                        "predicate": [
+                            "feature:masterful-hunter"
+                        ],
+                        "value": "second-hit"
+                    },
+                    {
+                        "label": "PF2E.SpecificRule.Numbers.Ordinals.Third",
+                        "predicate": [
+                            "feature:masterful-hunter",
+                            {
+                                "gte": [
+                                    "self:level",
+                                    19
+                                ]
+                            }
+                        ],
+                        "value": "third-hit"
+                    }
+                ],
                 "toggleable": true
             },
             {
                 "category": "precision",
-                "diceNumber": "ternary(lt(@actor.level, 11), 1, ternary(lt(@actor.level, 19), 2, 3))",
+                "diceNumber": "ternary(lt(@actor.level,11),1,ternary(lt(@actor.level,19),2,3))",
                 "dieSize": "d8",
                 "key": "DamageDice",
                 "predicate": [
-                    "first-attack"
+                    "precision-hunters-edge",
+                    "target:mark:hunted-prey"
                 ],
-                "selector": "strike-damage"
+                "selector": "strike-damage",
+                "slug": "precision-hunters-edge"
+            },
+            {
+                "key": "DamageAlteration",
+                "mode": "override",
+                "predicate": [
+                    "precision-hunters-edge:second-hit"
+                ],
+                "property": "dice-number",
+                "selectors": [
+                    "strike-damage"
+                ],
+                "slug": "precision-hunters-edge",
+                "value": "ternary(gte(@actor.level,19),2,1)"
+            },
+            {
+                "key": "DamageAlteration",
+                "mode": "override",
+                "predicate": [
+                    "precision-hunters-edge:third-hit"
+                ],
+                "property": "dice-number",
+                "selectors": [
+                    "strike-damage"
+                ],
+                "slug": "precision-hunters-edge",
+                "value": 1
             }
         ],
         "traits": {
