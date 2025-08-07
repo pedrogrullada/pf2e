@@ -25,7 +25,49 @@
             "remaster": true,
             "title": "Pathfinder Guns & Gears"
         },
-        "rules": [],
+        "rules": [
+            {
+                "adjustName": false,
+                "choices": [
+                    {
+                        "label": "PF2E.WeaponGroupCrossbow",
+                        "value": "crossbow"
+                    },
+                    {
+                        "label": "PF2E.WeaponGroupFirearm",
+                        "value": "firearm"
+                    }
+                ],
+                "flag": "group",
+                "key": "ChoiceSet"
+            },
+            {
+                "definition": [
+                    "item:category:advanced",
+                    "item:group:{item|flags.pf2e.rulesSelections.group}"
+                ],
+                "key": "MartialProficiency",
+                "label": "PF2E.SpecificRule.MartialProficiency.AdvancedGroup.{item|flags.pf2e.rulesSelections.group}",
+                "predicate": [
+                    "class:gunslinger"
+                ],
+                "priority": 50,
+                "value": "@actor.system.proficiencies.attacks.martial-firearms-crossbows.rank"
+            },
+            {
+                "definition": [
+                    "item:category:advanced",
+                    "item:group:{item|flags.pf2e.rulesSelections.group}"
+                ],
+                "key": "MartialProficiency",
+                "label": "PF2E.SpecificRule.MartialProficiency.AdvancedGroup.{item|flags.pf2e.rulesSelections.group}",
+                "predicate": [
+                    "feat:gunslinger-dedication"
+                ],
+                "priority": 15,
+                "sameAs": "simple"
+            }
+        ],
         "traits": {
             "rarity": "common",
             "value": [
