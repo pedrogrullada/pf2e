@@ -28,7 +28,7 @@
             {
                 "key": "MultipleAttackPenalty",
                 "predicate": [
-                    "agile",
+                    "item:trait:agile",
                     "target:mark:hunted-prey"
                 ],
                 "selector": "attack",
@@ -39,11 +39,45 @@
                 "predicate": [
                     "target:mark:hunted-prey",
                     {
-                        "not": "agile"
+                        "not": "item:trait:agile"
                     }
                 ],
                 "selector": "attack",
                 "value": -3
+            },
+            {
+                "key": "MultipleAttackPenalty",
+                "predicate": [
+                    "feature:masterful-hunter",
+                    "target:mark:hunted-prey",
+                    {
+                        "gte": [
+                            "item:proficiency:rank",
+                            3
+                        ]
+                    },
+                    {
+                        "not": "item:trait:agile"
+                    }
+                ],
+                "selector": "attack",
+                "value": -2
+            },
+            {
+                "key": "MultipleAttackPenalty",
+                "predicate": [
+                    "feature:masterful-hunter",
+                    "item:trait:agile",
+                    "target:mark:hunted-prey",
+                    {
+                        "gte": [
+                            "item:proficiency:rank",
+                            3
+                        ]
+                    }
+                ],
+                "selector": "attack",
+                "value": -1
             }
         ],
         "traits": {

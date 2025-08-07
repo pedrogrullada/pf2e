@@ -28,64 +28,7 @@
             "remaster": true,
             "title": "Pathfinder Player Core"
         },
-        "rules": [
-            {
-                "key": "RollOption",
-                "label": "Second attack on hunted prey this round",
-                "option": "second-attack",
-                "toggleable": true
-            },
-            {
-                "category": "precision",
-                "dieSize": "d8",
-                "key": "DamageDice",
-                "predicate": [
-                    "second-attack"
-                ],
-                "selector": "strike-damage",
-                "value": {
-                    "brackets": [
-                        {
-                            "end": 18,
-                            "value": {
-                                "diceNumber": 1
-                            }
-                        },
-                        {
-                            "start": 19,
-                            "value": {
-                                "diceNumber": 2
-                            }
-                        }
-                    ]
-                }
-            },
-            {
-                "key": "RollOption",
-                "label": "Third attack on hunted prey this round",
-                "option": "third-attack",
-                "toggleable": true
-            },
-            {
-                "category": "precision",
-                "dieSize": "d8",
-                "key": "DamageDice",
-                "predicate": [
-                    "third-attack"
-                ],
-                "selector": "strike-damage",
-                "value": {
-                    "brackets": [
-                        {
-                            "start": 19,
-                            "value": {
-                                "diceNumber": 1
-                            }
-                        }
-                    ]
-                }
-            }
-        ],
+        "rules": [],
         "traits": {
             "rarity": "common",
             "value": [

@@ -5194,6 +5194,11 @@
                 "Four": "Four",
                 "Nine": "Nine",
                 "One": "One",
+                "Ordinals": {
+                    "First": "First",
+                    "Second": "Second",
+                    "Third": "Third"
+                },
                 "Seven": "Seven",
                 "Six": "Six",
                 "Ten": "Ten",
@@ -5557,6 +5562,9 @@
                 },
                 "HuntersEdge": {
                     "FirstAttack": "First attack on hunted prey this round",
+                    "Precision": {
+                        "ToggleLabel": "Precision — Hit against hunted prey"
+                    },
                     "Prompt": "Select a hunter's edge."
                 },
                 "Vindicator": {

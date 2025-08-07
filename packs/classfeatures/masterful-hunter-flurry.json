@@ -28,40 +28,7 @@
             "remaster": true,
             "title": "Pathfinder Player Core"
         },
-        "rules": [
-            {
-                "key": "MultipleAttackPenalty",
-                "predicate": [
-                    "target:mark:hunted-prey",
-                    {
-                        "or": [
-                            "proficiency:master",
-                            "proficiency:legendary"
-                        ]
-                    },
-                    {
-                        "not": "agile"
-                    }
-                ],
-                "selector": "attack",
-                "value": -2
-            },
-            {
-                "key": "MultipleAttackPenalty",
-                "predicate": [
-                    "agile",
-                    "target:mark:hunted-prey",
-                    {
-                        "or": [
-                            "proficiency:master",
-                            "proficiency:legendary"
-                        ]
-                    }
-                ],
-                "selector": "attack",
-                "value": -1
-            }
-        ],
+        "rules": [],
         "traits": {
             "rarity": "common",
             "value": [
