@@ -73,7 +73,7 @@
                 "key": "AdjustModifier",
                 "mode": "upgrade",
                 "predicate": [
-                    "masterful-hunter",
+                    "feature:masterful-hunter",
                     {
                         "or": [
                             {
