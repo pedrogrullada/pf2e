@@ -17,18 +17,47 @@
             "value": 17
         },
         "prerequisites": {
-            "value": [
-                {
-                    "value": "Hunter's Edge: Flurry"
-                }
-            ]
+            "value": []
         },
         "publication": {
             "license": "ORC",
             "remaster": true,
             "title": "Pathfinder Player Core"
         },
-        "rules": [],
+        "rules": [
+            {
+                "key": "MultipleAttackPenalty",
+                "predicate": [
+                    "target:mark:hunted-prey",
+                    {
+                        "gte": [
+                            "item:proficiency:rank",
+                            3
+                        ]
+                    },
+                    {
+                        "not": "item:trait:agile"
+                    }
+                ],
+                "selector": "attack",
+                "value": -2
+            },
+            {
+                "key": "MultipleAttackPenalty",
+                "predicate": [
+                    "item:trait:agile",
+                    "target:mark:hunted-prey",
+                    {
+                        "gte": [
+                            "item:proficiency:rank",
+                            3
+                        ]
+                    }
+                ],
+                "selector": "attack",
+                "value": -1
+            }
+        ],
         "traits": {
             "rarity": "common",
             "value": [

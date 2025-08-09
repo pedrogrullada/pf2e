@@ -11,24 +11,72 @@
         },
         "category": "classfeature",
         "description": {
-            "value": "<h2 class=\"title\">Masterful Hunter Upgrade<span style=\"float: right;\">Level 17</span></h2>\n<p>Your weapon mastery allows you to hit your prey's vital areas multiple times.</p>\n<p>The second time in a round you hit your hunted prey, you also deal 1d8 precision damage.</p>\n<p>At 19th level, your second hit in a round against your hunted prey deals 2d8 precision damage, and your third hit in a round against your hunted prey deals 1d8 precision damage.</p>"
+            "value": "<p>Your weapon mastery allows you to hit your prey's vital areas multiple times. The second time in a round you hit your hunted prey, you also deal 1d8 precision damage.</p>\n<p>At 19th level, your second hit in a round against your hunted prey deals 2d8 precision damage, and your third hit in a round against your hunted prey deals 1d8 precision damage.</p>"
         },
         "level": {
             "value": 17
         },
         "prerequisites": {
-            "value": [
-                {
-                    "value": "Hunter's Edge: Precision"
-                }
-            ]
+            "value": []
         },
         "publication": {
             "license": "ORC",
             "remaster": true,
             "title": "Pathfinder Player Core"
         },
-        "rules": [],
+        "rules": [
+            {
+                "key": "RollOption",
+                "label": "PF2E.SpecificRule.Ranger.HuntersEdge.Precision.ToggleLabel",
+                "mergeable": true,
+                "option": "precision-hunters-edge",
+                "suboptions": [
+                    {
+                        "label": "PF2E.SpecificRule.Numbers.Ordinals.Second",
+                        "value": "second-hit"
+                    },
+                    {
+                        "label": "PF2E.SpecificRule.Numbers.Ordinals.Third",
+                        "predicate": [
+                            {
+                                "gte": [
+                                    "self:level",
+                                    19
+                                ]
+                            }
+                        ],
+                        "value": "third-hit"
+                    }
+                ],
+                "toggleable": true
+            },
+            {
+                "key": "DamageAlteration",
+                "mode": "override",
+                "predicate": [
+                    "precision-hunters-edge:second-hit"
+                ],
+                "property": "dice-number",
+                "selectors": [
+                    "strike-damage"
+                ],
+                "slug": "precision-hunters-edge",
+                "value": "ternary(gte(@actor.level,19),2,1)"
+            },
+            {
+                "key": "DamageAlteration",
+                "mode": "override",
+                "predicate": [
+                    "precision-hunters-edge:third-hit"
+                ],
+                "property": "dice-number",
+                "selectors": [
+                    "strike-damage"
+                ],
+                "slug": "precision-hunters-edge",
+                "value": 1
+            }
+        ],
         "traits": {
             "rarity": "common",
             "value": [

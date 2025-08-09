@@ -28,31 +28,12 @@
             {
                 "key": "RollOption",
                 "label": "PF2E.SpecificRule.Ranger.HuntersEdge.Precision.ToggleLabel",
+                "mergeable": true,
                 "option": "precision-hunters-edge",
                 "suboptions": [
                     {
                         "label": "PF2E.SpecificRule.Numbers.Ordinals.First",
                         "value": "first-hit"
-                    },
-                    {
-                        "label": "PF2E.SpecificRule.Numbers.Ordinals.Second",
-                        "predicate": [
-                            "feature:masterful-hunter"
-                        ],
-                        "value": "second-hit"
-                    },
-                    {
-                        "label": "PF2E.SpecificRule.Numbers.Ordinals.Third",
-                        "predicate": [
-                            "feature:masterful-hunter",
-                            {
-                                "gte": [
-                                    "self:level",
-                                    19
-                                ]
-                            }
-                        ],
-                        "value": "third-hit"
                     }
                 ],
                 "toggleable": true
