@@ -68,25 +68,18 @@
             {
                 "key": "FlatModifier",
                 "predicate": [
-                    "target:mark:hunted-prey"
-                ],
-                "selector": [
-                    "deception",
-                    "intimidation",
-                    "stealth"
-                ],
-                "slug": "outwit-skill",
-                "type": "circumstance",
-                "value": 4
-            },
-            {
-                "key": "FlatModifier",
-                "predicate": [
-                    "action:recall-knowledge",
+                    {
+                        "or": [
+                            "check:statistic:deception",
+                            "check:statistic:intimidation",
+                            "check:statistic:stealth",
+                            "action:recall-knowledge"
+                        ]
+                    },
                     "target:mark:hunted-prey"
                 ],
                 "selector": "skill-check",
-                "slug": "outwit-recall-knowledge",
+                "slug": "outwit-skill",
                 "type": "circumstance",
                 "value": 4
             }

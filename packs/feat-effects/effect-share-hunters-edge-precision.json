@@ -4,7 +4,7 @@
     "name": "Effect: Share Hunter's Edge (Precision)",
     "system": {
         "description": {
-            "value": "<p>Granted by @UUID[Compendium.pf2e.feats-srd.Item.Animal Companion (Ranger)], @UUID[Compendium.pf2e.feats-srd.Item.Warden's Boon]</p>\n<p>The first time you hit the marked creature in a round, you deal 1d8 additional precision damage. At 11th level, the extra damage increases to 2d8 precision damage, and at 19th level, the extra damage increases to 3d8 precision damage.</p>"
+            "value": "<p>Granted by @UUID[Compendium.pf2e.feats-srd.Item.Animal Companion (Ranger)], @UUID[Compendium.pf2e.feats-srd.Item.Shared Prey], @UUID[Compendium.pf2e.feats-srd.Item.Triple Threat], @UUID[Compendium.pf2e.feats-srd.Item.Warden's Boon]</p>\n<p>The first time you hit the marked creature in a round, you deal 1d8 additional precision damage. At 11th level, the extra damage increases to 2d8 precision damage, and at 19th level, the extra damage increases to 3d8 precision damage.</p>"
         },
         "duration": {
             "expiry": null,

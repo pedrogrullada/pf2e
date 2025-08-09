@@ -4567,9 +4567,9 @@
             "HuntPrey": {
                 "FirstHitDamage": "First Hit on Hunted Prey",
                 "FirstHitSwitch": "Hitting Hunted Prey for the First Time This Round",
-                "SeekHuntedPrey": "To Seek hunted prey",
+                "SeekHuntedPrey": "To Seek Hunted Prey",
                 "TargetHuntedPrey": "Target is your Hunted Prey",
-                "TrackHuntedPrey": "To Track hunted prey"
+                "TrackHuntedPrey": "To Track Hunted Prey"
             },
             "Ifrit": {
                 "Lavasoul": {
@@ -5540,7 +5540,7 @@
                 "HuntersEdge": {
                     "FirstAttack": "First attack on hunted prey this round",
                     "Precision": {
-                        "ToggleLabel": "Precision — Hit against hunted prey"
+                        "ToggleLabel": "Precision — Hit against Hunted Prey"
                     },
                     "Prompt": "Select a hunter's edge."
                 },

@@ -4,7 +4,7 @@
     "name": "Effect: Share Hunter's Edge (Outwit)",
     "system": {
         "description": {
-            "value": "<p>Granted by @UUID[Compendium.pf2e.feats-srd.Item.Animal Companion (Ranger)], @UUID[Compendium.pf2e.feats-srd.Item.Warden's Boon]</p>\n<p>You gain a +2 circumstance bonus to Deception checks, Intimidation checks, Stealth checks, and any checks to Recall Knowledge about the marked creature, and a +1 circumstance bonus to AC against the marked creature's attacks.</p>"
+            "value": "<p>Granted by @UUID[Compendium.pf2e.feats-srd.Item.Animal Companion (Ranger)], @UUID[Compendium.pf2e.feats-srd.Item.Shared Prey], @UUID[Compendium.pf2e.feats-srd.Item.Triple Threat], @UUID[Compendium.pf2e.feats-srd.Item.Warden's Boon]</p>\n<p>You gain a +2 circumstance bonus to Deception checks, Intimidation checks, Stealth checks, and any checks to Recall Knowledge about the marked creature, and a +1 circumstance bonus to AC against the marked creature's attacks.</p>"
         },
         "duration": {
             "expiry": null,
@@ -68,25 +68,18 @@
             {
                 "key": "FlatModifier",
                 "predicate": [
-                    "target:mark:hunted-prey"
-                ],
-                "selector": [
-                    "deception",
-                    "intimidation",
-                    "stealth"
-                ],
-                "slug": "outwit-skill",
-                "type": "circumstance",
-                "value": 2
-            },
-            {
-                "key": "FlatModifier",
-                "predicate": [
-                    "action:recall-knowledge",
+                    {
+                        "or": [
+                            "check:statistic:deception",
+                            "check:statistic:intimidation",
+                            "check:statistic:stealth",
+                            "action:recall-knowledge"
+                        ]
+                    },
                     "target:mark:hunted-prey"
                 ],
                 "selector": "skill-check",
-                "slug": "outwit-recall-knowledge",
+                "slug": "outwit-skill",
                 "type": "circumstance",
                 "value": 2
             }

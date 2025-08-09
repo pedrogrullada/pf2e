@@ -110,8 +110,8 @@
                     {
                         "predicate": [
                             {
-                                "nor": [
-                                    "item:slug:animal-companion",
+                                "nand": [
+                                    "item:slug:animal-companion-ranger",
                                     "feat:masterful-companion"
                                 ]
                             }
@@ -121,7 +121,7 @@
                     {
                         "predicate": [
                             "feat:masterful-companion",
-                            "item:slug:animal-companion"
+                            "item:slug:animal-companion-ranger"
                         ],
                         "text": "PF2E.SpecificRule.Ranger.MasterfulHunter.Precision",
                         "title": "PF2E.SpecificRule.Ranger.MasterfulHunter.Label"
@@ -129,7 +129,7 @@
                     {
                         "predicate": [
                             "feat:masterful-companion",
-                            "item:slug:animal-companion"
+                            "item:slug:animal-companion-ranger"
                         ],
                         "text": "@UUID[Compendium.pf2e.feat-effects.Item.Effect: Share Hunter's Edge (Precision, Masterful)]"
                     }
