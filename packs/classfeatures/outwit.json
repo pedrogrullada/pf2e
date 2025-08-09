@@ -139,6 +139,46 @@
                 "selector": "ac",
                 "slug": "outwit-ac",
                 "value": 2
+            },
+            {
+                "itemType": "feat",
+                "key": "ItemAlteration",
+                "mode": "add",
+                "predicate": [
+                    "item:tag:hunters-edge-sharing"
+                ],
+                "property": "description",
+                "value": [
+                    {
+                        "text": "{item|description}"
+                    },
+                    {
+                        "predicate": [
+                            {
+                                "nor": [
+                                    "item:slug:animal-companion",
+                                    "feat:masterful-companion"
+                                ]
+                            }
+                        ],
+                        "text": "@UUID[Compendium.pf2e.feat-effects.Item.Effect: Share Hunter's Edge (Outwit)]"
+                    },
+                    {
+                        "predicate": [
+                            "feat:masterful-companion",
+                            "item:slug:animal-companion"
+                        ],
+                        "text": "PF2E.SpecificRule.Ranger.MasterfulHunter.Outwit",
+                        "title": "PF2E.SpecificRule.Ranger.MasterfulHunter.Label"
+                    },
+                    {
+                        "predicate": [
+                            "feat:masterful-companion",
+                            "item:slug:animal-companion"
+                        ],
+                        "text": "@UUID[Compendium.pf2e.feat-effects.Item.Effect: Share Hunter's Edge (Outwit, Masterful)]"
+                    }
+                ]
             }
         ],
         "traits": {

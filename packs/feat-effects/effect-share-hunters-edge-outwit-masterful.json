@@ -1,10 +1,10 @@
 {
-    "_id": "ltIvO9ZQlmqGD89Y",
+    "_id": "iqvurepX0zyu9OlI",
     "img": "icons/creatures/invertebrates/spider-web-black.webp",
-    "name": "Effect: Hunter's Edge, Outwit",
+    "name": "Effect: Share Hunter's Edge (Outwit, Masterful)",
     "system": {
         "description": {
-            "value": "<p>Granted when a ranger shares their @UUID[Compendium.pf2e.classfeatures.Item.Outwit] edge with you.</p>\n<p>You gain a +2 circumstance bonus to Deception checks, Intimidation checks, Stealth checks, and any checks to Recall Knowledge about the prey, and a +1 circumstance bonus to AC against your prey's attacks.</p>"
+            "value": "<p>Granted by @UUID[Compendium.pf2e.feats-srd.Item.Animal Companion (Ranger)] with @UUID[Compendium.pf2e.feats-srd.Item.Masterful Companion]</p>\n<p>You gain a +4 circumstance bonus to Deception checks, Intimidation checks, Stealth checks, and any checks to Recall Knowledge about the marked creature, and a +2 circumstance bonus to AC against the marked creature's attacks.</p>"
         },
         "duration": {
             "expiry": null,
@@ -13,7 +13,7 @@
             "value": -1
         },
         "level": {
-            "value": 1
+            "value": 18
         },
         "publication": {
             "license": "ORC",
@@ -26,12 +26,6 @@
                 "slug": "hunted-prey"
             },
             {
-                "key": "RollOption",
-                "label": "PF2E.SpecificRule.HuntPrey.TargetHuntedPrey",
-                "option": "target:mark:hunted-prey",
-                "toggleable": true
-            },
-            {
                 "key": "FlatModifier",
                 "label": "PF2E.SpecificRule.HuntPrey.SeekHuntedPrey",
                 "predicate": [
@@ -40,7 +34,7 @@
                 ],
                 "selector": "perception",
                 "type": "circumstance",
-                "value": 2
+                "value": 4
             },
             {
                 "key": "FlatModifier",
@@ -51,11 +45,28 @@
                 ],
                 "selector": "survival",
                 "type": "circumstance",
+                "value": 4
+            },
+            {
+                "domain": "ranged-attack-roll",
+                "key": "RollOption",
+                "option": "ignore-range-penalty:3",
+                "predicate": [
+                    "target:mark:hunted-prey"
+                ]
+            },
+            {
+                "key": "FlatModifier",
+                "predicate": [
+                    "origin:mark:hunted-prey"
+                ],
+                "selector": "ac",
+                "slug": "outwit-ac",
+                "type": "circumstance",
                 "value": 2
             },
             {
                 "key": "FlatModifier",
-                "label": "Vs. hunted prey",
                 "predicate": [
                     "target:mark:hunted-prey"
                 ],
@@ -64,34 +75,25 @@
                     "intimidation",
                     "stealth"
                 ],
+                "slug": "outwit-skill",
                 "type": "circumstance",
-                "value": 2
+                "value": 4
             },
             {
                 "key": "FlatModifier",
-                "label": "Recall knowledge on hunted prey",
                 "predicate": [
                     "action:recall-knowledge",
                     "target:mark:hunted-prey"
                 ],
                 "selector": "skill-check",
+                "slug": "outwit-recall-knowledge",
                 "type": "circumstance",
-                "value": 2
-            },
-            {
-                "key": "FlatModifier",
-                "label": "Vs. attacks from hunted prey",
-                "predicate": [
-                    "target:mark:hunted-prey"
-                ],
-                "selector": "ac",
-                "type": "circumstance",
-                "value": 1
+                "value": 4
             }
         ],
         "start": {
             "initiative": null,
-            "value": 3648
+            "value": 0
         },
         "tokenIcon": {
             "show": true
