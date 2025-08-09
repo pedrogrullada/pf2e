@@ -28,25 +28,18 @@
             {
                 "key": "FlatModifier",
                 "predicate": [
-                    "target:mark:hunted-prey"
-                ],
-                "selector": [
-                    "deception",
-                    "intimidation",
-                    "stealth"
-                ],
-                "slug": "outwit-skill",
-                "type": "circumstance",
-                "value": 2
-            },
-            {
-                "key": "FlatModifier",
-                "predicate": [
-                    "action:recall-knowledge",
+                    {
+                        "or": [
+                            "check:statistic:deception",
+                            "check:statistic:intimidation",
+                            "check:statistic:stealth",
+                            "action:recall-knowledge"
+                        ]
+                    },
                     "target:mark:hunted-prey"
                 ],
                 "selector": "skill-check",
-                "slug": "outwit-recall-knowledge",
+                "slug": "outwit-skill",
                 "type": "circumstance",
                 "value": 2
             },
@@ -65,21 +58,15 @@
                 "mode": "upgrade",
                 "predicate": [
                     "feature:masterful-hunter",
-                    "proficiency:master"
+                    {
+                        "or": [
+                            "proficiency:master",
+                            "proficiency:legendary"
+                        ]
+                    }
                 ],
                 "selector": "skill-check",
                 "slug": "outwit-skill",
-                "value": 4
-            },
-            {
-                "key": "AdjustModifier",
-                "mode": "upgrade",
-                "predicate": [
-                    "feature:masterful-hunter",
-                    "proficiency:master"
-                ],
-                "selector": "skill-check",
-                "slug": "outwit-recall-knowledge",
                 "value": 4
             },
             {
@@ -155,8 +142,8 @@
                     {
                         "predicate": [
                             {
-                                "nor": [
-                                    "item:slug:animal-companion",
+                                "nand": [
+                                    "item:slug:animal-companion-ranger",
                                     "feat:masterful-companion"
                                 ]
                             }
@@ -166,7 +153,7 @@
                     {
                         "predicate": [
                             "feat:masterful-companion",
-                            "item:slug:animal-companion"
+                            "item:slug:animal-companion-ranger"
                         ],
                         "text": "PF2E.SpecificRule.Ranger.MasterfulHunter.Outwit",
                         "title": "PF2E.SpecificRule.Ranger.MasterfulHunter.Label"
@@ -174,7 +161,7 @@
                     {
                         "predicate": [
                             "feat:masterful-companion",
-                            "item:slug:animal-companion"
+                            "item:slug:animal-companion-ranger"
                         ],
                         "text": "@UUID[Compendium.pf2e.feat-effects.Item.Effect: Share Hunter's Edge (Outwit, Masterful)]"
                     }
