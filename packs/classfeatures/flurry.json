@@ -46,40 +46,6 @@
                 "value": -3
             },
             {
-                "key": "MultipleAttackPenalty",
-                "predicate": [
-                    "feature:masterful-hunter",
-                    "target:mark:hunted-prey",
-                    {
-                        "gte": [
-                            "item:proficiency:rank",
-                            3
-                        ]
-                    },
-                    {
-                        "not": "item:trait:agile"
-                    }
-                ],
-                "selector": "attack",
-                "value": -2
-            },
-            {
-                "key": "MultipleAttackPenalty",
-                "predicate": [
-                    "feature:masterful-hunter",
-                    "item:trait:agile",
-                    "target:mark:hunted-prey",
-                    {
-                        "gte": [
-                            "item:proficiency:rank",
-                            3
-                        ]
-                    }
-                ],
-                "selector": "attack",
-                "value": -1
-            },
-            {
                 "itemType": "feat",
                 "key": "ItemAlteration",
                 "mode": "add",
