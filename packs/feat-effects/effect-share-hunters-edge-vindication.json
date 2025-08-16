@@ -23,10 +23,44 @@
         },
         "rules": [
             {
+                "key": "TokenMark",
+                "slug": "share-hunters-edge"
+            },
+            {
+                "key": "FlatModifier",
+                "label": "PF2E.SpecificRule.HuntPrey.SeekHuntedPrey",
+                "predicate": [
+                    "action:seek",
+                    "target:mark:share-hunters-edge"
+                ],
+                "selector": "perception",
+                "type": "circumstance",
+                "value": 2
+            },
+            {
+                "key": "FlatModifier",
+                "label": "PF2E.SpecificRule.HuntPrey.TrackHuntedPrey",
+                "predicate": [
+                    "action:track",
+                    "target:mark:share-hunters-edge"
+                ],
+                "selector": "survival",
+                "type": "circumstance",
+                "value": 2
+            },
+            {
+                "domain": "ranged-attack-roll",
+                "key": "RollOption",
+                "option": "ignore-range-penalty:2",
+                "predicate": [
+                    "target:mark:share-hunters-edge"
+                ]
+            },
+            {
                 "key": "FlatModifier",
                 "label": "PF2E.SpecificRule.Ranger.Vindicator.Edge",
                 "predicate": [
-                    "target:mark:hunted-prey",
+                    "target:mark:share-hunters-edge",
                     "spellcasting:tradition:divine"
                 ],
                 "selector": "spell-attack",

@@ -39,7 +39,6 @@
                     "target:mark:hunted-prey"
                 ],
                 "selector": "skill-check",
-                "slug": "outwit-skill",
                 "type": "circumstance",
                 "value": 2
             },
@@ -49,7 +48,6 @@
                     "origin:mark:hunted-prey"
                 ],
                 "selector": "ac",
-                "slug": "outwit-ac",
                 "type": "circumstance",
                 "value": 1
             },

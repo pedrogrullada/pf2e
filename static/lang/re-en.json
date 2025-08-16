@@ -5565,7 +5565,14 @@
                 },
                 "HuntersEdge": {
                     "FirstAttack": "First attack on hunted prey this round",
+                    "Flurry": {
+                        "Label": "Flurry"
+                    },
+                    "Outwit": {
+                        "Label": "Outwit"
+                    },
                     "Precision": {
+                        "Label": "Precision",
                         "ToggleLabel": "Precision — Hit against Hunted Prey"
                     },
                     "Prompt": "Select a hunter's edge."

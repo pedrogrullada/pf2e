@@ -23,14 +23,14 @@
         "rules": [
             {
                 "key": "TokenMark",
-                "slug": "hunted-prey"
+                "slug": "share-hunters-edge"
             },
             {
                 "key": "FlatModifier",
                 "label": "PF2E.SpecificRule.HuntPrey.SeekHuntedPrey",
                 "predicate": [
                     "action:seek",
-                    "target:mark:hunted-prey"
+                    "target:mark:share-hunters-edge"
                 ],
                 "selector": "perception",
                 "type": "circumstance",
@@ -41,7 +41,7 @@
                 "label": "PF2E.SpecificRule.HuntPrey.TrackHuntedPrey",
                 "predicate": [
                     "action:track",
-                    "target:mark:hunted-prey"
+                    "target:mark:share-hunters-edge"
                 ],
                 "selector": "survival",
                 "type": "circumstance",
@@ -52,7 +52,7 @@
                 "key": "RollOption",
                 "option": "ignore-range-penalty:2",
                 "predicate": [
-                    "target:mark:hunted-prey"
+                    "target:mark:share-hunters-edge"
                 ]
             },
             {
@@ -94,10 +94,10 @@
                 "key": "DamageDice",
                 "predicate": [
                     "precision-hunters-edge",
-                    "target:mark:hunted-prey"
+                    "target:mark:share-hunters-edge"
                 ],
                 "selector": "strike-damage",
-                "slug": "precision-hunters-edge"
+                "slug": "precision"
             },
             {
                 "key": "DamageAlteration",
@@ -109,7 +109,7 @@
                 "selectors": [
                     "strike-damage"
                 ],
-                "slug": "precision-hunters-edge",
+                "slug": "precision",
                 "value": "ternary(gte(@actor.level,19),2,1)"
             },
             {
@@ -122,7 +122,7 @@
                 "selectors": [
                     "strike-damage"
                 ],
-                "slug": "precision-hunters-edge",
+                "slug": "precision",
                 "value": 1
             }
         ],

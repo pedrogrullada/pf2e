@@ -23,14 +23,14 @@
         "rules": [
             {
                 "key": "TokenMark",
-                "slug": "hunted-prey"
+                "slug": "share-hunters-edge"
             },
             {
                 "key": "FlatModifier",
                 "label": "PF2E.SpecificRule.HuntPrey.SeekHuntedPrey",
                 "predicate": [
                     "action:seek",
-                    "target:mark:hunted-prey"
+                    "target:mark:share-hunters-edge"
                 ],
                 "selector": "perception",
                 "type": "circumstance",
@@ -41,7 +41,7 @@
                 "label": "PF2E.SpecificRule.HuntPrey.TrackHuntedPrey",
                 "predicate": [
                     "action:track",
-                    "target:mark:hunted-prey"
+                    "target:mark:share-hunters-edge"
                 ],
                 "selector": "survival",
                 "type": "circumstance",
@@ -52,21 +52,22 @@
                 "key": "RollOption",
                 "option": "ignore-range-penalty:3",
                 "predicate": [
-                    "target:mark:hunted-prey"
+                    "target:mark:share-hunters-edge"
                 ]
             },
             {
                 "key": "FlatModifier",
+                "label": "PF2E.SpecificRule.Ranger.HuntersEdge.Outwit.Label",
                 "predicate": [
-                    "origin:mark:hunted-prey"
+                    "origin:mark:share-hunters-edge"
                 ],
                 "selector": "ac",
-                "slug": "outwit-ac",
                 "type": "circumstance",
                 "value": 2
             },
             {
                 "key": "FlatModifier",
+                "label": "PF2E.SpecificRule.Ranger.HuntersEdge.Outwit.Label",
                 "predicate": [
                     {
                         "or": [
@@ -76,10 +77,9 @@
                             "action:recall-knowledge"
                         ]
                     },
-                    "target:mark:hunted-prey"
+                    "target:mark:share-hunters-edge"
                 ],
                 "selector": "skill-check",
-                "slug": "outwit-skill",
                 "type": "circumstance",
                 "value": 4
             }
