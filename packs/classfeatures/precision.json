@@ -26,6 +26,12 @@
         },
         "rules": [
             {
+                "disabledIf": [
+                    {
+                        "not": "self:effect:hunt-prey"
+                    }
+                ],
+                "disabledValue": false,
                 "key": "RollOption",
                 "label": "PF2E.SpecificRule.Ranger.HuntersEdge.Precision.ToggleLabel",
                 "mergeable": true,
