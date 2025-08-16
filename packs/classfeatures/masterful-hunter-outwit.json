@@ -37,7 +37,7 @@
                     }
                 ],
                 "selector": "skill-check",
-                "slug": "outwit-skill",
+                "slug": "outwit",
                 "value": 4
             },
             {
@@ -94,7 +94,7 @@
                     }
                 ],
                 "selector": "ac",
-                "slug": "outwit-ac",
+                "slug": "outwit",
                 "value": 2
             }
         ],

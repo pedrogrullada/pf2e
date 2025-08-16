@@ -60,7 +60,7 @@
                 "selectors": [
                     "strike-damage"
                 ],
-                "slug": "precision-hunters-edge",
+                "slug": "precision",
                 "value": "ternary(gte(@actor.level,19),2,1)"
             },
             {
@@ -73,7 +73,7 @@
                 "selectors": [
                     "strike-damage"
                 ],
-                "slug": "precision-hunters-edge",
+                "slug": "precision",
                 "value": 1
             }
         ],
