@@ -63,7 +63,7 @@
                 ],
                 "selector": "ac",
                 "type": "circumstance",
-                "value": 2
+                "value": 1
             },
             {
                 "key": "FlatModifier",
@@ -81,7 +81,79 @@
                 ],
                 "selector": "skill-check",
                 "type": "circumstance",
+                "value": 2
+            },
+            {
+                "key": "AdjustModifier",
+                "mode": "upgrade",
+                "predicate": [
+                    {
+                        "or": [
+                            "proficiency:master",
+                            "proficiency:legendary"
+                        ]
+                    }
+                ],
+                "selector": "skill-check",
+                "slug": "outwit",
                 "value": 4
+            },
+            {
+                "key": "AdjustModifier",
+                "mode": "upgrade",
+                "predicate": [
+                    {
+                        "or": [
+                            {
+                                "and": [
+                                    "armor:category:light",
+                                    {
+                                        "gte": [
+                                            "defense:light:rank",
+                                            3
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "and": [
+                                    "armor:category:medium",
+                                    {
+                                        "gte": [
+                                            "defense:medium:rank",
+                                            3
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "and": [
+                                    "armor:category:heavy",
+                                    {
+                                        "gte": [
+                                            "defense:heavy:rank",
+                                            3
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "and": [
+                                    "armor:category:unarmored",
+                                    {
+                                        "gte": [
+                                            "defense:unarmored:rank",
+                                            3
+                                        ]
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ],
+                "selector": "ac",
+                "slug": "outwit",
+                "value": 2
             }
         ],
         "start": {
