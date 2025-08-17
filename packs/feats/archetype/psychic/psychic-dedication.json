@@ -57,10 +57,6 @@
                 "prompt": "PF2E.SpecificRule.Prompt.ConsciousMind"
             },
             {
-                "key": "GrantItem",
-                "uuid": "Compendium.pf2e.classfeatures.Item.Conscious Mind"
-            },
-            {
                 "key": "RollOption",
                 "label": "PF2E.SpecificRule.Psychic.Amp.Toggle",
                 "option": "amp-spell",
