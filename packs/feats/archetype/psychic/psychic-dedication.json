@@ -57,6 +57,10 @@
                 "prompt": "PF2E.SpecificRule.Prompt.ConsciousMind"
             },
             {
+                "key": "GrantItem",
+                "uuid": "{item|flags.pf2e.rulesSelections.consciousMind}"
+            },
+            {
                 "key": "RollOption",
                 "label": "PF2E.SpecificRule.Psychic.Amp.Toggle",
                 "option": "amp-spell",
