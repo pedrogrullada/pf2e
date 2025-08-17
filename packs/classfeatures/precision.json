@@ -54,33 +54,7 @@
                     "target:mark:hunted-prey"
                 ],
                 "selector": "strike-damage",
-                "slug": "precision-hunters-edge"
-            },
-            {
-                "key": "DamageAlteration",
-                "mode": "override",
-                "predicate": [
-                    "precision-hunters-edge:second-hit"
-                ],
-                "property": "dice-number",
-                "selectors": [
-                    "strike-damage"
-                ],
-                "slug": "precision-hunters-edge",
-                "value": "ternary(gte(@actor.level,19),2,1)"
-            },
-            {
-                "key": "DamageAlteration",
-                "mode": "override",
-                "predicate": [
-                    "precision-hunters-edge:third-hit"
-                ],
-                "property": "dice-number",
-                "selectors": [
-                    "strike-damage"
-                ],
-                "slug": "precision-hunters-edge",
-                "value": 1
+                "slug": "precision"
             },
             {
                 "itemType": "feat",
