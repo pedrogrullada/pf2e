@@ -1,0 +1,48 @@
+{
+    "_id": "k2QKBuMYcARcUvER",
+    "img": "icons/commodities/treasure/doll-voodoo.webp",
+    "name": "Effect: Personal Antithesis Weakness",
+    "system": {
+        "description": {
+            "value": "<p>Granted by @UUID[Compendium.pf2e.actionspf2e.Item.Exploit Vulnerability] via Ephemeral Effect</p>\n<p>You gain a weakness against the origin's Strikes equal to 2 + half the origin's level.</p>"
+        },
+        "duration": {
+            "expiry": null,
+            "sustained": false,
+            "unit": "unlimited",
+            "value": -1
+        },
+        "fromSpell": false,
+        "level": {
+            "value": 1
+        },
+        "publication": {
+            "license": "OGL",
+            "remaster": false,
+            "title": "Pathfinder Dark Archive"
+        },
+        "rules": [
+            {
+                "applyOnce": true,
+                "definition": [
+                    "action:strike"
+                ],
+                "key": "Weakness",
+                "label": "PF2E.SpecificRule.Thaumaturge.ExploitVulnerability.PersonalAntithesis.Label",
+                "type": "custom",
+                "value": "2 + floor(@item.origin.level / 2)"
+            }
+        ],
+        "start": {
+            "initiative": null,
+            "value": 0
+        },
+        "tokenIcon": {
+            "show": true
+        },
+        "traits": {
+            "value": []
+        }
+    },
+    "type": "effect"
+}

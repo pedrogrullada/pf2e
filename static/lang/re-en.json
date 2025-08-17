@@ -6514,6 +6514,14 @@
                 "Underbrush": "Underbrush"
             },
             "Thaumaturge": {
+                "ExploitVulnerability": {
+                    "PersonalAntithesis": {
+                        "Label": "Personal Antithesis"
+                    }
+                },
+                "GlimpseVulnerability": {
+                    "Label": "Glimpse Vulnerability"
+                },
                 "Implement": {
                     "Adept": {
                         "Label": "Implement Adept"
