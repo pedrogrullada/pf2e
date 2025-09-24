@@ -5,6 +5,7 @@
     "system": {
         "badge": {
             "max": 3,
+            "min": null,
             "type": "counter",
             "value": 1
         },
@@ -27,30 +28,29 @@
         },
         "rules": [
             {
-                "choices": [
-                    {
-                        "label": "PF2E.SpecificRule.Cleric.BattleHarbinger.BattleAuras.Bane",
-                        "value": "bane"
-                    },
-                    {
-                        "label": "PF2E.SpecificRule.Cleric.BattleHarbinger.BattleAuras.Benediction",
-                        "predicate": [
-                            "parent:origin:item:tag:aura-enhancement"
-                        ],
-                        "value": "benediction"
-                    },
-                    {
-                        "label": "PF2E.SpecificRule.Cleric.BattleHarbinger.BattleAuras.Bless",
-                        "value": "bless"
-                    },
-                    {
-                        "label": "PF2E.SpecificRule.Cleric.BattleHarbinger.BattleAuras.Malediction",
-                        "predicate": [
-                            "parent:origin:item:tag:aura-enhancement"
-                        ],
-                        "value": "malediction"
-                    }
-                ],
+                "choices": {
+                    "filter": [
+                        {
+                            "or": [
+                                "item:slug:bane",
+                                "item:slug:bless",
+                                {
+                                    "and": [
+                                        {
+                                            "or": [
+                                                "item:slug:benediction",
+                                                "item:slug:malediction"
+                                            ]
+                                        },
+                                        "parent:origin:item:tag:aura-enhancement"
+                                    ]
+                                }
+                            ]
+                        }
+                    ],
+                    "itemType": "spell",
+                    "slugsAsValues": true
+                },
                 "flag": "spell",
                 "key": "ChoiceSet",
                 "prompt": "PF2E.SpecificRule.Prompt.Spell"
