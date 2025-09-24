@@ -30,7 +30,23 @@
             "remaster": false,
             "title": "Pathfinder Dark Archive"
         },
-        "rules": [],
+        "rules": [
+            {
+                "itemId": "{item|id}",
+                "key": "ItemAlteration",
+                "label": "PF2E.TraitMindshift",
+                "mode": "add",
+                "predicate": [
+                    "item:tag:mindshifted"
+                ],
+                "property": "description",
+                "value": [
+                    {
+                        "text": "PF2E.SpecificRule.Psychic.Mindshift.Addendum"
+                    }
+                ]
+            }
+        ],
         "traits": {
             "rarity": "common",
             "value": [
