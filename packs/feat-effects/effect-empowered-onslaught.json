@@ -54,7 +54,7 @@
                 "flag": "spell",
                 "key": "ChoiceSet",
                 "prompt": "PF2E.SpecificRule.Prompt.Spell",
-                "rollOption": "empowered-enhancement"
+                "rollOption": "empowered-onslaught"
             },
             {
                 "key": "AdjustModifier",
@@ -63,8 +63,8 @@
                     "bonus:slug:{item|flags.pf2e.rulesSelections.spell}",
                     {
                         "or": [
-                            "empowered-enhancement:benediction",
-                            "empowered-enhancement:bless"
+                            "empowered-onslaught:benediction",
+                            "empowered-onslaught:bless"
                         ]
                     }
                 ],
@@ -81,8 +81,8 @@
                     "penalty:slug:{item|flags.pf2e.rulesSelections.spell}",
                     {
                         "or": [
-                            "empowered-enhancement:bane",
-                            "empowered-enhancement:malediction"
+                            "empowered-onslaught:bane",
+                            "empowered-onslaught:malediction"
                         ]
                     }
                 ],
