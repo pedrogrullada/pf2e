@@ -53,13 +53,20 @@
                 },
                 "flag": "spell",
                 "key": "ChoiceSet",
-                "prompt": "PF2E.SpecificRule.Prompt.Spell"
+                "prompt": "PF2E.SpecificRule.Prompt.Spell",
+                "rollOption": "empowered-enhancement"
             },
             {
                 "key": "AdjustModifier",
                 "mode": "add",
                 "predicate": [
-                    "bonus:slug:{item|flags.pf2e.rulesSelections.spell}"
+                    "bonus:slug:{item|flags.pf2e.rulesSelections.spell}",
+                    {
+                        "or": [
+                            "empowered-enhancement:benediction",
+                            "empowered-enhancement:bless"
+                        ]
+                    }
                 ],
                 "selectors": [
                     "attack-roll",
@@ -71,7 +78,13 @@
                 "key": "AdjustModifier",
                 "mode": "remove",
                 "predicate": [
-                    "penalty:slug:{item|flags.pf2e.rulesSelections.spell}"
+                    "penalty:slug:{item|flags.pf2e.rulesSelections.spell}",
+                    {
+                        "or": [
+                            "empowered-enhancement:bane",
+                            "empowered-enhancement:malediction"
+                        ]
+                    }
                 ],
                 "selectors": [
                     "attack-roll",
