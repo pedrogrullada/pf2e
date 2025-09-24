@@ -1,7 +1,7 @@
 {
     "_id": "XlmoKh60WMF9ou3J",
     "img": "systems/pf2e/icons/equipment/worn-items/other-worn-items/secret-keepers-mask.webp",
-    "name": "Signifier's Mask",
+    "name": "Signifer's Mask",
     "system": {
         "baseItem": null,
         "bulk": {
@@ -33,6 +33,10 @@
         },
         "quantity": 1,
         "rules": [
+            {
+                "key": "RollOption",
+                "option": "signifers-mask"
+            },
             {
                 "key": "FlatModifier",
                 "predicate": [
