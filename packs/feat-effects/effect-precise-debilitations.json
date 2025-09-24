@@ -37,8 +37,7 @@
                         "not": "parent:tag:precise-debilitations-dice-added"
                     }
                 ],
-                "selector": "strike-damage",
-                "slug": "precise-debilitations"
+                "selector": "strike-damage"
             }
         ],
         "start": {

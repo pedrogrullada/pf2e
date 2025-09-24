@@ -41,8 +41,7 @@
                 "predicate": [
                     "target:mark:precise-debilitations"
                 ],
-                "selector": "strike-damage",
-                "slug": "precise-debilitations"
+                "selector": "strike-damage"
             },
             {
                 "itemType": "effect",
