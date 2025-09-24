@@ -29,48 +29,37 @@
             {
                 "choices": [
                     {
-                        "value": "Compendium.pf2e.spells-srd.Item.Bane"
+                        "label": "PF2E.SpecificRule.Cleric.BattleHarbinger.BattleAuras.Bane",
+                        "value": "bane"
                     },
                     {
+                        "label": "PF2E.SpecificRule.Cleric.BattleHarbinger.BattleAuras.Benediction",
                         "predicate": [
                             "parent:origin:item:tag:aura-enhancement"
                         ],
-                        "value": "Compendium.pf2e.spells-srd.Item.Benediction"
+                        "value": "benediction"
                     },
                     {
-                        "value": "Compendium.pf2e.spells-srd.Item.Bless"
+                        "label": "PF2E.SpecificRule.Cleric.BattleHarbinger.BattleAuras.Bless",
+                        "value": "bless"
                     },
                     {
+                        "label": "PF2E.SpecificRule.Cleric.BattleHarbinger.BattleAuras.Malediction",
                         "predicate": [
                             "parent:origin:item:tag:aura-enhancement"
                         ],
-                        "value": "Compendium.pf2e.spells-srd.Item.Malediction"
+                        "value": "malediction"
                     }
                 ],
+                "flag": "spell",
                 "key": "ChoiceSet",
-                "prompt": "PF2E.SpecificRule.Prompt.Spell",
-                "rollOption": "empowered-onslaught"
+                "prompt": "PF2E.SpecificRule.Prompt.Spell"
             },
             {
                 "key": "AdjustModifier",
                 "mode": "add",
                 "predicate": [
-                    {
-                        "or": [
-                            {
-                                "and": [
-                                    "bonus:slug:bless",
-                                    "empowered-onslaught:bless"
-                                ]
-                            },
-                            {
-                                "and": [
-                                    "bonus:slug:benediction",
-                                    "empowered-onslaught:benediction"
-                                ]
-                            }
-                        ]
-                    }
+                    "bonus:slug:{item|flags.pf2e.rulesSelections.spell}"
                 ],
                 "selectors": [
                     "attack-roll",
@@ -82,22 +71,7 @@
                 "key": "AdjustModifier",
                 "mode": "remove",
                 "predicate": [
-                    {
-                        "or": [
-                            {
-                                "and": [
-                                    "penalty:slug:bane",
-                                    "empowered-onslaught:bane"
-                                ]
-                            },
-                            {
-                                "and": [
-                                    "penalty:slug:malediction",
-                                    "empowered-onslaught:malediction"
-                                ]
-                            }
-                        ]
-                    }
+                    "penalty:slug:{item|flags.pf2e.rulesSelections.spell}"
                 ],
                 "selectors": [
                     "attack-roll",
