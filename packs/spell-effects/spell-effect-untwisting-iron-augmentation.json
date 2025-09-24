@@ -22,17 +22,21 @@
         },
         "rules": [
             {
+                "definition": [
+                    "item:category:unarmed"
+                ],
                 "key": "AdjustStrike",
                 "mode": "add",
                 "property": "materials",
-                "selector": "unarmed-damage",
                 "value": "cold-iron"
             },
             {
+                "definition": [
+                    "item:category:unarmed"
+                ],
                 "key": "AdjustStrike",
                 "mode": "add",
                 "property": "materials",
-                "selector": "unarmed-damage",
                 "value": "silver"
             },
             {
@@ -55,6 +59,9 @@
                 "value": "@weapon.system.damage.dice"
             },
             {
+                "definition": [
+                    "item:category:unarmed"
+                ],
                 "key": "AdjustStrike",
                 "mode": "add",
                 "predicate": [
@@ -66,7 +73,6 @@
                     }
                 ],
                 "property": "materials",
-                "selector": "unarmed-damage",
                 "value": "adamantine"
             }
         ],
