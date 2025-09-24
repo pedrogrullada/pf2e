@@ -45,6 +45,9 @@
                 "itemType": "weapon",
                 "key": "ItemAlteration",
                 "mode": "add",
+                "predicate": [
+                    "item:category:unarmed"
+                ],
                 "property": "traits",
                 "value": "earth"
             },
@@ -66,7 +69,7 @@
                 "predicate": [
                     {
                         "gte": [
-                            "{item|level}",
+                            "parent:level",
                             9
                         ]
                     }
