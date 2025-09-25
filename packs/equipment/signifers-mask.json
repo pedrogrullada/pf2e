@@ -34,10 +34,6 @@
         "quantity": 1,
         "rules": [
             {
-                "key": "RollOption",
-                "option": "signifers-mask"
-            },
-            {
                 "key": "FlatModifier",
                 "predicate": [
                     {
@@ -56,6 +52,13 @@
                 "selector": "intimidation",
                 "type": "circumstance",
                 "value": 1
+            },
+            {
+                "key": "Sense",
+                "predicate": [
+                    "feat:signifers-sight"
+                ],
+                "selector": "darkvision"
             }
         ],
         "size": "med",

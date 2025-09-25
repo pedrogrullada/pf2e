@@ -29,15 +29,7 @@
             "remaster": false,
             "title": "Pathfinder Lost Omens Character Guide"
         },
-        "rules": [
-            {
-                "key": "Sense",
-                "predicate": [
-                    "signifers-mask"
-                ],
-                "selector": "darkvision"
-            }
-        ],
+        "rules": [],
         "traits": {
             "rarity": "common",
             "value": [
