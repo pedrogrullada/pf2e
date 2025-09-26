@@ -33,13 +33,21 @@
             {
                 "key": "FlatModifier",
                 "predicate": [
-                    "action:identify-magic",
+                    "item:magical",
                     {
                         "or": [
-                            "mental",
-                            "possession",
-                            "prediction",
-                            "scrying"
+                            "action:identify-magic",
+                            "action:recall-knowledge"
+                        ]
+                    },
+                    {
+                        "or": [
+                            "item:trait:detection",
+                            "item:trait:fortune",
+                            "item:trait:mental",
+                            "item:trait:misfortune",
+                            "item:trait:prediction",
+                            "item:trait:scrying"
                         ]
                     }
                 ],
