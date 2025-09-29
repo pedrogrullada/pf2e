@@ -35,7 +35,11 @@
                 "predicate": [
                     "feat:bardic-lore"
                 ],
-                "selector": "bardic-lore",
+                "selector": [
+                    "bardic",
+                    "bardic-lore",
+                    "lore-bardic"
+                ],
                 "type": "circumstance",
                 "value": 1
             }
