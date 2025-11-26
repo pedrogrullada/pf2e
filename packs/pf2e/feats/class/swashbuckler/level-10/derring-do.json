@@ -31,7 +31,7 @@
                 "key": "RollTwice",
                 "predicate": [
                     "self:effect:panache",
-                    "item:trait:bravado"
+                    "self:action:trait:bravado"
                 ],
                 "selector": "skill-check"
             }
