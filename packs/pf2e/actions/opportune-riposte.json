@@ -26,17 +26,24 @@
             },
             {
                 "key": "RollOption",
-                "option": "item:trait:bravado",
+                "option": "self:action:trait:bravado",
                 "predicate": [
                     "opportune-riposte",
-                    {
-                        "or": [
-                            "action:strike",
-                            "action:disarm"
-                        ]
-                    }
+                    "action:disarm"
                 ],
                 "priority": 51
+            },
+            {
+                "definition": [
+                    "item:melee"
+                ],
+                "key": "AdjustStrike",
+                "mode": "add",
+                "predicate": [
+                    "opportune-riposte"
+                ],
+                "property": "traits",
+                "value": "bravado"
             }
         ],
         "traits": {

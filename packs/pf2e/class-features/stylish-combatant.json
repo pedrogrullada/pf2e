@@ -28,7 +28,7 @@
             {
                 "key": "FlatModifier",
                 "predicate": [
-                    "item:trait:bravado",
+                    "self:action:trait:bravado",
                     {
                         "or": [
                             "encounter",
