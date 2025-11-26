@@ -32,9 +32,14 @@
                     "criticalSuccess"
                 ],
                 "predicate": [
-                    "item:trait:bravado",
+                    "self:action:trait:bravado",
                     {
-                        "not": "self:effect:panache"
+                        "or": [
+                            {
+                                "not": "self:effect:panache"
+                            },
+                            "finisher:illimitable"
+                        ]
                     }
                 ],
                 "selector": [
@@ -50,9 +55,14 @@
                     "failure"
                 ],
                 "predicate": [
-                    "item:trait:bravado",
+                    "self:action:trait:bravado",
                     {
-                        "not": "self:effect:panache"
+                        "or": [
+                            {
+                                "not": "self:effect:panache"
+                            },
+                            "finisher:illimitable"
+                        ]
                     }
                 ],
                 "selector": [
@@ -63,8 +73,18 @@
                 "title": "PF2E.Check.Result.Degree.Check.failure"
             },
             {
+                "itemType": "action",
+                "key": "ItemAlteration",
+                "mode": "add",
+                "predicate": [
+                    "item:slug:tumble-through"
+                ],
+                "property": "traits",
+                "value": "bravado"
+            },
+            {
                 "key": "RollOption",
-                "option": "item:trait:bravado",
+                "option": "self:action:trait:bravado",
                 "predicate": [
                     "action:tumble-through"
                 ],
