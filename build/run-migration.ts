@@ -31,6 +31,7 @@ import { Migration950AmmoConsumableToAmmoAmmo } from "@module/migration/migratio
 import { Migration951TreasureCategories } from "@module/migration/migrations/951-treasure-categories.ts";
 import { Migration952AmmoTraitsAndOptions } from "@module/migration/migrations/952-ammo-traits-options.ts";
 import { Migration953NotStrikeDamage } from "@module/migration/migrations/953-not-strike-damage.ts";
+import { Migration955BravadoRollOptions } from "@module/migration/migrations/955-bravado-roll-options.ts";
 
 const migrations: MigrationBase[] = [
     new Migration937RemoveInvalidAuraTraits(),
@@ -47,6 +48,7 @@ const migrations: MigrationBase[] = [
     new Migration951TreasureCategories(),
     new Migration952AmmoTraitsAndOptions(),
     new Migration953NotStrikeDamage(),
+    new Migration955BravadoRollOptions(),
 ];
 
 type CompendiumSource = CompendiumDocument["_source"];
