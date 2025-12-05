@@ -36,10 +36,82 @@
                         }
                     },
                     {
+                        "label": "PF2E.Dragon.Barrage",
+                        "value": {
+                            "damageType": "force",
+                            "dragonType": "barrage",
+                            "tradition": "arcane"
+                        }
+                    },
+                    {
+                        "label": "PF2E.Dragon.Bog",
+                        "value": {
+                            "damageType": "acid",
+                            "dragonType": "bog",
+                            "tradition": "primal"
+                        }
+                    },
+                    {
+                        "label": "PF2E.Dragon.Brine",
+                        "value": {
+                            "damageType": "bludgeoning",
+                            "dragonType": "brine",
+                            "tradition": "primal"
+                        }
+                    },
+                    {
+                        "label": "PF2E.Dragon.Cinder",
+                        "value": {
+                            "damageType": "fire",
+                            "dragonType": "cinder",
+                            "tradition": "arcane"
+                        }
+                    },
+                    {
+                        "label": "PF2E.Dragon.Cloud",
+                        "value": {
+                            "damageType": "electricity",
+                            "dragonType": "cloud",
+                            "tradition": "primal"
+                        }
+                    },
+                    {
+                        "label": "PF2E.Dragon.Crystal",
+                        "value": {
+                            "damageType": "piercing",
+                            "dragonType": "crystal",
+                            "tradition": "primal"
+                        }
+                    },
+                    {
                         "label": "PF2E.Dragon.Conspirator",
                         "value": {
                             "damageType": "poison",
                             "dragonType": "conspirator",
+                            "tradition": "occult"
+                        }
+                    },
+                    {
+                        "label": "PF2E.Dragon.Coral",
+                        "value": {
+                            "damageType": "bludgeoning",
+                            "dragonType": "coral",
+                            "tradition": "primal"
+                        }
+                    },
+                    {
+                        "label": "PF2E.Dragon.Delight",
+                        "value": {
+                            "damageType": "spirit",
+                            "dragonType": "delight",
+                            "tradition": "divine"
+                        }
+                    },
+                    {
+                        "label": "PF2E.Dragon.Despair",
+                        "value": {
+                            "damageType": "sonic",
+                            "dragonType": "despair",
                             "tradition": "occult"
                         }
                     },
@@ -60,6 +132,22 @@
                         }
                     },
                     {
+                        "label": "PF2E.Dragon.Executor",
+                        "value": {
+                            "damageType": "sonic",
+                            "dragonType": "executor",
+                            "tradition": "divine"
+                        }
+                    },
+                    {
+                        "label": "PF2E.Dragon.Forest",
+                        "value": {
+                            "damageType": "piercing",
+                            "dragonType": "forest",
+                            "tradition": "primal"
+                        }
+                    },
+                    {
                         "label": "PF2E.Dragon.Fortune",
                         "value": {
                             "damageType": "force",
@@ -76,11 +164,35 @@
                         }
                     },
                     {
+                        "label": "PF2E.Dragon.Magma",
+                        "value": {
+                            "damageType": "fire",
+                            "dragonType": "magma",
+                            "tradition": "primal"
+                        }
+                    },
+                    {
                         "label": "PF2E.Dragon.Mirage",
                         "value": {
                             "damageType": "mental",
                             "dragonType": "mirage",
                             "tradition": "arcane"
+                        }
+                    },
+                    {
+                        "label": "PF2E.Dragon.Mocking",
+                        "value": {
+                            "damageType": "bludgeoning",
+                            "dragonType": "mocking",
+                            "tradition": "occult"
+                        }
+                    },
+                    {
+                        "label": "PF2E.Dragon.Oath",
+                        "value": {
+                            "damageType": "spirit",
+                            "dragonType": "oath",
+                            "tradition": "divine"
                         }
                     },
                     {
@@ -92,11 +204,67 @@
                         }
                     },
                     {
-                        "label": "PF2E.Dragon.Forest",
+                        "label": "PF2E.Dragon.Phase",
                         "value": {
-                            "damageType": "piercing",
-                            "dragonType": "forest",
+                            "damageType": "force",
+                            "dragonType": "phase",
+                            "tradition": "arcane"
+                        }
+                    },
+                    {
+                        "label": "PF2E.Dragon.Requiem",
+                        "value": {
+                            "damageType": "spirit",
+                            "dragonType": "requiem",
+                            "tradition": "divine"
+                        }
+                    },
+                    {
+                        "label": "PF2E.Dragon.Resurrection",
+                        "value": {
+                            "damageType": "void",
+                            "dragonType": "resurrection",
+                            "tradition": "divine"
+                        }
+                    },
+                    {
+                        "label": "PF2E.Dragon.Rime",
+                        "value": {
+                            "damageType": "cold",
+                            "dragonType": "rime",
                             "tradition": "primal"
+                        }
+                    },
+                    {
+                        "label": "PF2E.Dragon.Rune",
+                        "value": {
+                            "damageType": "fire",
+                            "dragonType": "rune",
+                            "tradition": "arcane"
+                        }
+                    },
+                    {
+                        "label": "PF2E.Dragon.Sage",
+                        "value": {
+                            "damageType": "mental",
+                            "dragonType": "sage",
+                            "tradition": "occult"
+                        }
+                    },
+                    {
+                        "label": "PF2E.Dragon.Stormcrown",
+                        "value": {
+                            "damageType": "electricity",
+                            "dragonType": "stormcrown",
+                            "tradition": "primal"
+                        }
+                    },
+                    {
+                        "label": "PF2E.Dragon.Time",
+                        "value": {
+                            "damageType": "force",
+                            "dragonType": "time",
+                            "tradition": "arcane"
                         }
                     },
                     {
@@ -124,6 +292,14 @@
                         }
                     },
                     {
+                        "label": "PF2E.Dragon.Umbral",
+                        "value": {
+                            "damageType": "void",
+                            "dragonType": "umbral",
+                            "tradition": "occult"
+                        }
+                    },
+                    {
                         "label": "PF2E.Dragon.Underworld",
                         "value": {
                             "damageType": "fire",
@@ -132,43 +308,43 @@
                         }
                     },
                     {
-                        "label": "PF2E.Dragon.Brine",
-                        "value": {
-                            "damageType": "acid",
-                            "dragonType": "brine",
-                            "tradition": "primal"
-                        }
-                    },
-                    {
-                        "label": "PF2E.Dragon.Cloud",
-                        "value": {
-                            "damageType": "electricity",
-                            "dragonType": "cloud",
-                            "tradition": "primal"
-                        }
-                    },
-                    {
-                        "label": "PF2E.Dragon.Crystal",
+                        "label": "PF2E.Dragon.Vizier",
                         "value": {
                             "damageType": "fire",
-                            "dragonType": "crystal",
-                            "tradition": "primal"
+                            "dragonType": "vizier",
+                            "tradition": "occult"
                         }
                     },
                     {
-                        "label": "PF2E.Dragon.Magma",
-                        "value": {
-                            "damageType": "fire",
-                            "dragonType": "magma",
-                            "tradition": "primal"
-                        }
-                    },
-                    {
-                        "label": "PF2E.Dragon.Umbral",
+                        "label": "PF2E.Dragon.Vorpal",
                         "value": {
                             "damageType": "void",
-                            "dragonType": "umbral",
-                            "tradition": "primal"
+                            "dragonType": "vorpal",
+                            "tradition": "arcane"
+                        }
+                    },
+                    {
+                        "label": "PF2E.Dragon.Wailing",
+                        "value": {
+                            "damageType": "sonic",
+                            "dragonType": "wailing",
+                            "tradition": "arcane"
+                        }
+                    },
+                    {
+                        "label": "PF2E.Dragon.Whisper",
+                        "value": {
+                            "damageType": "mental",
+                            "dragonType": "whisper",
+                            "tradition": "occult"
+                        }
+                    },
+                    {
+                        "label": "PF2E.Dragon.Wish",
+                        "value": {
+                            "damageType": "mental",
+                            "dragonType": "wish",
+                            "tradition": "arcane"
                         }
                     },
                     {
