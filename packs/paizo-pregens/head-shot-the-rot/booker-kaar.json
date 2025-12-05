@@ -2045,7 +2045,7 @@
                 },
                 "category": "offensive",
                 "description": {
-                    "value": "<p><strong>Trigger</strong> You roll initiative.</p><hr /><p>You posture defensively with firearms or crossbows, acting like a walking tower. Interact to draw a firearm or crossbow. You then position that weapon defensively, as the parry trait, gaining a +1 circumstance bonus to AC until the end of your first turn, or a +2 circumstance bonus if the chosen weapon has the parry trait.</p>"
+                    "value": "<p><strong>Trigger</strong> You roll initiative.</p><hr /><p>You can posture defensively with firearms or crossbows, acting like a walking tower. Interact to draw a firearm or crossbow. You then position that weapon defensively, gaining a +1 circumstance bonus to AC until the start of your first turn, or a +2 circumstance bonus if the chosen weapon has the parry trait.</p>"
                 },
                 "publication": {
                     "license": "OGL",
