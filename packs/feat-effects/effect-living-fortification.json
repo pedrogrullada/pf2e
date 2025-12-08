@@ -35,7 +35,7 @@
                 ],
                 "flag": "bonus",
                 "key": "ChoiceSet",
-                "prompt": "PF2E.SpecificRule.Gunslinger.LivingFortification.Prompt"
+                "prompt": "PF2E.SpecificRule.Parry.Prompt"
             },
             {
                 "key": "FlatModifier",
