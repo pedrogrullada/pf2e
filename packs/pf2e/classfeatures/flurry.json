@@ -55,7 +55,7 @@
                 "property": "description",
                 "value": [
                     {
-                        "text": "{item|description}"
+                        "text": "PF2E.SpecificRule.Ranger.HuntersEdge.Flurry.Description"
                     },
                     {
                         "predicate": [
@@ -96,7 +96,7 @@
                 "property": "description",
                 "value": [
                     {
-                        "text": "{item|description}"
+                        "text": "PF2E.SpecificRule.Ranger.HuntersEdge.Flurry.Description"
                     },
                     {
                         "predicate": [
