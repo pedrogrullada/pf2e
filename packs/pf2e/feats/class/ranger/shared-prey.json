@@ -46,7 +46,7 @@
                 "property": "description",
                 "value": [
                     {
-                        "text": "{item|description}"
+                        "text": "PF2E.SpecificRule.Ranger.SharedPrey.HuntPreyAddendum"
                     }
                 ]
             }
