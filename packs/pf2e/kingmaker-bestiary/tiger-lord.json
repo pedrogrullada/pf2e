@@ -521,7 +521,7 @@
                 },
                 "category": "offensive",
                 "description": {
-                    "value": "<p><strong>Requirements</strong> The Tiger Lord is not @UUID[Compendium.pf2e.conditionitems.Item.Fatigued] or already in a rage</p>\n<p><strong>Trigger</strong> The Tiger Lord suffers damage that reduces its Hit Points to 100 or less.</p>\n<p><strong>Effect</strong> The Tiger Lord flies into a rage that lasts 1 minute. While raging, the Tiger Lord gains a +1 status bonus to attack rolls, gains a +2 status bonus to damage rolls, and takes a -2 status penalty to AC. After the rage, the Tiger Lord is fatigued.</p>"
+                    "value": "<p><strong>Requirements</strong> The Tiger Lord is not @UUID[Compendium.pf2e.conditionitems.Item.Fatigued] or already in a rage</p>\n<p><strong>Trigger</strong> The Tiger Lord suffers damage that reduces its Hit Points to 100 or less.</p>\n<p><strong>Effect</strong> The Tiger Lord flies into a rage that lasts 1 minute. While raging, the Tiger Lord gains a +1 status bonus to attack rolls, gains a +2 status bonus to damage rolls, and takes a –2 status penalty to AC. After the rage, the Tiger Lord is fatigued.</p>"
                 },
                 "publication": {
                     "license": "OGL",

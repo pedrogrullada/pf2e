@@ -4,7 +4,7 @@
     "name": "Effect: Curse of the Baneful Venom",
     "system": {
         "description": {
-            "value": "<p>The creature immediately attempts its next saving throw against a poison with a -2 status penalty.</p>"
+            "value": "<p>The creature immediately attempts its next saving throw against a poison with a –2 status penalty.</p>"
         },
         "duration": {
             "expiry": "turn-start",

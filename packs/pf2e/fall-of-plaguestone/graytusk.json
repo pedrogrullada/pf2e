@@ -493,7 +493,7 @@
                 },
                 "category": "offensive",
                 "description": {
-                    "value": "<p>Graytusk can make two ranged Strikes against two different targets, each at a -2 penalty, Graytusk's multiple attack penalty increases only after both attacks are made.</p>"
+                    "value": "<p>Graytusk can make two ranged Strikes against two different targets, each at a –2 penalty, Graytusk's multiple attack penalty increases only after both attacks are made.</p>"
                 },
                 "publication": {
                     "license": "OGL",

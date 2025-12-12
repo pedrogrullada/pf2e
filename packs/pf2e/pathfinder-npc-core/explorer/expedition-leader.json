@@ -262,7 +262,7 @@
                 },
                 "containerId": null,
                 "description": {
-                    "value": "<p>A compass helps you @UUID[Compendium.pf2e.actionspf2e.Item.Sense Direction] or navigate, provided you're in a location with uniform magnetic fields. Without a compass, you take a -2 item penalty to these checks (similar to using a shoddy item).</p>"
+                    "value": "<p>A compass helps you @UUID[Compendium.pf2e.actionspf2e.Item.Sense Direction] or navigate, provided you're in a location with uniform magnetic fields. Without a compass, you take a –2 item penalty to these checks (similar to using a shoddy item).</p>"
                 },
                 "equipped": {
                     "carryType": "worn",

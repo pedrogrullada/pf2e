@@ -4,7 +4,7 @@
     "name": "Effect: Hypnotic Stare",
     "system": {
         "description": {
-            "value": "<p>That target takes a -2 penalty to Will saving throws.</p>"
+            "value": "<p>That target takes a –2 penalty to Will saving throws.</p>"
         },
         "duration": {
             "expiry": "turn-start",

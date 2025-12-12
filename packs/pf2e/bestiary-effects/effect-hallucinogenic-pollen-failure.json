@@ -4,7 +4,7 @@
     "name": "Effect: Hallucinogenic Pollen (Failure)",
     "system": {
         "description": {
-            "value": "<p>The creature takes a -2 status penalty to Perception checks and saves against mental effects.</p>"
+            "value": "<p>The creature takes a –2 status penalty to Perception checks and saves against mental effects.</p>"
         },
         "duration": {
             "expiry": "turn-start",

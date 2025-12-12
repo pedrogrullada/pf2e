@@ -4,7 +4,7 @@
     "name": "Effect: Ill Omen",
     "system": {
         "description": {
-            "value": "<p>The creature takes a -1 penalty to attack rolls, skill checks, and saving throws while within the ill omen aura and becomes immune to fortune effects for 1 day.</p>"
+            "value": "<p>The creature takes a –1 penalty to attack rolls, skill checks, and saving throws while within the ill omen aura and becomes immune to fortune effects for 1 day.</p>"
         },
         "duration": {
             "expiry": "turn-start",

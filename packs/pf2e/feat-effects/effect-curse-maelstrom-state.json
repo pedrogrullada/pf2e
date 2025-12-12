@@ -8,7 +8,7 @@
             "value": 1
         },
         "description": {
-            "value": "<p>Granted by @UUID[Compendium.pf2e.feats-srd.Item.Curse Maelstrom Dedication]</p>\n<p>All creatures other than you within a 10-foot emanation take a -1 status penalty to all saving throws and skill checks. You gain the Expel Maelstrom action.</p>"
+            "value": "<p>Granted by @UUID[Compendium.pf2e.feats-srd.Item.Curse Maelstrom Dedication]</p>\n<p>All creatures other than you within a 10-foot emanation take a –1 status penalty to all saving throws and skill checks. You gain the Expel Maelstrom action.</p>"
         },
         "duration": {
             "expiry": null,

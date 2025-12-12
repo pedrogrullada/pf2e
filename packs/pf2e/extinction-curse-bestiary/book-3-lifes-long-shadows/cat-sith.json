@@ -297,7 +297,7 @@
                 },
                 "category": "defensive",
                 "description": {
-                    "value": "<p>60 feet. Any creature within the area that can see the cat sith must succeed at a @Check[will|dc:21] save or become struck by an ill omen. On a failure, the creature becomes immune to fortune effects as long as it remains in the aura and for 1 minute thereafter. On a critical failure, the creature takes a -1 penalty to attack rolls, skill checks, and saving throws while within the ill omen aura and becomes immune to fortune effects for 1 day.</p>\n<p>@UUID[Compendium.pf2e.bestiary-effects.Item.Effect: Ill Omen]</p>"
+                    "value": "<p>60 feet. Any creature within the area that can see the cat sith must succeed at a @Check[will|dc:21] save or become struck by an ill omen. On a failure, the creature becomes immune to fortune effects as long as it remains in the aura and for 1 minute thereafter. On a critical failure, the creature takes a –1 penalty to attack rolls, skill checks, and saving throws while within the ill omen aura and becomes immune to fortune effects for 1 day.</p>\n<p>@UUID[Compendium.pf2e.bestiary-effects.Item.Effect: Ill Omen]</p>"
                 },
                 "publication": {
                     "license": "OGL",

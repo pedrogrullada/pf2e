@@ -1000,7 +1000,7 @@
                     }
                 },
                 "description": {
-                    "value": "<p>You forcibly calm creatures in the area, soothing them into a nonviolent state; each creature must attempt a Will save.</p>\n<hr />\n<p><strong>Critical Success</strong> The creature is unaffected.</p>\n<p><strong>Success</strong> Calming urges impose a -1 status penalty to the creature's attack rolls.</p>\n<p><strong>Failure</strong> Any emotion effects that would affect the creature are suppressed and the creature can't use hostile actions. If the target is subject to hostility from any other creature, it ceases to be affected by calm emotions.</p>\n<p><strong>Critical Failure</strong> As failure, but hostility doesn't end the effect.</p>\n<p>@UUID[Compendium.pf2e.spell-effects.Item.Spell Effect: Calm]</p>"
+                    "value": "<p>You forcibly calm creatures in the area, soothing them into a nonviolent state; each creature must attempt a Will save.</p>\n<hr />\n<p><strong>Critical Success</strong> The creature is unaffected.</p>\n<p><strong>Success</strong> Calming urges impose a –1 status penalty to the creature's attack rolls.</p>\n<p><strong>Failure</strong> Any emotion effects that would affect the creature are suppressed and the creature can't use hostile actions. If the target is subject to hostility from any other creature, it ceases to be affected by calm emotions.</p>\n<p><strong>Critical Failure</strong> As failure, but hostility doesn't end the effect.</p>\n<p>@UUID[Compendium.pf2e.spell-effects.Item.Spell Effect: Calm]</p>"
                 },
                 "duration": {
                     "sustained": true,
@@ -3057,7 +3057,7 @@
                 },
                 "category": "offensive",
                 "description": {
-                    "value": "<p>When Darivan's bloodline magic activates, his movements become supernaturally graceful and distracting, granting him a +1 status bonus to Diplomacy checks for 1 round or imposing a -1 status penalty on one target's Will saves for 1 round.</p>\n<p>@UUID[Compendium.pf2e.bestiary-effects.Item.Effect: Darivan's Bloodline Magic]</p>"
+                    "value": "<p>When Darivan's bloodline magic activates, his movements become supernaturally graceful and distracting, granting him a +1 status bonus to Diplomacy checks for 1 round or imposing a –1 status penalty on one target's Will saves for 1 round.</p>\n<p>@UUID[Compendium.pf2e.bestiary-effects.Item.Effect: Darivan's Bloodline Magic]</p>"
                 },
                 "publication": {
                     "license": "OGL",

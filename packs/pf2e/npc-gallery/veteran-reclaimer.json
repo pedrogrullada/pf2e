@@ -805,7 +805,7 @@
                 },
                 "category": "offensive",
                 "description": {
-                    "value": "<p>When attacking a creature that attacked the veteran reclaimer or one of their allies within the last round, the veteran reclaimer has a multiple attack penalty of -3, or -2 with their dagger.</p>"
+                    "value": "<p>When attacking a creature that attacked the veteran reclaimer or one of their allies within the last round, the veteran reclaimer has a multiple attack penalty of -3, or –2 with their dagger.</p>"
                 },
                 "publication": {
                     "license": "OGL",

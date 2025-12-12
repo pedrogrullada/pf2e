@@ -534,7 +534,7 @@
                 },
                 "category": "defensive",
                 "description": {
-                    "value": "<p>When first encountered, the hunters are slightly drunk and take a -1 penalty to all checks until they sober up.</p>"
+                    "value": "<p>When first encountered, the hunters are slightly drunk and take a –1 penalty to all checks until they sober up.</p>"
                 },
                 "publication": {
                     "license": "OGL",

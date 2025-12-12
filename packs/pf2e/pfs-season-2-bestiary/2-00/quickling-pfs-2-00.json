@@ -577,7 +577,7 @@
                 },
                 "category": "defensive",
                 "description": {
-                    "value": "<p>The quickling takes a -2 status penalty to saving throws against effects that cause the @UUID[Compendium.pf2e.conditionitems.Item.Slowed] condition. If the quickling ever becomes slowed, they lose their supernatural speed, can't Fade from View, and become @UUID[Compendium.pf2e.conditionitems.Item.Sickened]{Sickened 1} for the duration of the slow. They also can't reduce this sickened condition for the duration of the slowed effect.</p>"
+                    "value": "<p>The quickling takes a –2 status penalty to saving throws against effects that cause the @UUID[Compendium.pf2e.conditionitems.Item.Slowed] condition. If the quickling ever becomes slowed, they lose their supernatural speed, can't Fade from View, and become @UUID[Compendium.pf2e.conditionitems.Item.Sickened]{Sickened 1} for the duration of the slow. They also can't reduce this sickened condition for the duration of the slowed effect.</p>"
                 },
                 "publication": {
                     "license": "OGL",

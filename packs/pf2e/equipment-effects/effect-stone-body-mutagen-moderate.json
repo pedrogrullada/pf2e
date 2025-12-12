@@ -4,7 +4,7 @@
     "name": "Effect: Stone Body Mutagen (Moderate)",
     "system": {
         "description": {
-            "value": "<p>Granted by @UUID[Compendium.pf2e.equipment-srd.Item.Stone Body Mutagen (Moderate)]</p>\n<p><strong>Benefit</strong> You gain resistance 5 to physical damage (except bludgeoning).</p>\n<p><strong>Drawback</strong> Your speeds are reduced by 10 feet (minimum 5 feet) and you take a -2 penalty to Reflex saves.</p>"
+            "value": "<p>Granted by @UUID[Compendium.pf2e.equipment-srd.Item.Stone Body Mutagen (Moderate)]</p>\n<p><strong>Benefit</strong> You gain resistance 5 to physical damage (except bludgeoning).</p>\n<p><strong>Drawback</strong> Your speeds are reduced by 10 feet (minimum 5 feet) and you take a –2 penalty to Reflex saves.</p>"
         },
         "duration": {
             "expiry": "turn-start",

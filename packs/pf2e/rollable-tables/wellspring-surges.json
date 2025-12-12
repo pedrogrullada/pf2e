@@ -192,7 +192,7 @@
         },
         {
             "_id": "wKWNSfSLnVnBBrwR",
-            "description": "Strike up the Band (auditory, illusion) For 1 minute, you are followed by orchestral theme music tied to the emotional content of the actions you're performing. This grants you a +2 status bonus to Diplomacy, Intimidation, and Performance checks, a -2 status penalty to Deception checks, and makes certain uses of Stealth virtually impossible. It might have other effects as the GM sees fit.",
+            "description": "Strike up the Band (auditory, illusion) For 1 minute, you are followed by orchestral theme music tied to the emotional content of the actions you're performing. This grants you a +2 status bonus to Diplomacy, Intimidation, and Performance checks, a –2 status penalty to Deception checks, and makes certain uses of Stealth virtually impossible. It might have other effects as the GM sees fit.",
             "drawn": false,
             "img": "icons/svg/d20-black.svg",
             "name": "",
@@ -247,7 +247,7 @@
         },
         {
             "_id": "uhSnZB1GWN2HpTsP",
-            "description": "Emotional Turmoil (emotion, enchantment, mental) A swirl of conflicting emotions overwhelm you from the surging magic. For 1 minute, attempt a @Check[flat|dc:11] at the start of each of your turns. On a success, you gain a +2 status bonus to all attack rolls, saving throws, and skill checks; on a failure, you take a -2 status penalty to them instead.",
+            "description": "Emotional Turmoil (emotion, enchantment, mental) A swirl of conflicting emotions overwhelm you from the surging magic. For 1 minute, attempt a @Check[flat|dc:11] at the start of each of your turns. On a success, you gain a +2 status bonus to all attack rolls, saving throws, and skill checks; on a failure, you take a –2 status penalty to them instead.",
             "drawn": false,
             "img": "icons/svg/d20-black.svg",
             "name": "",

@@ -582,7 +582,7 @@
                 },
                 "category": "offensive",
                 "description": {
-                    "value": "<p>The dretch makes itself as small as possible, protecting its vital organs with its limbs. It gains a +4 circumstance bonus to AC but takes a -2 penalty to attack rolls. This lasts until the dretch moves from its current space, falls @UUID[Compendium.pf2e.conditionitems.Item.Unconscious], or ends the effect as a free action.</p>"
+                    "value": "<p>The dretch makes itself as small as possible, protecting its vital organs with its limbs. It gains a +4 circumstance bonus to AC but takes a –2 penalty to attack rolls. This lasts until the dretch moves from its current space, falls @UUID[Compendium.pf2e.conditionitems.Item.Unconscious], or ends the effect as a free action.</p>"
                 },
                 "publication": {
                     "license": "OGL",
@@ -635,7 +635,7 @@
                 },
                 "category": "offensive",
                 "description": {
-                    "value": "<p>The dretch makes three claw Strikes, each at a -2 penalty, all targeting the same creature. The dretch's multiple attack penalty doesn't increase until after it has made all three attacks.</p>\n<p>The dretch gains the @UUID[Compendium.pf2e.conditionitems.Item.Clumsy]{Clumsy 2} condition until the beginning of its next turn.</p>"
+                    "value": "<p>The dretch makes three claw Strikes, each at a –2 penalty, all targeting the same creature. The dretch's multiple attack penalty doesn't increase until after it has made all three attacks.</p>\n<p>The dretch gains the @UUID[Compendium.pf2e.conditionitems.Item.Clumsy]{Clumsy 2} condition until the beginning of its next turn.</p>"
                 },
                 "publication": {
                     "license": "OGL",

@@ -1053,7 +1053,7 @@
                 },
                 "category": "interaction",
                 "description": {
-                    "value": "<p>When the stheno harpist @UUID[Compendium.pf2e.actionspf2e.Item.Search]{Searches} or @UUID[Compendium.pf2e.actionspf2e.Item.Seek]{Seeks}, their snakes try to help too, rolling a separate Perception check with a modifier of -1 instead of +4.</p>\n<p>If the snakes notice something, they try to notify the stheno, though they are no more intelligent than normal snakes and might find different things interesting than the stheno does.</p>"
+                    "value": "<p>When the stheno harpist @UUID[Compendium.pf2e.actionspf2e.Item.Search]{Searches} or @UUID[Compendium.pf2e.actionspf2e.Item.Seek]{Seeks}, their snakes try to help too, rolling a separate Perception check with a modifier of –1 instead of +4.</p>\n<p>If the snakes notice something, they try to notify the stheno, though they are no more intelligent than normal snakes and might find different things interesting than the stheno does.</p>"
                 },
                 "publication": {
                     "license": "OGL",

@@ -4,7 +4,7 @@
     "name": "Effect: Quicksilver Mutagen (Moderate)",
     "system": {
         "description": {
-            "value": "<p>Granted by @UUID[Compendium.pf2e.equipment-srd.Item.Quicksilver Mutagen (Moderate)]</p>\n<p><strong>Benefit</strong> You gain a +2 item bonus to Acrobatics checks, Stealth checks, Thievery checks, Reflex saves, and Dexterity-based attack rolls, and you gain a +10 foot status bonus to your Speed.</p>\n<p><strong>Drawback</strong> You take damage equal to twice your level; you can't recover Hit Points lost this way by any means while the mutagen lasts. You take a -2 penalty to Fortitude saves.</p>"
+            "value": "<p>Granted by @UUID[Compendium.pf2e.equipment-srd.Item.Quicksilver Mutagen (Moderate)]</p>\n<p><strong>Benefit</strong> You gain a +2 item bonus to Acrobatics checks, Stealth checks, Thievery checks, Reflex saves, and Dexterity-based attack rolls, and you gain a +10 foot status bonus to your Speed.</p>\n<p><strong>Drawback</strong> You take damage equal to twice your level; you can't recover Hit Points lost this way by any means while the mutagen lasts. You take a –2 penalty to Fortitude saves.</p>"
         },
         "duration": {
             "expiry": "turn-start",

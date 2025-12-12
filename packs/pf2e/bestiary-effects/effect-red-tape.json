@@ -4,7 +4,7 @@
     "name": "Effect: Red Tape",
     "system": {
         "description": {
-            "value": "<p>You take a -2 status penalty to saving throws against linguistic effects.</p>"
+            "value": "<p>You take a –2 status penalty to saving throws against linguistic effects.</p>"
         },
         "duration": {
             "expiry": null,

@@ -589,7 +589,7 @@
                 "damage": {},
                 "defense": null,
                 "description": {
-                    "value": "<p>You summon a creature that has the plant or fungus trait and whose level is -1 to fight for you.</p>\n<hr />\n<p><strong>Heightened</strong> As listed in the @UUID[Compendium.pf2e.journals.JournalEntry.S55aqwWIzpQRFhcq.JournalEntryPage.8gcp880pEWZ9VPnF]{summon} trait.</p>"
+                    "value": "<p>You summon a creature that has the plant or fungus trait and whose level is –1 to fight for you.</p>\n<hr />\n<p><strong>Heightened</strong> As listed in the @UUID[Compendium.pf2e.journals.JournalEntry.S55aqwWIzpQRFhcq.JournalEntryPage.8gcp880pEWZ9VPnF]{summon} trait.</p>"
                 },
                 "duration": {
                     "sustained": true,
@@ -955,7 +955,7 @@
                 },
                 "category": "offensive",
                 "description": {
-                    "value": "<p>A bhuta corrupts wildlife near their bound area, worming their way into animals' minds. Animals who live within the bound area take a -4 circumstance penalty to saves against the bhuta's Possess Animal ability, the bhuta's @UUID[Compendium.pf2e.spells-srd.Item.Charm] innate spell, and the bhuta's @UUID[Compendium.pf2e.spells-srd.Item.Command] innate spell.</p>"
+                    "value": "<p>A bhuta corrupts wildlife near their bound area, worming their way into animals' minds. Animals who live within the bound area take a –4 circumstance penalty to saves against the bhuta's Possess Animal ability, the bhuta's @UUID[Compendium.pf2e.spells-srd.Item.Charm] innate spell, and the bhuta's @UUID[Compendium.pf2e.spells-srd.Item.Command] innate spell.</p>"
                 },
                 "publication": {
                     "license": "OGL",

@@ -452,7 +452,7 @@
                 },
                 "category": "offensive",
                 "description": {
-                    "value": "<p><strong>Requirements</strong> You are wielding two melee weapons, each in a different hand.</p>\n<hr />\n<p><strong>Effect</strong> Pr'rall lashes out at a foe with both weapons. Make two Strikes, one with each of his two melee weapons, each using his current multiple attack penalty. Both Strikes must have the same target. If the second Strike is made with a weapon that doesn't have the agile trait, it takes a -2 penalty. If both attacks hit, combine their damage, and then add any other applicable effects from both weapons. Add any precision damage only once. Combine the damage from both Strikes and apply resistances and weaknesses only once. This counts as two attacks when calculating multiple attack penalty.</p>"
+                    "value": "<p><strong>Requirements</strong> You are wielding two melee weapons, each in a different hand.</p>\n<hr />\n<p><strong>Effect</strong> Pr'rall lashes out at a foe with both weapons. Make two Strikes, one with each of his two melee weapons, each using his current multiple attack penalty. Both Strikes must have the same target. If the second Strike is made with a weapon that doesn't have the agile trait, it takes a –2 penalty. If both attacks hit, combine their damage, and then add any other applicable effects from both weapons. Add any precision damage only once. Combine the damage from both Strikes and apply resistances and weaknesses only once. This counts as two attacks when calculating multiple attack penalty.</p>"
                 },
                 "publication": {
                     "license": "OGL",

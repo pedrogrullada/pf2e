@@ -1433,7 +1433,7 @@
                 },
                 "category": "defensive",
                 "description": {
-                    "value": "<p>A contemplative's limbs are withered and incapable of significant physical exertion. A contemplative can't properly wield a two-handed weapon or object without dedicating its telekinetic powers to supporting the weapon, and even then, it takes a -2 penalty to Strikes with such a weapon. It also can't use its spells or fly as long as it wields a two-handed weapon or object.</p>"
+                    "value": "<p>A contemplative's limbs are withered and incapable of significant physical exertion. A contemplative can't properly wield a two-handed weapon or object without dedicating its telekinetic powers to supporting the weapon, and even then, it takes a –2 penalty to Strikes with such a weapon. It also can't use its spells or fly as long as it wields a two-handed weapon or object.</p>"
                 },
                 "publication": {
                     "license": "OGL",

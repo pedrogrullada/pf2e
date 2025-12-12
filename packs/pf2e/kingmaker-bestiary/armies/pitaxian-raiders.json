@@ -249,7 +249,7 @@
                 "campaign": "kingmaker",
                 "category": "army-tactic",
                 "description": {
-                    "value": "<p><em><strong>Note</strong>: This tactic does not appear in the original text of Pathfinder: Kingmaker. It was created to serve as an explanation and source for some of the Pitaxian Raiders' unique modifiers which previously did not have a listed source, allowing the statistics you see here to match those used in the adventure.</em></p>\n<hr />\n<p>The well-supplied Pitaxian forces are not concerned with making every shot count. They have a -2 penalty to ranged strikes, but can carry additional ammunition, increasing the number of times they can use ranged Strikes in each war encounter by 2. This tactic does not count against the maximum number of tactics the Pitaxian Raiders can possess.</p>"
+                    "value": "<p><em><strong>Note</strong>: This tactic does not appear in the original text of Pathfinder: Kingmaker. It was created to serve as an explanation and source for some of the Pitaxian Raiders' unique modifiers which previously did not have a listed source, allowing the statistics you see here to match those used in the adventure.</em></p>\n<hr />\n<p>The well-supplied Pitaxian forces are not concerned with making every shot count. They have a –2 penalty to ranged strikes, but can carry additional ammunition, increasing the number of times they can use ranged Strikes in each war encounter by 2. This tactic does not count against the maximum number of tactics the Pitaxian Raiders can possess.</p>"
                 },
                 "level": {
                     "value": 12

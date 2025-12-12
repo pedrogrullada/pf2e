@@ -158,7 +158,7 @@
                 },
                 "category": "interaction",
                 "description": {
-                    "value": "<p>A giant slug has no auditory senses. It is immune to auditory effects, automatically critically fails Perception checks that require it to hear, and takes a -2 status penalty to Perception checks (but not initiative rolls) that involve sound but also rely on other senses.</p>"
+                    "value": "<p>A giant slug has no auditory senses. It is immune to auditory effects, automatically critically fails Perception checks that require it to hear, and takes a –2 status penalty to Perception checks (but not initiative rolls) that involve sound but also rely on other senses.</p>"
                 },
                 "publication": {
                     "license": "OGL",

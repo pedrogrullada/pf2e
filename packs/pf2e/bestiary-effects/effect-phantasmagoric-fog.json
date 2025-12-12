@@ -4,7 +4,7 @@
     "name": "Effect: Phantasmagoric Fog",
     "system": {
         "description": {
-            "value": "<p>The hall fills with violet fog that imposes a -2 circumstance penalty to Perception checks to all creatures within it and exposes anyone who enters it to phantasmagoric fog.</p>"
+            "value": "<p>The hall fills with violet fog that imposes a –2 circumstance penalty to Perception checks to all creatures within it and exposes anyone who enters it to phantasmagoric fog.</p>"
         },
         "duration": {
             "expiry": "turn-start",

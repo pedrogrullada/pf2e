@@ -2324,7 +2324,7 @@
                 },
                 "category": "defensive",
                 "description": {
-                    "value": "<p><strong>Trigger</strong> The girtablilu seer attempts a saving throw against a magical effect but hasn't rolled yet</p>\n<hr />\n<p><strong>Effect</strong> The seer summons divine energy to protect themself at the cost of their other magical defenses. Until the start of their next turn, they gain a +1 circumstance bonus to saving throws against non-divine magical effects and a -1 circumstance penalty to saves against divine effects.</p>\n<p>@UUID[Compendium.pf2e.bestiary-effects.Item.Effect: Divine Aegis]</p>"
+                    "value": "<p><strong>Trigger</strong> The girtablilu seer attempts a saving throw against a magical effect but hasn't rolled yet</p>\n<hr />\n<p><strong>Effect</strong> The seer summons divine energy to protect themself at the cost of their other magical defenses. Until the start of their next turn, they gain a +1 circumstance bonus to saving throws against non-divine magical effects and a –1 circumstance penalty to saves against divine effects.</p>\n<p>@UUID[Compendium.pf2e.bestiary-effects.Item.Effect: Divine Aegis]</p>"
                 },
                 "publication": {
                     "license": "OGL",

@@ -491,7 +491,7 @@
                 "damage": {},
                 "defense": null,
                 "description": {
-                    "value": "<p>You defy gravity and levitate the target 5 feet off the ground. For the duration of the spell, you can move the target up or down 10 feet with a single action, which has the concentrate trait. A creature floating in the air from levitate takes a -2 circumstance penalty to attack rolls. A floating creature can spend an Interact action to stabilize itself and negate this penalty for the remainder of its turn. If the target is adjacent to a fixed object or terrain of suitable stability, it can move across the surface by climbing (if the surface is vertical, like a wall) or crawling (if the surface is horizontal, such as a ceiling). The GM determines which surfaces can be climbed or crawled across.</p>\n<p>@UUID[Compendium.pf2e.spell-effects.Item.Spell Effect: Levitate]</p>"
+                    "value": "<p>You defy gravity and levitate the target 5 feet off the ground. For the duration of the spell, you can move the target up or down 10 feet with a single action, which has the concentrate trait. A creature floating in the air from levitate takes a –2 circumstance penalty to attack rolls. A floating creature can spend an Interact action to stabilize itself and negate this penalty for the remainder of its turn. If the target is adjacent to a fixed object or terrain of suitable stability, it can move across the surface by climbing (if the surface is vertical, like a wall) or crawling (if the surface is horizontal, such as a ceiling). The GM determines which surfaces can be climbed or crawled across.</p>\n<p>@UUID[Compendium.pf2e.spell-effects.Item.Spell Effect: Levitate]</p>"
                 },
                 "duration": {
                     "sustained": false,
@@ -1127,7 +1127,7 @@
                     }
                 },
                 "description": {
-                    "value": "<p>You fill the minds of your enemies with doubt.</p>\n<p>Enemies in the area must succeed at a Will save or take a -1 status penalty to attack rolls as long as they are in the area.</p>\n<p>Once per turn, starting the turn after you cast bane, you can use a single action, which has the concentrate trait, to increase the emanation's radius by 5 feet and force enemies in the area that weren't yet affected to attempt another saving throw.</p>\n<p>Bane can counteract @UUID[Compendium.pf2e.spells-srd.Item.Bless].</p>\n<p>@UUID[Compendium.pf2e.spell-effects.Item.Spell Effect: Bane]</p>"
+                    "value": "<p>You fill the minds of your enemies with doubt.</p>\n<p>Enemies in the area must succeed at a Will save or take a –1 status penalty to attack rolls as long as they are in the area.</p>\n<p>Once per turn, starting the turn after you cast bane, you can use a single action, which has the concentrate trait, to increase the emanation's radius by 5 feet and force enemies in the area that weren't yet affected to attempt another saving throw.</p>\n<p>Bane can counteract @UUID[Compendium.pf2e.spells-srd.Item.Bless].</p>\n<p>@UUID[Compendium.pf2e.spell-effects.Item.Spell Effect: Bane]</p>"
                 },
                 "duration": {
                     "sustained": false,

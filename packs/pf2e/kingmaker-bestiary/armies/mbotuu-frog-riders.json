@@ -241,7 +241,7 @@
                 "campaign": "kingmaker",
                 "category": "army-tactic",
                 "description": {
-                    "value": "<p>The terrifying croaking that constantly issues from this army of boggards causes all engaged enemy armies to suffer a -2 status penalty on Morale checks. The M'botuu Frog Riders can use the Taunt tactical action. If they know the Focused Devotion tactic, they treat critical failures made when attempting to Taunt as failures instead.</p>"
+                    "value": "<p>The terrifying croaking that constantly issues from this army of boggards causes all engaged enemy armies to suffer a –2 status penalty on Morale checks. The M'botuu Frog Riders can use the Taunt tactical action. If they know the Focused Devotion tactic, they treat critical failures made when attempting to Taunt as failures instead.</p>"
                 },
                 "level": {
                     "value": 10

@@ -531,7 +531,7 @@
                 },
                 "category": "offensive",
                 "description": {
-                    "value": "<p>Thiarvo can make lethal attacks using weapons with the nonlethal trait without taking the usual -2 penalty. His attacks with weapons with the nonlethal trait deal an additional 2d8 precision damage, whether he's making nonlethal attacks or lethal attacks with them. This damage is included in his melee entry.</p>"
+                    "value": "<p>Thiarvo can make lethal attacks using weapons with the nonlethal trait without taking the usual –2 penalty. His attacks with weapons with the nonlethal trait deal an additional 2d8 precision damage, whether he's making nonlethal attacks or lethal attacks with them. This damage is included in his melee entry.</p>"
                 },
                 "publication": {
                     "license": "OGL",

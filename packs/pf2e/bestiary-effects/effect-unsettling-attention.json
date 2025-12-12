@@ -4,7 +4,7 @@
     "name": "Effect: Unsettling Attention",
     "system": {
         "description": {
-            "value": "<p><strong>Failure</strong> The creature becomes unsettled and suffers a -2 penalty to all saves against fear effects as long as they remain within the hex containing Candlemere.</p>"
+            "value": "<p><strong>Failure</strong> The creature becomes unsettled and suffers a –2 penalty to all saves against fear effects as long as they remain within the hex containing Candlemere.</p>"
         },
         "duration": {
             "expiry": "turn-start",

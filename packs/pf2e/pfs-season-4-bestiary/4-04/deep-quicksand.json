@@ -54,7 +54,7 @@
                 "value": 0
             },
             "stealth": {
-                "details": "<p>(trained) (or -10 and no minimum proficiency if the surface is disturbed)</p>",
+                "details": "<p>(trained) (or –10 and no minimum proficiency if the surface is disturbed)</p>",
                 "value": 16
             }
         },

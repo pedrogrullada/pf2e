@@ -101,7 +101,7 @@
                 },
                 "category": "defensive",
                 "description": {
-                    "value": "<p>A creature that comes within 30 feet of the harpy and can smell the harpy must attempt a @Check[fortitude|dc:21] save. On a failure, the creature takes a -1 status penalty to all checks and DCs until it uses an action to retch. A creature that succeeds at its save isn't affected by any harpy's stenches for 1 minute.</p>"
+                    "value": "<p>A creature that comes within 30 feet of the harpy and can smell the harpy must attempt a @Check[fortitude|dc:21] save. On a failure, the creature takes a –1 status penalty to all checks and DCs until it uses an action to retch. A creature that succeeds at its save isn't affected by any harpy's stenches for 1 minute.</p>"
                 },
                 "publication": {
                     "license": "OGL",

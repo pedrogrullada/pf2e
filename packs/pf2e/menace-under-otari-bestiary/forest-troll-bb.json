@@ -147,7 +147,7 @@
                 },
                 "category": "defensive",
                 "description": {
-                    "value": "<p>The forest troll gets a -4 circumstance penalty to their Perception DC against deception checks.</p>"
+                    "value": "<p>The forest troll gets a –4 circumstance penalty to their Perception DC against deception checks.</p>"
                 },
                 "publication": {
                     "license": "OGL",

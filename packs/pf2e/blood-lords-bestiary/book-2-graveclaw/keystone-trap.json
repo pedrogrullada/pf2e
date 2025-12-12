@@ -137,7 +137,7 @@
                 },
                 "category": null,
                 "description": {
-                    "value": "<p>The vault spins quickly for 1 round. While it Spins, checks to disable the trap have a -2 circumstance penalty, and it Launches Darts at all creatures within 30 feet of it, rather than in a line.</p>"
+                    "value": "<p>The vault spins quickly for 1 round. While it Spins, checks to disable the trap have a –2 circumstance penalty, and it Launches Darts at all creatures within 30 feet of it, rather than in a line.</p>"
                 },
                 "publication": {
                     "license": "OGL",

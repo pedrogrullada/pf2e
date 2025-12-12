@@ -1394,7 +1394,7 @@
                 },
                 "category": "defensive",
                 "description": {
-                    "value": "<p><strong>Trigger</strong> A creature within reach of the priest's tail uses a move action or leaves a square during a move action it's using.</p>\n<hr />\n<p><strong>Effect</strong> The priest makes a tail Strike at the creature with a -2 penalty. If it hits, it disrupts the creature's action.</p>"
+                    "value": "<p><strong>Trigger</strong> A creature within reach of the priest's tail uses a move action or leaves a square during a move action it's using.</p>\n<hr />\n<p><strong>Effect</strong> The priest makes a tail Strike at the creature with a –2 penalty. If it hits, it disrupts the creature's action.</p>"
                 },
                 "publication": {
                     "license": "OGL",
@@ -1508,7 +1508,7 @@
                 },
                 "category": "offensive",
                 "description": {
-                    "value": "<p>Any weapon a charau-ka dragon priest throws gains the deadly d6 weapon trait. Furthermore, when a dragon priest throws an improvised weapon, it does not take the -2 penalty for doing so, nor does it take a penalty for using a thrown improvised weapon with the nonlethal trait to make a lethal attack.</p>"
+                    "value": "<p>Any weapon a charau-ka dragon priest throws gains the deadly d6 weapon trait. Furthermore, when a dragon priest throws an improvised weapon, it does not take the –2 penalty for doing so, nor does it take a penalty for using a thrown improvised weapon with the nonlethal trait to make a lethal attack.</p>"
                 },
                 "publication": {
                     "license": "OGL",

@@ -253,7 +253,7 @@
                 },
                 "category": "defensive",
                 "description": {
-                    "value": "<p><strong>Trigger</strong> Akuzhail fails or critically fails a Will save</p>\n<hr />\n<p><strong>Effect</strong> Akuzhail rerolls the Will save with a -4 penalty. If it fails this second save, it may make a third attempt but with a -8 penalty. It cannot make a third attempt if its second attempt was a critical failure.</p>"
+                    "value": "<p><strong>Trigger</strong> Akuzhail fails or critically fails a Will save</p>\n<hr />\n<p><strong>Effect</strong> Akuzhail rerolls the Will save with a –4 penalty. If it fails this second save, it may make a third attempt but with a -8 penalty. It cannot make a third attempt if its second attempt was a critical failure.</p>"
                 },
                 "publication": {
                     "license": "OGL",
@@ -528,7 +528,7 @@
                 },
                 "category": "offensive",
                 "description": {
-                    "value": "<p>Akuzhail makes a Strike with its vulture beak, snake fangs, and centipede mandibles, each at a -2 penalty and targeting a different creature. These Strikes count as only one attack for its multiple attack penalty, and the penalty doesn't increase until it has made all three attacks.</p>"
+                    "value": "<p>Akuzhail makes a Strike with its vulture beak, snake fangs, and centipede mandibles, each at a –2 penalty and targeting a different creature. These Strikes count as only one attack for its multiple attack penalty, and the penalty doesn't increase until it has made all three attacks.</p>"
                 },
                 "publication": {
                     "license": "OGL",

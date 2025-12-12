@@ -1501,7 +1501,7 @@
                 },
                 "category": "offensive",
                 "description": {
-                    "value": "<p>The wild hunt archer Casts a Spell with a range of touch and then makes a ranged Strike with their living bow. If they hit a creature with that Strike, that creature is also targeted by the spell's effects. If the Strike misses, the spell is wasted.</p>\n<p>Alternatively, the wild hunt archer can @UUID[Compendium.pf2e.actionspf2e.Item.Cast a Spell] that affects an area and then make a ranged Strike with their living bow. If they hit a creature with that Strike, the spell takes effect centered on that creature, and the creature struck takes a -2 circumstance penalty to any save against the spell's effect. If the Strike misses, the spell is wasted.</p>"
+                    "value": "<p>The wild hunt archer Casts a Spell with a range of touch and then makes a ranged Strike with their living bow. If they hit a creature with that Strike, that creature is also targeted by the spell's effects. If the Strike misses, the spell is wasted.</p>\n<p>Alternatively, the wild hunt archer can @UUID[Compendium.pf2e.actionspf2e.Item.Cast a Spell] that affects an area and then make a ranged Strike with their living bow. If they hit a creature with that Strike, the spell takes effect centered on that creature, and the creature struck takes a –2 circumstance penalty to any save against the spell's effect. If the Strike misses, the spell is wasted.</p>"
                 },
                 "publication": {
                     "license": "OGL",

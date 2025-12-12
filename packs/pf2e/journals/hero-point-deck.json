@@ -55,7 +55,7 @@
             "src": null,
             "system": {},
             "text": {
-                "content": "<p>Play when an ally is knocked @UUID[Compendium.pf2e.conditionitems.Item.Unconscious] or when you take damage from a critical hit.</p><hr /><p>At the start of your next turn, you enter a rage (+2 damage to melee strikes, -1 AC penalty, no concentrate actions unless they have the rage trait, or use the stats for your rage class feature if you have one). At the end of that turn, if you don't have the rage class feature, the rage ends and you are @UUID[Compendium.pf2e.conditionitems.Item.Fatigued].</p><p>@UUID[Compendium.pf2e.other-effects.Item.Effect: Rage and Fury]</p>",
+                "content": "<p>Play when an ally is knocked @UUID[Compendium.pf2e.conditionitems.Item.Unconscious] or when you take damage from a critical hit.</p><hr /><p>At the start of your next turn, you enter a rage (+2 damage to melee strikes, –1 AC penalty, no concentrate actions unless they have the rage trait, or use the stats for your rage class feature if you have one). At the end of that turn, if you don't have the rage class feature, the rage ends and you are @UUID[Compendium.pf2e.conditionitems.Item.Fatigued].</p><p>@UUID[Compendium.pf2e.other-effects.Item.Effect: Rage and Fury]</p>",
                 "format": 1
             },
             "title": {
@@ -265,7 +265,7 @@
             "src": null,
             "system": {},
             "text": {
-                "content": "<p>Play before you make a Strike.</p><hr /><p>Designate a foe that you can see. You gain a +2 status bonus to attack rolls made against that foe, but you take a -4 status penalty to attack rolls made against any other creature. This lasts until the end of your next turn or until you critically hit the designated foe, whichever comes first.</p><p>@UUID[Compendium.pf2e.other-effects.Item.Effect: Called Foe]</p>",
+                "content": "<p>Play before you make a Strike.</p><hr /><p>Designate a foe that you can see. You gain a +2 status bonus to attack rolls made against that foe, but you take a –4 status penalty to attack rolls made against any other creature. This lasts until the end of your next turn or until you critically hit the designated foe, whichever comes first.</p><p>@UUID[Compendium.pf2e.other-effects.Item.Effect: Called Foe]</p>",
                 "format": 1
             },
             "title": {

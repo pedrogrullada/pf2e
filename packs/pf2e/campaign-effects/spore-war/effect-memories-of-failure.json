@@ -5,7 +5,7 @@
     "name": "Effect: Memories of Failure",
     "system": {
         "description": {
-            "value": "<p>You take a -1 penalty to all saving throws against emotion effects created by the marked creature.</p>"
+            "value": "<p>You take a –1 penalty to all saving throws against emotion effects created by the marked creature.</p>"
         },
         "duration": {
             "expiry": null,

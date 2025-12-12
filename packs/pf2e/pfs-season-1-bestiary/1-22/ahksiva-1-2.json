@@ -1202,7 +1202,7 @@
                 },
                 "category": "offensive",
                 "description": {
-                    "value": "<p>Ahksiva touches a creature that doesn't realize she is an enemy. The betrayed creature is affected by her enfeebling humors and takes a -4 circumstance penalty to their saving throw against that effect.</p>"
+                    "value": "<p>Ahksiva touches a creature that doesn't realize she is an enemy. The betrayed creature is affected by her enfeebling humors and takes a –4 circumstance penalty to their saving throw against that effect.</p>"
                 },
                 "publication": {
                     "license": "OGL",

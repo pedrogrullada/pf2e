@@ -130,7 +130,7 @@
                 },
                 "category": "defensive",
                 "description": {
-                    "value": "<p>Opkherab has a -1 circumstance penalty to attacks against anyone holding one of the bank's keys.</p>"
+                    "value": "<p>Opkherab has a –1 circumstance penalty to attacks against anyone holding one of the bank's keys.</p>"
                 },
                 "publication": {
                     "license": "OGL",

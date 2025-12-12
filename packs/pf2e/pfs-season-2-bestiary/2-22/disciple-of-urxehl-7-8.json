@@ -1491,7 +1491,7 @@
                 },
                 "category": "offensive",
                 "description": {
-                    "value": "<p>If the next action the Disciple of Urxehl takes is to Cast a Spell, any creature that has taken damage from Urxehl's firestorm since the Disciple's last turn takes a -2 circumstance penalty to AC and saves against the spell.</p>"
+                    "value": "<p>If the next action the Disciple of Urxehl takes is to Cast a Spell, any creature that has taken damage from Urxehl's firestorm since the Disciple's last turn takes a –2 circumstance penalty to AC and saves against the spell.</p>"
                 },
                 "publication": {
                     "license": "OGL",

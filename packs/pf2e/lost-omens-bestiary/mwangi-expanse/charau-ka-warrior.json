@@ -572,7 +572,7 @@
                 },
                 "category": "offensive",
                 "description": {
-                    "value": "<p>Any weapon a charau-ka throws gains the deadly d6 weapon trait.</p>\n<p>Furthermore, when a charau-ka throws an improvised weapon, it does not take the -2 penalty for doing so, nor does it take a penalty for using a thrown improvised weapon with the nonlethal trait to make a lethal attack.</p>"
+                    "value": "<p>Any weapon a charau-ka throws gains the deadly d6 weapon trait.</p>\n<p>Furthermore, when a charau-ka throws an improvised weapon, it does not take the –2 penalty for doing so, nor does it take a penalty for using a thrown improvised weapon with the nonlethal trait to make a lethal attack.</p>"
                 },
                 "publication": {
                     "license": "OGL",

@@ -186,7 +186,7 @@
                 },
                 "category": "defensive",
                 "description": {
-                    "value": "<p><strong>Trigger</strong> A creature within reach of Racharak's tail uses a move action or leaves a square during a move action it's using.</p>\n<hr />\n<p><strong>Effect</strong> Racharak makes a tail Strike at the creature with a -2 penalty. If it hits, she disrupts the creature's action.</p>"
+                    "value": "<p><strong>Trigger</strong> A creature within reach of Racharak's tail uses a move action or leaves a square during a move action it's using.</p>\n<hr />\n<p><strong>Effect</strong> Racharak makes a tail Strike at the creature with a –2 penalty. If it hits, she disrupts the creature's action.</p>"
                 },
                 "publication": {
                     "license": "OGL",
@@ -330,7 +330,7 @@
                 },
                 "category": "offensive",
                 "description": {
-                    "value": "<p>When Racharak throws a weapon, the weapon gains the deadly d6 weapon trait. When she throws an improvised weapon, she doesn't take the -2 penalty for using an improvised weapon, nor does she take the penalty for using that weapon to make a lethal attack instead of a nonlethal attack.</p>"
+                    "value": "<p>When Racharak throws a weapon, the weapon gains the deadly d6 weapon trait. When she throws an improvised weapon, she doesn't take the –2 penalty for using an improvised weapon, nor does she take the penalty for using that weapon to make a lethal attack instead of a nonlethal attack.</p>"
                 },
                 "publication": {
                     "license": "OGL",

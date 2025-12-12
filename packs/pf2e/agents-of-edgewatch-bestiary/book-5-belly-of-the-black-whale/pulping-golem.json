@@ -183,7 +183,7 @@
                 },
                 "category": "offensive",
                 "description": {
-                    "value": "<p>The pulping golem extends its legs up to a height of 40 feet, raising its body high into the air. While its legs are extended, its movement speed is halved, and it takes a -2 penalty to its Fortitude save DC against @UUID[Compendium.pf2e.actionspf2e.Item.Shove] and @UUID[Compendium.pf2e.actionspf2e.Item.Trip] attempts.</p>"
+                    "value": "<p>The pulping golem extends its legs up to a height of 40 feet, raising its body high into the air. While its legs are extended, its movement speed is halved, and it takes a –2 penalty to its Fortitude save DC against @UUID[Compendium.pf2e.actionspf2e.Item.Shove] and @UUID[Compendium.pf2e.actionspf2e.Item.Trip] attempts.</p>"
                 },
                 "publication": {
                     "license": "OGL",

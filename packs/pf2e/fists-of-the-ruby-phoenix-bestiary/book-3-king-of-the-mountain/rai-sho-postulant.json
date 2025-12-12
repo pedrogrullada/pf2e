@@ -257,7 +257,7 @@
                 },
                 "category": "defensive",
                 "description": {
-                    "value": "<p>Rai Sho Postulants gain a +4 status bonus to saves against fear and against spells and abilities that affect dreams. A Rai Sho Postulant that falls prey to a supernatural nightmare loses this ability and becomes permanently enraged, gaining a +1 status bonus to attack and damage status bonus to attack and damage rolls and a -1 status penalty to AC.</p>"
+                    "value": "<p>Rai Sho Postulants gain a +4 status bonus to saves against fear and against spells and abilities that affect dreams. A Rai Sho Postulant that falls prey to a supernatural nightmare loses this ability and becomes permanently enraged, gaining a +1 status bonus to attack and damage status bonus to attack and damage rolls and a –1 status penalty to AC.</p>"
                 },
                 "publication": {
                     "license": "OGL",

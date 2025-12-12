@@ -652,7 +652,7 @@
                 },
                 "category": "offensive",
                 "description": {
-                    "value": "<p>Dmiri's multiple attack penalty against her hunted prey is -3 (-2 with an agile weapon) on her second attack and -6 (-4 with an agile weapon) on her third or subsequent attacks.</p>"
+                    "value": "<p>Dmiri's multiple attack penalty against her hunted prey is –3 (–2 with an agile weapon) on her second attack and –6 (–4 with an agile weapon) on her third or subsequent attacks.</p>"
                 },
                 "publication": {
                     "license": "OGL",

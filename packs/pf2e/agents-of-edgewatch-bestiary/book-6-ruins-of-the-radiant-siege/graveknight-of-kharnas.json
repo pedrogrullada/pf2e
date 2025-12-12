@@ -569,7 +569,7 @@
                 },
                 "category": "offensive",
                 "description": {
-                    "value": "<p>The graveknight carves the sigil of Kharnas onto an adjacent @UUID[Compendium.pf2e.conditionitems.Item.Immobilized] or @UUID[Compendium.pf2e.conditionitems.Item.Unconscious] creature.</p>\n<p>As long as the creature bears the sigil of Kharnas, it takes a -2 status penalty to saving throws against the abilities of any creature that previously served Kharnas, but it can also freely pass through any hazards that can be bypassed by those bearing the sigil of Kharnas, such as Kharnas's glyphs.</p>\n<p>@UUID[Compendium.pf2e.bestiary-effects.Item.Effect: Kharna's Blessing]</p>"
+                    "value": "<p>The graveknight carves the sigil of Kharnas onto an adjacent @UUID[Compendium.pf2e.conditionitems.Item.Immobilized] or @UUID[Compendium.pf2e.conditionitems.Item.Unconscious] creature.</p>\n<p>As long as the creature bears the sigil of Kharnas, it takes a –2 status penalty to saving throws against the abilities of any creature that previously served Kharnas, but it can also freely pass through any hazards that can be bypassed by those bearing the sigil of Kharnas, such as Kharnas's glyphs.</p>\n<p>@UUID[Compendium.pf2e.bestiary-effects.Item.Effect: Kharna's Blessing]</p>"
                 },
                 "publication": {
                     "license": "OGL",

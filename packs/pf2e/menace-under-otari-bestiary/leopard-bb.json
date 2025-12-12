@@ -105,7 +105,7 @@
                 },
                 "category": "offensive",
                 "description": {
-                    "value": "<p>The leopard makes two claw Strikes against a creature it has @UUID[Compendium.pf2e.conditionitems.Item.Grabbed] or @UUID[Compendium.pf2e.conditionitems.Item.Restrained]. The second attack uses the same multiple attack penalty as the first, but later attacks that turn take a -10 multiple attack penalty (or -8 for its claws).</p>"
+                    "value": "<p>The leopard makes two claw Strikes against a creature it has @UUID[Compendium.pf2e.conditionitems.Item.Grabbed] or @UUID[Compendium.pf2e.conditionitems.Item.Restrained]. The second attack uses the same multiple attack penalty as the first, but later attacks that turn take a –10 multiple attack penalty (or -8 for its claws).</p>"
                 },
                 "publication": {
                     "license": "OGL",

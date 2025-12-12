@@ -366,7 +366,7 @@
             "sort": 0,
             "system": {
                 "description": {
-                    "value": "<p>This adds -3 to nature and religion and +1 to HP to match the values printed in the Kingmaker Companion Guide</p>"
+                    "value": "<p>This adds –3 to nature and religion and +1 to HP to match the values printed in the Kingmaker Companion Guide</p>"
                 },
                 "duration": {
                     "expiry": "turn-start",

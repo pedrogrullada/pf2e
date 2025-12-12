@@ -4,7 +4,7 @@
     "name": "Effect: Suit of Armoire Frustration",
     "system": {
         "description": {
-            "value": "<p>Granted by @UUID[Compendium.pf2e.equipment-srd.Item.Suit of Armoire]</p>\n<p>You take -1 status penalty to Will saves.</p>"
+            "value": "<p>Granted by @UUID[Compendium.pf2e.equipment-srd.Item.Suit of Armoire]</p>\n<p>You take –1 status penalty to Will saves.</p>"
         },
         "duration": {
             "expiry": "turn-start",

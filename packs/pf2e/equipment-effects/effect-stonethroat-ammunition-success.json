@@ -4,7 +4,7 @@
     "name": "Effect: Stonethroat Ammunition (Success)",
     "system": {
         "description": {
-            "value": "<p>Granted by @UUID[Compendium.pf2e.equipment-srd.Item.Stonethroat Ammunition]</p>\n<p>You take a -2 status penalty to attack rolls with your jaws or fangs, and to Athletics checks.</p>"
+            "value": "<p>Granted by @UUID[Compendium.pf2e.equipment-srd.Item.Stonethroat Ammunition]</p>\n<p>You take a –2 status penalty to attack rolls with your jaws or fangs, and to Athletics checks.</p>"
         },
         "duration": {
             "expiry": null,

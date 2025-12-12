@@ -251,7 +251,7 @@
                 },
                 "category": "offensive",
                 "description": {
-                    "value": "<p>The skeletal giant makes two Strikes with its greataxe against two adjacent foes, both of whom are within its reach. The second attack uses the same multiple attack penalty as the first, but attacks it makes after this take a -10 multiple attack penalty (or a -8 multiple attack penalty for its horns).</p>"
+                    "value": "<p>The skeletal giant makes two Strikes with its greataxe against two adjacent foes, both of whom are within its reach. The second attack uses the same multiple attack penalty as the first, but attacks it makes after this take a –10 multiple attack penalty (or a -8 multiple attack penalty for its horns).</p>"
                 },
                 "publication": {
                     "license": "OGL",

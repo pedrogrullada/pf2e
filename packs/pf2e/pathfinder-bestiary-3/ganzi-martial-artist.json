@@ -1286,7 +1286,7 @@
                 },
                 "category": "offensive",
                 "description": {
-                    "value": "<p><strong>Requirements</strong> The martial artist has both hands free</p>\n<hr />\n<p><strong>Effect</strong> The martial artist Steps, then makes a melee Strike at a -1 penalty.</p>"
+                    "value": "<p><strong>Requirements</strong> The martial artist has both hands free</p>\n<hr />\n<p><strong>Effect</strong> The martial artist Steps, then makes a melee Strike at a –1 penalty.</p>"
                 },
                 "publication": {
                     "license": "OGL",

@@ -4,7 +4,7 @@
     "name": "Effect: Technology Control",
     "system": {
         "description": {
-            "value": "<p>The target takes a -2 circumstance penalty to its attack rolls and DCs against a creature it would not normally attack.</p>\n<hr />\n<p><em>Note: This effect applies a penalty to all rolls and DCs while active.</em></p>"
+            "value": "<p>The target takes a –2 circumstance penalty to its attack rolls and DCs against a creature it would not normally attack.</p>\n<hr />\n<p><em>Note: This effect applies a penalty to all rolls and DCs while active.</em></p>"
         },
         "duration": {
             "expiry": "turn-start",

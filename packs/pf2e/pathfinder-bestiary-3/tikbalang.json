@@ -339,7 +339,7 @@
                 },
                 "category": "defensive",
                 "description": {
-                    "value": "<p>The tikbalang takes a -2 circumstance penalty to saves against illusion spells, and to their Will DC against checks to @UUID[Compendium.pf2e.actionspf2e.Item.Lie] to them.</p>"
+                    "value": "<p>The tikbalang takes a –2 circumstance penalty to saves against illusion spells, and to their Will DC against checks to @UUID[Compendium.pf2e.actionspf2e.Item.Lie] to them.</p>"
                 },
                 "publication": {
                     "license": "OGL",

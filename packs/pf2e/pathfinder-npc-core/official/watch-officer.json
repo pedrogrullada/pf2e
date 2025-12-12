@@ -683,7 +683,7 @@
                 },
                 "category": "defensive",
                 "description": {
-                    "value": "<p>10 feet. Creatures in the aura who are the same or lower level than the watch officer take a -2 status penalty to their Will DC against the watch officer's attempts to [[/act coerce]] or [[/act demoralize]] them.</p>"
+                    "value": "<p>10 feet. Creatures in the aura who are the same or lower level than the watch officer take a –2 status penalty to their Will DC against the watch officer's attempts to [[/act coerce]] or [[/act demoralize]] them.</p>"
                 },
                 "publication": {
                     "license": "ORC",

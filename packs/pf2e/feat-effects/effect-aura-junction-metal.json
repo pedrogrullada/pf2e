@@ -4,7 +4,7 @@
     "name": "Effect: Aura Junction (Metal)",
     "system": {
         "description": {
-            "value": "<p>Creatures with the metal trait take a -1 status penalty to AC.</p>"
+            "value": "<p>Creatures with the metal trait take a –1 status penalty to AC.</p>"
         },
         "duration": {
             "expiry": "turn-start",

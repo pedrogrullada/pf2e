@@ -4,7 +4,7 @@
     "name": "Effect: Sandstorm",
     "system": {
         "description": {
-            "value": "<p>The creature takes a -4 circumstance penalty to Perception checks.</p>"
+            "value": "<p>The creature takes a –4 circumstance penalty to Perception checks.</p>"
         },
         "duration": {
             "expiry": null,

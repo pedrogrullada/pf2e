@@ -2184,7 +2184,7 @@
                 },
                 "category": "offensive",
                 "description": {
-                    "value": "<p>The chimera makes a Strike with its dragon jaws, lion jaws, and goat horns, each at a -2 penalty and targeting a different creature. These Strikes count as only one attack for the chimera's multiple attack penalty, and the penalty doesn't increase until after it has made all three attacks.</p>"
+                    "value": "<p>The chimera makes a Strike with its dragon jaws, lion jaws, and goat horns, each at a –2 penalty and targeting a different creature. These Strikes count as only one attack for the chimera's multiple attack penalty, and the penalty doesn't increase until after it has made all three attacks.</p>"
                 },
                 "publication": {
                     "license": "ORC",

@@ -4,7 +4,7 @@
     "name": "Effect: Vitriolic Miasma",
     "system": {
         "description": {
-            "value": "<p>You take a -2 circumstance penalty to saves against poison effects and gain weakness 10 to poison damage.</p>"
+            "value": "<p>You take a –2 circumstance penalty to saves against poison effects and gain weakness 10 to poison damage.</p>"
         },
         "duration": {
             "expiry": null,

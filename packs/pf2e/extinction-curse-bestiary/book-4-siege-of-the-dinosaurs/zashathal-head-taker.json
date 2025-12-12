@@ -572,7 +572,7 @@
                 },
                 "category": "defensive",
                 "description": {
-                    "value": "<p>30 feet. A creature that enters the area must attempt a @Check[fortitude|dc:34] save. On a failure, the creature is @UUID[Compendium.pf2e.conditionitems.Item.Sickened]{Sickened 2}, and on a critical failure, the creature is also @UUID[Compendium.pf2e.conditionitems.Item.Slowed]{Slowed 1} for as long as it is sickened. While within the aura, the creature takes a -2 circumstance penalty to saves to recover from the sickened condition. A creature that succeeds at its save is temporarily immune to all xulgaths' stenches for 1 minute.</p>"
+                    "value": "<p>30 feet. A creature that enters the area must attempt a @Check[fortitude|dc:34] save. On a failure, the creature is @UUID[Compendium.pf2e.conditionitems.Item.Sickened]{Sickened 2}, and on a critical failure, the creature is also @UUID[Compendium.pf2e.conditionitems.Item.Slowed]{Slowed 1} for as long as it is sickened. While within the aura, the creature takes a –2 circumstance penalty to saves to recover from the sickened condition. A creature that succeeds at its save is temporarily immune to all xulgaths' stenches for 1 minute.</p>"
                 },
                 "publication": {
                     "license": "OGL",
@@ -646,7 +646,7 @@
                 },
                 "category": "offensive",
                 "description": {
-                    "value": "<p><strong>Requirements</strong> Zashathal isn't @UUID[Compendium.pf2e.conditionitems.Item.Fatigued] or raging</p>\n<hr />\n<p><strong>Effect</strong> Zashathal gains 20 temporary Hit Points that last until the rage ends. While raging, he deals 12 additional damage with melee attacks and takes a -1 penalty to AC. Zashathal can't use concentrate actions except Seek and rage actions. The rage lasts for 1 minute, until there are no enemies Zashathal can perceive, or until Zashathal falls unconscious. Once the rage ends, Zashathal can't again for 1 minute.</p>\n<p>@UUID[Compendium.pf2e.feat-effects.Item.Effect: Rage]</p>"
+                    "value": "<p><strong>Requirements</strong> Zashathal isn't @UUID[Compendium.pf2e.conditionitems.Item.Fatigued] or raging</p>\n<hr />\n<p><strong>Effect</strong> Zashathal gains 20 temporary Hit Points that last until the rage ends. While raging, he deals 12 additional damage with melee attacks and takes a –1 penalty to AC. Zashathal can't use concentrate actions except Seek and rage actions. The rage lasts for 1 minute, until there are no enemies Zashathal can perceive, or until Zashathal falls unconscious. Once the rage ends, Zashathal can't again for 1 minute.</p>\n<p>@UUID[Compendium.pf2e.feat-effects.Item.Effect: Rage]</p>"
                 },
                 "publication": {
                     "license": "OGL",

@@ -179,7 +179,7 @@
                 },
                 "category": "offensive",
                 "description": {
-                    "value": "<p>If the shadow hit a living creature with a Strike on its previous action, it can use this action to pull at the target's shadow, imposing a -1 status penalty to Athletics and to attack rolls and damage rolls that use Strength. The penalty increases each time a shadow uses this ability to a maximum of -4. The penalty decreases by 1 every hour.</p>"
+                    "value": "<p>If the shadow hit a living creature with a Strike on its previous action, it can use this action to pull at the target's shadow, imposing a –1 status penalty to Athletics and to attack rolls and damage rolls that use Strength. The penalty increases each time a shadow uses this ability to a maximum of -4. The penalty decreases by 1 every hour.</p>"
                 },
                 "publication": {
                     "license": "OGL",

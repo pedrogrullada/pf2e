@@ -4,7 +4,7 @@
     "name": "Effect: Debilitating Strike",
     "system": {
         "description": {
-            "value": "<p>Granted by @UUID[Compendium.pf2e.actionspf2e.Item.Debilitating Strike]</p>\n<p>You take a -10 status penalty to all Speeds.</p>"
+            "value": "<p>Granted by @UUID[Compendium.pf2e.actionspf2e.Item.Debilitating Strike]</p>\n<p>You take a –10 status penalty to all Speeds.</p>"
         },
         "duration": {
             "expiry": "turn-end",

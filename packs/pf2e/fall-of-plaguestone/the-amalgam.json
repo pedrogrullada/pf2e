@@ -226,7 +226,7 @@
                 },
                 "category": "offensive",
                 "description": {
-                    "value": "<p>The amalgam can make up to four Strikes, one with each of its listed melee attacks, but no more than two at any one target. It takes a -2 penalty to each attack, but the multiple attack penalty does not increase until all the attacks are made.</p>"
+                    "value": "<p>The amalgam can make up to four Strikes, one with each of its listed melee attacks, but no more than two at any one target. It takes a –2 penalty to each attack, but the multiple attack penalty does not increase until all the attacks are made.</p>"
                 },
                 "publication": {
                     "license": "OGL",

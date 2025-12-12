@@ -4,7 +4,7 @@
     "name": "Spell Effect: Wrathful Storm",
     "system": {
         "description": {
-            "value": "<p>Granted by @UUID[Compendium.pf2e.spells-srd.Item.Wrathful Storm]</p>\n<p>You take a -4 circumstance penalty to physical ranged attacks.</p>"
+            "value": "<p>Granted by @UUID[Compendium.pf2e.spells-srd.Item.Wrathful Storm]</p>\n<p>You take a –4 circumstance penalty to physical ranged attacks.</p>"
         },
         "duration": {
             "expiry": "turn-start",

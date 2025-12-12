@@ -395,7 +395,7 @@
                     }
                 },
                 "description": {
-                    "value": "<p>You forcibly calm creatures in the area, soothing them into a nonviolent state; each creature must attempt a Will save.</p>\n<hr />\n<p><strong>Critical Success</strong> The creature is unaffected.</p>\n<p><strong>Success</strong> Calming urges impose a -1 status penalty to the creature's attack rolls.</p>\n<p><strong>Failure</strong> Any emotion effects that would affect the creature are suppressed and the creature can't use hostile actions. If the target is subject to hostility from any other creature, it ceases to be affected by calm emotions.</p>\n<p><strong>Critical Failure</strong> As failure, but hostility doesn't end the effect.</p>\n<p>@UUID[Compendium.pf2e.spell-effects.Item.Spell Effect: Calm]</p>"
+                    "value": "<p>You forcibly calm creatures in the area, soothing them into a nonviolent state; each creature must attempt a Will save.</p>\n<hr />\n<p><strong>Critical Success</strong> The creature is unaffected.</p>\n<p><strong>Success</strong> Calming urges impose a –1 status penalty to the creature's attack rolls.</p>\n<p><strong>Failure</strong> Any emotion effects that would affect the creature are suppressed and the creature can't use hostile actions. If the target is subject to hostility from any other creature, it ceases to be affected by calm emotions.</p>\n<p><strong>Critical Failure</strong> As failure, but hostility doesn't end the effect.</p>\n<p>@UUID[Compendium.pf2e.spell-effects.Item.Spell Effect: Calm]</p>"
                 },
                 "duration": {
                     "sustained": true,
@@ -1799,7 +1799,7 @@
                 },
                 "category": "defensive",
                 "description": {
-                    "value": "<p><strong>Trigger</strong> A creature damages Satinder Morne with a melee Strike</p>\n<p><strong>Effect</strong> Satinder Morne makes a melee Strike against the triggering creature. She suffers a -2 penalty on the attack roll but gains a +2 bonus on the damage roll if the Strike hits.</p>"
+                    "value": "<p><strong>Trigger</strong> A creature damages Satinder Morne with a melee Strike</p>\n<p><strong>Effect</strong> Satinder Morne makes a melee Strike against the triggering creature. She suffers a –2 penalty on the attack roll but gains a +2 bonus on the damage roll if the Strike hits.</p>"
                 },
                 "publication": {
                     "license": "OGL",

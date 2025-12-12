@@ -4,7 +4,7 @@
     "name": "Effect: Putrid Blast",
     "system": {
         "description": {
-            "value": "<p>Creature takes a -2 circumstance penalty to Fortitude saves against xulgath bile for 1 minute.</p>"
+            "value": "<p>Creature takes a –2 circumstance penalty to Fortitude saves against xulgath bile for 1 minute.</p>"
         },
         "duration": {
             "expiry": "turn-start",

@@ -64,7 +64,7 @@
         },
         {
             "_id": "xG8u3RutXZxCUwy2",
-            "description": "Euryale (curse). A medusa's image curses you with a permanent -1 status penalty to all saving throws. This can be removed by only a deity or the Fates card. @UUID[Compendium.pf2e.equipment-effects.Item.Effect: Euryale (Curse) Card]",
+            "description": "Euryale (curse). A medusa's image curses you with a permanent –1 status penalty to all saving throws. This can be removed by only a deity or the Fates card. @UUID[Compendium.pf2e.equipment-effects.Item.Effect: Euryale (Curse) Card]",
             "drawn": false,
             "img": "icons/svg/d20-black.svg",
             "name": "",

@@ -4,7 +4,7 @@
     "name": "Effect: Cite Precedent",
     "system": {
         "description": {
-            "value": "<p>You gain a -2 circumstance penalty on your next Diplomacy check in a legal argument.</p>"
+            "value": "<p>You gain a –2 circumstance penalty on your next Diplomacy check in a legal argument.</p>"
         },
         "duration": {
             "expiry": null,

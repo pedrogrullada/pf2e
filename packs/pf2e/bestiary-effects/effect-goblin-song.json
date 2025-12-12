@@ -4,7 +4,7 @@
     "name": "Effect: Goblin Song",
     "system": {
         "description": {
-            "value": "<p>The creature takes a -1 status penalty to Perception checks and Will saves.</p>"
+            "value": "<p>The creature takes a –1 status penalty to Perception checks and Will saves.</p>"
         },
         "duration": {
             "expiry": "turn-start",

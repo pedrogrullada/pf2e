@@ -5,7 +5,7 @@
     "name": "Effect: Forgive Foe",
     "system": {
         "description": {
-            "value": "<p>Granted by @UUID[Compendium.pf2e.adventure-specific-actions.Item.Forgive Foe]</p>\n<p>The target suffers a -2 status penalty on all attacks, effect DCs, and its Will DC against additional Forgive Foe attempts until the end of your next turn.</p>"
+            "value": "<p>Granted by @UUID[Compendium.pf2e.adventure-specific-actions.Item.Forgive Foe]</p>\n<p>The target suffers a –2 status penalty on all attacks, effect DCs, and its Will DC against additional Forgive Foe attempts until the end of your next turn.</p>"
         },
         "duration": {
             "expiry": "turn-end",

@@ -1391,7 +1391,7 @@
                 },
                 "category": "offensive",
                 "description": {
-                    "value": "<p><strong>Trigger</strong> The risen fetch critically hits a humanoid target with a fetch weapon Strike and has a @UUID[Compendium.pf2e.spells-srd.Item.Duplicate Foe] spell available</p>\n<p><strong>Effect</strong> The risen fetch casts <em>duplicate foe</em> on the target, who takes a -4 status penalty on the saving throw to resist.</p>"
+                    "value": "<p><strong>Trigger</strong> The risen fetch critically hits a humanoid target with a fetch weapon Strike and has a @UUID[Compendium.pf2e.spells-srd.Item.Duplicate Foe] spell available</p>\n<p><strong>Effect</strong> The risen fetch casts <em>duplicate foe</em> on the target, who takes a –4 status penalty on the saving throw to resist.</p>"
                 },
                 "publication": {
                     "license": "OGL",

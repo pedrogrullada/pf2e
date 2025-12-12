@@ -4,7 +4,7 @@
     "name": "Effect: Drakeheart Mutagen (Lesser)",
     "system": {
         "description": {
-            "value": "<p>Granted by @UUID[Compendium.pf2e.equipment-srd.Item.Drakeheart Mutagen (Lesser)]</p>\n<p><strong>Benefit</strong> You gain +4 item bonus to AC, a Dexterity cap of +2, and a +1 item bonus to Perception checks.</p>\n<p><strong>Drawback</strong> You take a -1 penalty to Will saves, Reflex saves, and all skill checks to Recall Knowledge.</p>"
+            "value": "<p>Granted by @UUID[Compendium.pf2e.equipment-srd.Item.Drakeheart Mutagen (Lesser)]</p>\n<p><strong>Benefit</strong> You gain +4 item bonus to AC, a Dexterity cap of +2, and a +1 item bonus to Perception checks.</p>\n<p><strong>Drawback</strong> You take a –1 penalty to Will saves, Reflex saves, and all skill checks to Recall Knowledge.</p>"
         },
         "duration": {
             "expiry": "turn-start",

@@ -744,7 +744,7 @@
                 },
                 "category": "offensive",
                 "description": {
-                    "value": "<p>Bristlebane uses her whip to @UUID[Compendium.pf2e.actionspf2e.Item.Disarm], Strike, or @UUID[Compendium.pf2e.actionspf2e.Item.Trip] each creature within her reach. She can select a different action for each target. She takes a -2 circumstance penalty on the check for each action, and each action counts against her multiple attack penalty, but her multiple attack penalty doesn't increase until after all the actions.</p>"
+                    "value": "<p>Bristlebane uses her whip to @UUID[Compendium.pf2e.actionspf2e.Item.Disarm], Strike, or @UUID[Compendium.pf2e.actionspf2e.Item.Trip] each creature within her reach. She can select a different action for each target. She takes a –2 circumstance penalty on the check for each action, and each action counts against her multiple attack penalty, but her multiple attack penalty doesn't increase until after all the actions.</p>"
                 },
                 "publication": {
                     "license": "OGL",

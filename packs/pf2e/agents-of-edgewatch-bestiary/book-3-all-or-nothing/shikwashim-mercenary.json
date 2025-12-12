@@ -751,7 +751,7 @@
                 },
                 "category": "offensive",
                 "description": {
-                    "value": "<p>A Shikwashim mercenary's multiple attack penalty for attacks against humans is -3 (-2 with an agile weapon) on their second attack per turn or -6 (-4 with an agile weapon) on their third or subsequent attack per turn.</p>"
+                    "value": "<p>A Shikwashim mercenary's multiple attack penalty for attacks against humans is –3 (–2 with an agile weapon) on their second attack per turn or –6 (–4 with an agile weapon) on their third or subsequent attack per turn.</p>"
                 },
                 "publication": {
                     "license": "OGL",

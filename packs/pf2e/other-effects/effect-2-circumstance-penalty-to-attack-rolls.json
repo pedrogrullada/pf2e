@@ -1,7 +1,7 @@
 {
     "_id": "5gX3PZztMecmWxX9",
     "img": "systems/pf2e/icons/effects/critical-effect.webp",
-    "name": "Effect: -2 circumstance penalty to attack rolls",
+    "name": "Effect: –2 circumstance penalty to attack rolls",
     "system": {
         "description": {
             "value": "<p><strong>Effect applied by @UUID[Compendium.pf2e.criticaldeck.JournalEntry.Critical Fumble Deck #10], @UUID[Compendium.pf2e.criticaldeck.JournalEntry.Critical Fumble Deck #15], @UUID[Compendium.pf2e.criticaldeck.JournalEntry.Critical Hit Deck #29]</strong></p>\n<p>-2 circumstance penalty to attack rolls</p>"

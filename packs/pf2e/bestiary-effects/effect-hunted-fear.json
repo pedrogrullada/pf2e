@@ -4,7 +4,7 @@
     "name": "Effect: Hunted Fear",
     "system": {
         "description": {
-            "value": "<p>The creature takes a -2 circumstance penalty to Survival checks to avoid getting lost.</p>"
+            "value": "<p>The creature takes a –2 circumstance penalty to Survival checks to avoid getting lost.</p>"
         },
         "duration": {
             "expiry": "turn-start",

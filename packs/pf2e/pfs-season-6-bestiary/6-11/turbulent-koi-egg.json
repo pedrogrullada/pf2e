@@ -46,7 +46,7 @@
                 },
                 "category": "offensive",
                 "description": {
-                    "value": "<p><strong>Trigger</strong> Xalreonshin rolls initiative, three rounds pass after the PCs begin speaking with Xalreonshin, or a creature other than Xalreonshin comes within 40 feet of the egg</p><hr /><p><strong>Effect</strong> The turbulent koi egg churns the lake surface, ejecting water into the sky. A 1-mile-radius area centered on the egg becomes filled with heavy rain and strong wind imposing a -2 circumstance penalty to Perception checks and requiring flying creatures to [[/act maneuver-in-flight dc=22]].</p>"
+                    "value": "<p><strong>Trigger</strong> Xalreonshin rolls initiative, three rounds pass after the PCs begin speaking with Xalreonshin, or a creature other than Xalreonshin comes within 40 feet of the egg</p><hr /><p><strong>Effect</strong> The turbulent koi egg churns the lake surface, ejecting water into the sky. A 1-mile-radius area centered on the egg becomes filled with heavy rain and strong wind imposing a –2 circumstance penalty to Perception checks and requiring flying creatures to [[/act maneuver-in-flight dc=22]].</p>"
                 },
                 "publication": {
                     "license": "OGL",

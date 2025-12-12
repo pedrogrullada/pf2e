@@ -4,7 +4,7 @@
     "name": "Effect: Bragging Rights (Status Penalty Critical Failure)",
     "system": {
         "description": {
-            "value": "<p>Granted by @UUID[Compendium.pf2e.equipment-srd.Item.Doom Switch]</p>\n<p>You take a -2 status penalty to attack rolls against the target.</p>"
+            "value": "<p>Granted by @UUID[Compendium.pf2e.equipment-srd.Item.Doom Switch]</p>\n<p>You take a –2 status penalty to attack rolls against the target.</p>"
         },
         "duration": {
             "expiry": "turn-start",

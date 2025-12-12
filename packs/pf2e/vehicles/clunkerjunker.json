@@ -48,7 +48,7 @@
                 },
                 "category": null,
                 "description": {
-                    "value": "<p>When this vehicle takes physical damage the pilot must attempt a @Check[flat|dc:11] (or a @Check[flat|dc:20] when it takes a critical hit). On a failure, the armored hull fractures and the vehicle loses its Hardness and takes a -4 circumstance penalty to AC.</p>"
+                    "value": "<p>When this vehicle takes physical damage the pilot must attempt a @Check[flat|dc:11] (or a @Check[flat|dc:20] when it takes a critical hit). On a failure, the armored hull fractures and the vehicle loses its Hardness and takes a –4 circumstance penalty to AC.</p>"
                 },
                 "publication": {
                     "license": "OGL",
@@ -103,7 +103,7 @@
                 },
                 "category": null,
                 "description": {
-                    "value": "<p>10 feet. Whenever this vehicle is being piloted, it continually emits a thin haze of smoke and chemicals. Creatures in the aura (including the pilot and passengers) take a -1 circumstance penalty to visual Perception checks.</p>"
+                    "value": "<p>10 feet. Whenever this vehicle is being piloted, it continually emits a thin haze of smoke and chemicals. Creatures in the aura (including the pilot and passengers) take a –1 circumstance penalty to visual Perception checks.</p>"
                 },
                 "publication": {
                     "license": "OGL",

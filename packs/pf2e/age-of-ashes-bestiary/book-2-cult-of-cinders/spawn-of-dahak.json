@@ -163,7 +163,7 @@
                 },
                 "category": "defensive",
                 "description": {
-                    "value": "<p><strong>Trigger</strong> A creature within reach of the spawn's tail uses a move action or leaves a square during a move action it's using.</p>\n<hr />\n<p><strong>Effect</strong> The spawn of Dahak makes a tail Strike at the creature with a -2 penalty. If it hits, they disrupt the creature's action.</p>"
+                    "value": "<p><strong>Trigger</strong> A creature within reach of the spawn's tail uses a move action or leaves a square during a move action it's using.</p>\n<hr />\n<p><strong>Effect</strong> The spawn of Dahak makes a tail Strike at the creature with a –2 penalty. If it hits, they disrupt the creature's action.</p>"
                 },
                 "publication": {
                     "license": "OGL",
@@ -307,7 +307,7 @@
                 },
                 "category": "offensive",
                 "description": {
-                    "value": "<p>When the spawn throws a weapon, the weapon gains the deadly d6 weapon trait. When they throw an improvised weapon, they don't take the -2 penalty for using an improvised weapon, nor do they take the penalty for using that weapon to make a lethal attack instead of a nonlethal attack.</p>"
+                    "value": "<p>When the spawn throws a weapon, the weapon gains the deadly d6 weapon trait. When they throw an improvised weapon, they don't take the –2 penalty for using an improvised weapon, nor do they take the penalty for using that weapon to make a lethal attack instead of a nonlethal attack.</p>"
                 },
                 "publication": {
                     "license": "OGL",

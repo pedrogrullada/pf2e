@@ -1,7 +1,7 @@
 {
     "_id": "Ck0MQP9og75AWix7",
     "img": "systems/pf2e/icons/effects/critical-effect.webp",
-    "name": "Effect: -2 circumstance penalty to attack rolls until healed",
+    "name": "Effect: –2 circumstance penalty to attack rolls until healed",
     "system": {
         "description": {
             "value": "<p><strong>Effect applied by @UUID[Compendium.pf2e.criticaldeck.JournalEntry.Critical Fumble Deck #8]</strong></p>\n<p>-2 circumstance penalty to attack rolls until healed</p>"

@@ -16,7 +16,7 @@
                 },
                 "category": null,
                 "description": {
-                    "value": "<p><strong>Trigger</strong> A creature moves through the undergrowth</p>\n<hr />\n<p><strong>Effect</strong> One round later, the hall fills with violet fog that imposes a -2 circumstance penalty to Perception checks to all creatures within it and exposes anyone who enters it to phantasmagoric fog.</p>\n<p>@UUID[Compendium.pf2e.bestiary-effects.Item.Effect: Phantasmagoric Fog]</p>"
+                    "value": "<p><strong>Trigger</strong> A creature moves through the undergrowth</p>\n<hr />\n<p><strong>Effect</strong> One round later, the hall fills with violet fog that imposes a –2 circumstance penalty to Perception checks to all creatures within it and exposes anyone who enters it to phantasmagoric fog.</p>\n<p>@UUID[Compendium.pf2e.bestiary-effects.Item.Effect: Phantasmagoric Fog]</p>"
                 },
                 "publication": {
                     "license": "OGL",

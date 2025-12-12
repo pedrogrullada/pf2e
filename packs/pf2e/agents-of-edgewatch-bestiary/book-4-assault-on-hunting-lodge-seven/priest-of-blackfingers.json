@@ -2624,7 +2624,7 @@
                 },
                 "category": "offensive",
                 "description": {
-                    "value": "<p>Kalyn can masterfully manipulate vile, poisonous energy and increase its potency. Her melee and ranged Strikes deal an additional 2d6 poison damage, and a target that takes this poison damage has a -1 status penalty to saving throws against Kalyn's divine spells for 1 round. Poisons delivered by Kalyn have the virulent trait.</p>"
+                    "value": "<p>Kalyn can masterfully manipulate vile, poisonous energy and increase its potency. Her melee and ranged Strikes deal an additional 2d6 poison damage, and a target that takes this poison damage has a –1 status penalty to saving throws against Kalyn's divine spells for 1 round. Poisons delivered by Kalyn have the virulent trait.</p>"
                 },
                 "publication": {
                     "license": "OGL",

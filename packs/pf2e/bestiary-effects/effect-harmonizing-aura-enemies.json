@@ -4,7 +4,7 @@
     "name": "Effect: Harmonizing Aura (Enemies)",
     "system": {
         "description": {
-            "value": "<p>The creature gains a -2 status bonus to sonic damage rolls and a -1 status bonus to AC and all saves against sonic and auditory effects</p>"
+            "value": "<p>The creature gains a –2 status bonus to sonic damage rolls and a –1 status bonus to AC and all saves against sonic and auditory effects</p>"
         },
         "duration": {
             "expiry": null,

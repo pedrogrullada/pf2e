@@ -4,7 +4,7 @@
     "name": "Effect: Dirty Bomb (Critical Failure)",
     "system": {
         "description": {
-            "value": "<p>The creature takes a -3 circumstance penalty to fortitude saves against the chemist's Crude Bombs.</p>"
+            "value": "<p>The creature takes a –3 circumstance penalty to fortitude saves against the chemist's Crude Bombs.</p>"
         },
         "duration": {
             "expiry": "turn-start",
