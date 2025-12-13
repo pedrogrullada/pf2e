@@ -59,7 +59,7 @@
                             {
                                 "mode": "add",
                                 "property": "other-tags",
-                                "value": "greater-knaves-standard-greater"
+                                "value": "greater-knaves-standard"
                             }
                         ],
                         "uuid": "Compendium.pf2e.equipment-effects.Item.Effect: Knave's Standard"
@@ -82,7 +82,7 @@
                             {
                                 "mode": "add",
                                 "property": "other-tags",
-                                "value": "greater-knaves-standard-greater"
+                                "value": "greater-knaves-standard"
                             }
                         ],
                         "uuid": "Compendium.pf2e.equipment-effects.Item.Effect: Knave's Standard"

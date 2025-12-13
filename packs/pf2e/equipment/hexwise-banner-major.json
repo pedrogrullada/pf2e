@@ -62,7 +62,7 @@
                             {
                                 "mode": "add",
                                 "property": "other-tags",
-                                "value": "major-hexwise-banner-major"
+                                "value": "major-hexwise-banner"
                             }
                         ],
                         "uuid": "Compendium.pf2e.equipment-effects.Item.Effect: Hexwise Banner"
@@ -85,7 +85,7 @@
                             {
                                 "mode": "add",
                                 "property": "other-tags",
-                                "value": "major-hexwise-banner-major"
+                                "value": "major-hexwise-banner"
                             }
                         ],
                         "uuid": "Compendium.pf2e.equipment-effects.Item.Effect: Hexwise Banner"
