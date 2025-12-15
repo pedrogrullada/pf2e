@@ -3042,6 +3042,9 @@
         }
     ],
     "name": "Adamantine Archdragon (Spellcaster)",
+    "prototypeToken": {
+        "name": "Adamantine Archdragon"
+    },
     "system": {
         "abilities": {
             "cha": {
