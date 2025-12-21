@@ -36,7 +36,7 @@
                     ]
                 },
                 "key": "ChoiceSet",
-                "prompt": "PF2E.SpecificRule.Prompt.DamageDice",
+                "prompt": "PF2E.SpecificRule.Prompt.WeaponDamageDice",
                 "rollOption": "flensing-slice"
             },
             {

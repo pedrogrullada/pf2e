@@ -5623,7 +5623,6 @@
                 "Color": "Select a Color.",
                 "ConsciousMind": "Select a conscious mind.",
                 "CreatureSize": "Select a creature size.",
-                "DamageDice": "Select a number of damage dice.",
                 "DamageType": "Select a damage type.",
                 "Defense": "Select a defense.",
                 "DegreeOfSuccess": "Select the degree of success.",
@@ -5677,6 +5676,7 @@
                 "VersatileTrait": "Select a versatile damage type.",
                 "Weakness": "Select a weakness.",
                 "Weapon": "Select a weapon.",
+                "WeaponDamageDice": "Select a number of weapon damage dice.",
                 "WeaponGroup": "Select a weapon group.",
                 "WeaponOrUnarmed": "Select a weapon or unarmed strike."
             },
