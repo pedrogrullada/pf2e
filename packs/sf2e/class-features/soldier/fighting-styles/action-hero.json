@@ -32,6 +32,9 @@
                     "success",
                     "criticalSuccess"
                 ],
+                "predicate": [
+                    "item:trait:automatic"
+                ],
                 "selector": [
                     "ranged-strike-attack-roll"
                 ],
