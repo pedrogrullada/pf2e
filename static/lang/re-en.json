@@ -7433,7 +7433,7 @@
                 },
                 "Trooper": {
                     "CoordinatedFire": {
-                        "Note": "Your target becomes @UUID[Compendium.sf2e.conditions.enA7BxAjBb7ns1iF]{Suppressed} until the end of your next turn."
+                        "Note": "Your target becomes @UUID[Compendium.sf2e.conditions.Item.enA7BxAjBb7ns1iF]{Suppressed} until the end of your next turn."
                     }
                 }
             },
