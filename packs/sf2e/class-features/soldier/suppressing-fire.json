@@ -28,7 +28,10 @@
         "rules": [
             {
                 "key": "Note",
-                "selector": "area-fire-damage",
+                "selector": [
+                    "area-fire-damage",
+                    "auto-fire-damage"
+                ],
                 "text": "SF2E.SpecificRule.Soldier.SuppressingFire.Note",
                 "title": "{item|name}"
             }
