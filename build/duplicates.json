@@ -142,6 +142,13 @@
                 "Constructed",
                 "Sharp Teeth"
             ],
+            "backgrounds": [
+                "Artist",
+                "Cook",
+                "Laborer",
+                "Miner",
+                "Teacher"
+            ],
             "conditions": [
                 "Blinded",
                 "Broken",
@@ -196,6 +203,7 @@
                 "Additional Lore",
                 "Adopted Ancestry",
                 "Advanced First Aid",
+                "Advanced Targeting System",
                 "Advanced General Training",
                 "Ancestral Paragon",
                 "Armor Proficiency",
@@ -268,6 +276,7 @@
                 "Planar Survival",
                 "Powerful Leap",
                 "Prescient Consumable",
+                "Protective Subroutine",
                 "Quick Climb",
                 "Quick Disguise",
                 "Quick Identification",
