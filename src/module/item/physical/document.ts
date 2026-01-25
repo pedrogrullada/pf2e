@@ -349,7 +349,9 @@ abstract class PhysicalItemPF2e<TParent extends ActorPF2e | null = ActorPF2e | n
         };
 
         // Compute level, rarity, and price from factors like runes, precious material, shoddiness, and size
-        if (this.isMagical) this.system.price.sizeSensitive = false;
+        if (this.isMagical || this.system.traits.value.includes("tech")) {
+            this.system.price.sizeSensitive = false;
+        }
         const { level, rarity, price } = computeLevelRarityPrice(this);
         this.system.level.value = level;
         this.system.traits.rarity = rarity;
