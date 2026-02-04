@@ -332,16 +332,16 @@
                 "predicate": [
                     {
                         "or": [
+                            "item:slug:arctic-rift",
                             "item:slug:breathe-fire",
-                            "item:slug:cone-of-cold",
+                            "item:slug:blazing-bolt",
+                            "item:slug:falling-star",
                             "item:slug:fireball",
-                            "item:slug:fiery-body",
-                            "item:slug:fire-shield",
-                            "item:slug:flame-vortex",
                             "item:slug:frostbite",
-                            "item:slug:heat-metal",
+                            "item:slug:frozen-fog",
+                            "item:slug:ice-storm",
                             "item:slug:ignition",
-                            "item:slug:polar-ray"
+                            "item:slug:volcanic-eruption"
                         ]
                     }
                 ],

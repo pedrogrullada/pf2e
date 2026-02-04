@@ -18,7 +18,7 @@
                     "damage"
                 ],
                 "materials": [],
-                "type": "untyped"
+                "type": "force"
             }
         },
         "defense": null,
@@ -39,42 +39,7 @@
         "level": {
             "value": 1
         },
-        "overlays": {
-            "DXSeNnk6UK2ScLGI": {
-                "name": "Imaginary Weapon (Bludgeoning)",
-                "overlayType": "override",
-                "sort": 1,
-                "system": {
-                    "damage": {
-                        "ky50hzqhwvdu8luq": {
-                            "category": null,
-                            "kinds": [
-                                "damage"
-                            ],
-                            "type": "bludgeoning"
-                        }
-                    },
-                    "defense": null
-                }
-            },
-            "uqBNqB55cCGnzmcX": {
-                "name": "Imaginary Weapon (Slashing)",
-                "overlayType": "override",
-                "sort": 2,
-                "system": {
-                    "damage": {
-                        "ky50hzqhwvdu8luq": {
-                            "category": null,
-                            "kinds": [
-                                "damage"
-                            ],
-                            "type": "slashing"
-                        }
-                    },
-                    "defense": null
-                }
-            }
-        },
+        "overlays": {},
         "publication": {
             "license": "ORC",
             "remaster": true,
