@@ -2427,7 +2427,7 @@
             "type": "feat"
         },
         {
-            "_id": "SJ0vHtvjKVJjklrO",
+            "_id": "Rph3aVPkW513coIw",
             "_stats": {
                 "compendiumSource": "Compendium.pf2e.classfeatures.Item.pyo0vmxUFIFX2GNl"
             },
@@ -2435,7 +2435,7 @@
                 "pf2e": {
                     "itemGrants": {
                         "confidentFinisher": {
-                            "id": "2RMCkS7rzZxNRQF4",
+                            "id": "dq8TnTkAxpF1tdmY",
                             "onDelete": "detach"
                         }
                     }
@@ -2490,7 +2490,7 @@
             "type": "feat"
         },
         {
-            "_id": "wUV8jCeVgXevSnt4",
+            "_id": "puUff6gMFGs2JFCG",
             "_stats": {
                 "compendiumSource": "Compendium.pf2e.classfeatures.Item.beW1OqibVQ3fBvRw"
             },
@@ -2498,7 +2498,7 @@
                 "pf2e": {
                     "itemGrants": {
                         "fencer": {
-                            "id": "5TxAln3VZUr0ZNz7",
+                            "id": "xVrunq6qA8nKMgdw",
                             "onDelete": "detach"
                         }
                     }
@@ -2565,7 +2565,7 @@
             "type": "feat"
         },
         {
-            "_id": "kmaj0dUXY64mCWq0",
+            "_id": "QYg6fBpzjjpdYanQ",
             "_stats": {
                 "compendiumSource": "Compendium.pf2e.classfeatures.Item.Jtn7IugykXDlIoZq"
             },
@@ -2573,7 +2573,7 @@
                 "pf2e": {
                     "itemGrants": {
                         "opportuneRiposte": {
-                            "id": "YXR6fTqvDv0ukkXc",
+                            "id": "53jbvPaBsVB5VAC2",
                             "onDelete": "detach"
                         }
                     }
@@ -2628,18 +2628,19 @@
             "type": "feat"
         },
         {
-            "_id": "2RMCkS7rzZxNRQF4",
+            "_id": "dq8TnTkAxpF1tdmY",
             "_stats": {
                 "compendiumSource": "Compendium.pf2e.actionspf2e.Item.K878asDgf1EF0B9S"
             },
             "flags": {
                 "pf2e": {
                     "grantedBy": {
-                        "id": "SJ0vHtvjKVJjklrO",
+                        "id": "Rph3aVPkW513coIw",
                         "onDelete": "cascade"
                     }
                 }
             },
+            "folder": "etjIWCWdHah6ssxB",
             "img": "systems/pf2e/icons/actions/OneAction.webp",
             "name": "Confident Finisher",
             "sort": 0,
@@ -2743,14 +2744,14 @@
             "type": "action"
         },
         {
-            "_id": "5TxAln3VZUr0ZNz7",
+            "_id": "xVrunq6qA8nKMgdw",
             "_stats": {
                 "compendiumSource": "Compendium.pf2e.classfeatures.Item.Jgid6Ja6Y879COlN"
             },
             "flags": {
                 "pf2e": {
                     "grantedBy": {
-                        "id": "wUV8jCeVgXevSnt4",
+                        "id": "puUff6gMFGs2JFCG",
                         "onDelete": "cascade"
                     }
                 }
@@ -2853,18 +2854,19 @@
             "type": "feat"
         },
         {
-            "_id": "YXR6fTqvDv0ukkXc",
+            "_id": "53jbvPaBsVB5VAC2",
             "_stats": {
                 "compendiumSource": "Compendium.pf2e.actionspf2e.Item.EfjoIuDmtUn4yiow"
             },
             "flags": {
                 "pf2e": {
                     "grantedBy": {
-                        "id": "kmaj0dUXY64mCWq0",
+                        "id": "QYg6fBpzjjpdYanQ",
                         "onDelete": "cascade"
                     }
                 }
             },
+            "folder": "0wzDPkI2wF5fOax9",
             "img": "systems/pf2e/icons/actions/Reaction.webp",
             "name": "Opportune Riposte",
             "sort": 0,
@@ -2923,7 +2925,7 @@
             "type": "action"
         },
         {
-            "_id": "gbLUNsTwuSwdxjbZ",
+            "_id": "tMdV2GH2kgGEVbYS",
             "_stats": {
                 "compendiumSource": "Compendium.pf2e.classfeatures.Item.LzYi0OuOoypNb6jd"
             },
@@ -2961,7 +2963,12 @@
                             "criticalSuccess"
                         ],
                         "predicate": [
-                            "item:trait:bravado",
+                            {
+                                "or": [
+                                    "item:trait:bravado",
+                                    "self:action:trait:bravado"
+                                ]
+                            },
                             {
                                 "or": [
                                     {
@@ -2984,7 +2991,12 @@
                             "failure"
                         ],
                         "predicate": [
-                            "item:trait:bravado",
+                            {
+                                "or": [
+                                    "item:trait:bravado",
+                                    "self:action:trait:bravado"
+                                ]
+                            },
                             {
                                 "or": [
                                     {
@@ -3036,7 +3048,7 @@
             "type": "feat"
         },
         {
-            "_id": "DyLQUuBTnTFMo8to",
+            "_id": "2PDmiPOe40BXmtn7",
             "_stats": {
                 "compendiumSource": "Compendium.pf2e.classfeatures.Item.RQH6vigvhmiYKKjg"
             },
@@ -3167,7 +3179,7 @@
             "type": "feat"
         },
         {
-            "_id": "w0Qj6KsKG2MZ2GS4",
+            "_id": "lLtVcLqt1Aqhsr89",
             "_stats": {
                 "compendiumSource": "Compendium.pf2e.classfeatures.Item.TALz3cU06Hb14Key"
             },
@@ -3251,7 +3263,7 @@
             "type": "feat"
         },
         {
-            "_id": "KnkMPAma2EpJMwLK",
+            "_id": "ByereCENnwpSezuy",
             "_stats": {
                 "compendiumSource": "Compendium.pf2e.classfeatures.Item.8BOFeRE7ZfJ02N0O"
             },
@@ -3321,7 +3333,7 @@
             "type": "feat"
         },
         {
-            "_id": "RJYIagkF3Icn6kO2",
+            "_id": "vfyXCjXOrKBLW16V",
             "_stats": {
                 "compendiumSource": "Compendium.pf2e.classfeatures.Item.pthjQIK9pDxnbER6"
             },
@@ -3368,7 +3380,7 @@
             "type": "feat"
         },
         {
-            "_id": "QnJbvPsvpHdTIlZ1",
+            "_id": "IXj4tlLIzsPxBujH",
             "_stats": {
                 "compendiumSource": "Compendium.pf2e.classfeatures.Item.F57Na5VxfBp56kke"
             },
@@ -3384,7 +3396,7 @@
                 },
                 "category": "classfeature",
                 "description": {
-                    "value": "<p><strong>Animist</strong> Spiritual energy reinforces your body, making you more resilient. Your proficiency rank for Fortitude saves increases to expert.</p>\n<p><strong>Bard, Commander, Investigator, Swashbuckler</strong> Your physique has grown hardy in your adventures. Your proficiency rank for Fortitude saves increases to expert.</p>\n<p><strong>Druid</strong> Adventures have made your physique more hardy. Your proficiency rank for Fortitude saves increases to expert.</p>"
+                    "value": "<p><strong>Animist</strong> Spiritual energy reinforces your body, making you more resilient. Your proficiency rank for Fortitude saves increases to expert.</p>\n<p><strong>Bard, Commander, Investigator, Swashbuckler</strong> Your physique has grown hardy in your adventures. Your proficiency rank for Fortitude saves increases to expert.</p>\n<p><strong>Druid</strong> Adventures have made your physique more hardy. Your proficiency rank for Fortitude saves increases to expert.</p>\n<p><strong>Psychic</strong> Your mind holds your body to a subconscious mental image of yourself. Your proficiency rank for Fortitude saves increases to expert.</p>"
                 },
                 "level": {
                     "value": 3
@@ -3437,6 +3449,7 @@
                         "commander",
                         "druid",
                         "investigator",
+                        "psychic",
                         "swashbuckler"
                     ]
                 }

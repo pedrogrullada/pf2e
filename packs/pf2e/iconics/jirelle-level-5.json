@@ -2706,7 +2706,7 @@
             "type": "feat"
         },
         {
-            "_id": "je00IXRmkecuQfrA",
+            "_id": "FckdkhsWOpasV32b",
             "_stats": {
                 "compendiumSource": "Compendium.pf2e.classfeatures.Item.pyo0vmxUFIFX2GNl"
             },
@@ -2714,7 +2714,7 @@
                 "pf2e": {
                     "itemGrants": {
                         "confidentFinisher": {
-                            "id": "9iaboGRSu0XxpjQq",
+                            "id": "TYvblPvrSXxp9EwX",
                             "onDelete": "detach"
                         }
                     }
@@ -2769,7 +2769,7 @@
             "type": "feat"
         },
         {
-            "_id": "uxZEVHuZ1fW86fl0",
+            "_id": "VKT8d9OFgBymTgoL",
             "_stats": {
                 "compendiumSource": "Compendium.pf2e.classfeatures.Item.beW1OqibVQ3fBvRw"
             },
@@ -2777,7 +2777,7 @@
                 "pf2e": {
                     "itemGrants": {
                         "fencer": {
-                            "id": "pv2agzCBRzFotB0h",
+                            "id": "XDAofSOlzT1bh8z2",
                             "onDelete": "detach"
                         }
                     }
@@ -2844,7 +2844,7 @@
             "type": "feat"
         },
         {
-            "_id": "lLOjfDZgba9q7YOK",
+            "_id": "SmdfQNHpnLiT6zlJ",
             "_stats": {
                 "compendiumSource": "Compendium.pf2e.classfeatures.Item.Jtn7IugykXDlIoZq"
             },
@@ -2852,7 +2852,7 @@
                 "pf2e": {
                     "itemGrants": {
                         "opportuneRiposte": {
-                            "id": "xw66rBzdSu5ElEJW",
+                            "id": "8j8SuGXS5RjRx6vM",
                             "onDelete": "detach"
                         }
                     }
@@ -2907,18 +2907,19 @@
             "type": "feat"
         },
         {
-            "_id": "9iaboGRSu0XxpjQq",
+            "_id": "TYvblPvrSXxp9EwX",
             "_stats": {
                 "compendiumSource": "Compendium.pf2e.actionspf2e.Item.K878asDgf1EF0B9S"
             },
             "flags": {
                 "pf2e": {
                     "grantedBy": {
-                        "id": "je00IXRmkecuQfrA",
+                        "id": "FckdkhsWOpasV32b",
                         "onDelete": "cascade"
                     }
                 }
             },
+            "folder": "etjIWCWdHah6ssxB",
             "img": "systems/pf2e/icons/actions/OneAction.webp",
             "name": "Confident Finisher",
             "sort": 0,
@@ -3022,14 +3023,14 @@
             "type": "action"
         },
         {
-            "_id": "pv2agzCBRzFotB0h",
+            "_id": "XDAofSOlzT1bh8z2",
             "_stats": {
                 "compendiumSource": "Compendium.pf2e.classfeatures.Item.Jgid6Ja6Y879COlN"
             },
             "flags": {
                 "pf2e": {
                     "grantedBy": {
-                        "id": "uxZEVHuZ1fW86fl0",
+                        "id": "VKT8d9OFgBymTgoL",
                         "onDelete": "cascade"
                     }
                 }
@@ -3132,18 +3133,19 @@
             "type": "feat"
         },
         {
-            "_id": "xw66rBzdSu5ElEJW",
+            "_id": "8j8SuGXS5RjRx6vM",
             "_stats": {
                 "compendiumSource": "Compendium.pf2e.actionspf2e.Item.EfjoIuDmtUn4yiow"
             },
             "flags": {
                 "pf2e": {
                     "grantedBy": {
-                        "id": "lLOjfDZgba9q7YOK",
+                        "id": "SmdfQNHpnLiT6zlJ",
                         "onDelete": "cascade"
                     }
                 }
             },
+            "folder": "0wzDPkI2wF5fOax9",
             "img": "systems/pf2e/icons/actions/Reaction.webp",
             "name": "Opportune Riposte",
             "sort": 0,
@@ -3202,7 +3204,7 @@
             "type": "action"
         },
         {
-            "_id": "DF16C9YH4ZYCr4aq",
+            "_id": "hmpF3FvfgPadGJIb",
             "_stats": {
                 "compendiumSource": "Compendium.pf2e.classfeatures.Item.LzYi0OuOoypNb6jd"
             },
@@ -3240,7 +3242,12 @@
                             "criticalSuccess"
                         ],
                         "predicate": [
-                            "item:trait:bravado",
+                            {
+                                "or": [
+                                    "item:trait:bravado",
+                                    "self:action:trait:bravado"
+                                ]
+                            },
                             {
                                 "or": [
                                     {
@@ -3263,7 +3270,12 @@
                             "failure"
                         ],
                         "predicate": [
-                            "item:trait:bravado",
+                            {
+                                "or": [
+                                    "item:trait:bravado",
+                                    "self:action:trait:bravado"
+                                ]
+                            },
                             {
                                 "or": [
                                     {
@@ -3315,7 +3327,7 @@
             "type": "feat"
         },
         {
-            "_id": "HYXBdwxDYvjTUMon",
+            "_id": "Bl4IzdqqCZpfDlSr",
             "_stats": {
                 "compendiumSource": "Compendium.pf2e.classfeatures.Item.RQH6vigvhmiYKKjg"
             },
@@ -3446,77 +3458,7 @@
             "type": "feat"
         },
         {
-            "_id": "ywRYrv1e75Q9asrG",
-            "_stats": {
-                "compendiumSource": "Compendium.pf2e.classfeatures.Item.8BOFeRE7ZfJ02N0O"
-            },
-            "img": "icons/equipment/feet/boots-leather-grey-gold.webp",
-            "name": "Vivacious Speed",
-            "sort": 0,
-            "system": {
-                "actionType": {
-                    "value": "passive"
-                },
-                "actions": {
-                    "value": null
-                },
-                "category": "classfeature",
-                "description": {
-                    "value": "<p>When you've made an impression, you move even faster than normal, darting about the battlefield with incredible speed. Increase the status bonus to your Speeds from stylish combatant to a +10-foot status bonus; this bonus increases by 5 feet at 7th, 11th, 15th, and 19th levels. When you don't have panache, you still get half this status bonus to your Speed, rounded down to the nearest 5-foot increment.</p>"
-                },
-                "level": {
-                    "value": 3
-                },
-                "location": "DFmaOnv1B2PFnj7T",
-                "prerequisites": {
-                    "value": []
-                },
-                "publication": {
-                    "license": "ORC",
-                    "remaster": true,
-                    "title": "Pathfinder Player Core 2"
-                },
-                "rules": [
-                    {
-                        "key": "AdjustModifier",
-                        "mode": "upgrade",
-                        "predicate": [
-                            "self:effect:panache"
-                        ],
-                        "selector": "speed",
-                        "slug": "stylish-combatant-speed",
-                        "value": "5*(floor((@actor.level + 5)/4))"
-                    },
-                    {
-                        "key": "AdjustModifier",
-                        "mode": "upgrade",
-                        "predicate": [
-                            {
-                                "not": "self:effect:panache"
-                            }
-                        ],
-                        "selector": "speed",
-                        "slug": "stylish-combatant-speed",
-                        "value": "5*(floor((@actor.level + 5)/8))"
-                    }
-                ],
-                "slug": "vivacious-speed",
-                "subfeatures": {
-                    "proficiencies": {},
-                    "senses": {},
-                    "suppressedFeatures": []
-                },
-                "traits": {
-                    "rarity": "common",
-                    "value": [
-                        "swashbuckler"
-                    ]
-                }
-            },
-            "type": "feat"
-        },
-        {
-            "_id": "WcL2OxaqoPTzfTU5",
+            "_id": "qvRSyHqEIgeW2wpj",
             "_stats": {
                 "compendiumSource": "Compendium.pf2e.classfeatures.Item.TALz3cU06Hb14Key"
             },
@@ -3600,7 +3542,77 @@
             "type": "feat"
         },
         {
-            "_id": "XdAQbF1414E8wyHj",
+            "_id": "zCyIw2a2Hzy1XqAL",
+            "_stats": {
+                "compendiumSource": "Compendium.pf2e.classfeatures.Item.8BOFeRE7ZfJ02N0O"
+            },
+            "img": "icons/equipment/feet/boots-leather-grey-gold.webp",
+            "name": "Vivacious Speed",
+            "sort": 0,
+            "system": {
+                "actionType": {
+                    "value": "passive"
+                },
+                "actions": {
+                    "value": null
+                },
+                "category": "classfeature",
+                "description": {
+                    "value": "<p>When you've made an impression, you move even faster than normal, darting about the battlefield with incredible speed. Increase the status bonus to your Speeds from stylish combatant to a +10-foot status bonus; this bonus increases by 5 feet at 7th, 11th, 15th, and 19th levels. When you don't have panache, you still get half this status bonus to your Speed, rounded down to the nearest 5-foot increment.</p>"
+                },
+                "level": {
+                    "value": 3
+                },
+                "location": "DFmaOnv1B2PFnj7T",
+                "prerequisites": {
+                    "value": []
+                },
+                "publication": {
+                    "license": "ORC",
+                    "remaster": true,
+                    "title": "Pathfinder Player Core 2"
+                },
+                "rules": [
+                    {
+                        "key": "AdjustModifier",
+                        "mode": "upgrade",
+                        "predicate": [
+                            "self:effect:panache"
+                        ],
+                        "selector": "speed",
+                        "slug": "stylish-combatant-speed",
+                        "value": "5*(floor((@actor.level + 5)/4))"
+                    },
+                    {
+                        "key": "AdjustModifier",
+                        "mode": "upgrade",
+                        "predicate": [
+                            {
+                                "not": "self:effect:panache"
+                            }
+                        ],
+                        "selector": "speed",
+                        "slug": "stylish-combatant-speed",
+                        "value": "5*(floor((@actor.level + 5)/8))"
+                    }
+                ],
+                "slug": "vivacious-speed",
+                "subfeatures": {
+                    "proficiencies": {},
+                    "senses": {},
+                    "suppressedFeatures": []
+                },
+                "traits": {
+                    "rarity": "common",
+                    "value": [
+                        "swashbuckler"
+                    ]
+                }
+            },
+            "type": "feat"
+        },
+        {
+            "_id": "tE2IxlcdAM03acvq",
             "_stats": {
                 "compendiumSource": "Compendium.pf2e.classfeatures.Item.pthjQIK9pDxnbER6"
             },
@@ -3647,7 +3659,7 @@
             "type": "feat"
         },
         {
-            "_id": "I78RnoxDI18yPP79",
+            "_id": "KUdNxVRLxoFSEoSI",
             "_stats": {
                 "compendiumSource": "Compendium.pf2e.classfeatures.Item.F57Na5VxfBp56kke"
             },
@@ -3663,7 +3675,7 @@
                 },
                 "category": "classfeature",
                 "description": {
-                    "value": "<p><strong>Animist</strong> Spiritual energy reinforces your body, making you more resilient. Your proficiency rank for Fortitude saves increases to expert.</p>\n<p><strong>Bard, Commander, Investigator, Swashbuckler</strong> Your physique has grown hardy in your adventures. Your proficiency rank for Fortitude saves increases to expert.</p>\n<p><strong>Druid</strong> Adventures have made your physique more hardy. Your proficiency rank for Fortitude saves increases to expert.</p>"
+                    "value": "<p><strong>Animist</strong> Spiritual energy reinforces your body, making you more resilient. Your proficiency rank for Fortitude saves increases to expert.</p>\n<p><strong>Bard, Commander, Investigator, Swashbuckler</strong> Your physique has grown hardy in your adventures. Your proficiency rank for Fortitude saves increases to expert.</p>\n<p><strong>Druid</strong> Adventures have made your physique more hardy. Your proficiency rank for Fortitude saves increases to expert.</p>\n<p><strong>Psychic</strong> Your mind holds your body to a subconscious mental image of yourself. Your proficiency rank for Fortitude saves increases to expert.</p>"
                 },
                 "level": {
                     "value": 3
@@ -3716,6 +3728,7 @@
                         "commander",
                         "druid",
                         "investigator",
+                        "psychic",
                         "swashbuckler"
                     ]
                 }
@@ -3723,7 +3736,7 @@
             "type": "feat"
         },
         {
-            "_id": "OY9GvfKRA1bASKW9",
+            "_id": "mDntm5hz2Bk8xvvq",
             "_stats": {
                 "compendiumSource": "Compendium.pf2e.classfeatures.Item.9XLUh9iMepZesdmc"
             },
@@ -3739,7 +3752,7 @@
                 },
                 "category": "classfeature",
                 "description": {
-                    "value": "<p><strong>Champion, Exemplar, Investigator, Magus</strong> You've dedicated yourself to learning the intricacies of your weapons. Your proficiency ranks for simple weapons, martial weapons, and unarmed attacks increase to expert.</p>\n<p><strong>Druid, Kineticist</strong> You've improved your combat skill. Your proficiency rank for simple weapons and unarmed attacks increases to expert.</p>\n<p><strong>Guardian</strong> Sometimes, the best defense is a good offense. Your proficiency ranks for simple weapons, martial weapons, and unarmed attacks increase to expert.</p>\n<p><strong>Oracle</strong> You've dedicated yourself to learning the intricacies of your weapons. Your proficiency ranks for simple weapons and unarmed attacks increase to expert.</p>\n<p><strong>Psychic</strong> Training and magic improved your weapon technique. Your proficiency rank for simple weapons and unarmed attacks increases to expert.</p>\n<p><strong>Sorcerer</strong> You've improved your combat skill. Your proficiency ranks for simple weapons and unarmed attacks increase to expert.</p>\n<p><strong>Swashbuckler</strong> You've dedicated yourself to learning the intricacies of your weapons. Your proficiency ranks for simple weapons, martial weapons, and unarmed attacks increase to expert. You gain access to the critical specialization effects of all weapons for which you have expert proficiency.</p>\n<p><strong>Witch, Wizard</strong> Through sheer experience, you've improved your technique with your weapons. Your proficiency ranks for simple weapons and unarmed attacks increase to expert.</p>"
+                    "value": "<p><strong>Champion, Exemplar, Investigator, Magus</strong> You've dedicated yourself to learning the intricacies of your weapons. Your proficiency ranks for simple weapons, martial weapons, and unarmed attacks increase to expert.</p>\n<p><strong>Druid, Kineticist</strong> You've improved your combat skill. Your proficiency rank for simple weapons and unarmed attacks increases to expert.</p>\n<p><strong>Guardian</strong> Sometimes, the best defense is a good offense. Your proficiency ranks for simple weapons, martial weapons, and unarmed attacks increase to expert.</p>\n<p><strong>Oracle</strong> You've dedicated yourself to learning the intricacies of your weapons. Your proficiency ranks for simple weapons and unarmed attacks increase to expert.</p>\n<p><strong>Psychic</strong> Training has improved your weapon technique, possibly enhanced by your occult magic. Your proficiency rank for simple weapons and unarmed attacks increases to expert.</p>\n<p><strong>Sorcerer</strong> You've improved your combat skill. Your proficiency ranks for simple weapons and unarmed attacks increase to expert.</p>\n<p><strong>Swashbuckler</strong> You've dedicated yourself to learning the intricacies of your weapons. Your proficiency ranks for simple weapons, martial weapons, and unarmed attacks increase to expert. You gain access to the critical specialization effects of all weapons for which you have expert proficiency.</p>\n<p><strong>Thaumaturge</strong> You've learned the secret ways your weapons work most effectively. Your proficiency ranks for unarmed attacks, simple weapons, and martial weapons increase to expert.</p>\n<p><strong>Witch, Wizard</strong> Through sheer experience, you've improved your technique with your weapons. Your proficiency ranks for simple weapons and unarmed attacks increase to expert.</p>"
                 },
                 "level": {
                     "value": 5
@@ -3781,7 +3794,10 @@
                                     2
                                 ]
                             },
-                            "class:swashbuckler"
+                            "class:swashbuckler",
+                            {
+                                "not": "item:category:unarmed"
+                            }
                         ]
                     },
                     {
@@ -3832,6 +3848,7 @@
                         "psychic",
                         "sorcerer",
                         "swashbuckler",
+                        "thaumaturge",
                         "witch",
                         "wizard"
                     ]

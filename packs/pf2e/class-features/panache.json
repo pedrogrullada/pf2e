@@ -32,7 +32,12 @@
                     "criticalSuccess"
                 ],
                 "predicate": [
-                    "item:trait:bravado",
+                    {
+                        "or": [
+                            "item:trait:bravado",
+                            "self:action:trait:bravado"
+                        ]
+                    },
                     {
                         "or": [
                             {
@@ -55,7 +60,12 @@
                     "failure"
                 ],
                 "predicate": [
-                    "item:trait:bravado",
+                    {
+                        "or": [
+                            "item:trait:bravado",
+                            "self:action:trait:bravado"
+                        ]
+                    },
                     {
                         "or": [
                             {

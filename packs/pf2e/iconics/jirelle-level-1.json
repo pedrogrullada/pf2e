@@ -2120,7 +2120,7 @@
             "type": "feat"
         },
         {
-            "_id": "jGxWNB4tOiWSvURj",
+            "_id": "eDrEhFKTGazzwQ2e",
             "_stats": {
                 "compendiumSource": "Compendium.pf2e.classfeatures.Item.pyo0vmxUFIFX2GNl"
             },
@@ -2128,7 +2128,7 @@
                 "pf2e": {
                     "itemGrants": {
                         "confidentFinisher": {
-                            "id": "D0piuT6tyO93V4An",
+                            "id": "WxwH50SbALmyc3Bd",
                             "onDelete": "detach"
                         }
                     }
@@ -2183,7 +2183,7 @@
             "type": "feat"
         },
         {
-            "_id": "xjUnhphFQhRU5ZoL",
+            "_id": "cDn9EK3QGHfO0nw9",
             "_stats": {
                 "compendiumSource": "Compendium.pf2e.classfeatures.Item.beW1OqibVQ3fBvRw"
             },
@@ -2191,7 +2191,7 @@
                 "pf2e": {
                     "itemGrants": {
                         "fencer": {
-                            "id": "clgaDwm9icOzILoZ",
+                            "id": "BUjZFtIc49PxdqCa",
                             "onDelete": "detach"
                         }
                     }
@@ -2258,18 +2258,19 @@
             "type": "feat"
         },
         {
-            "_id": "D0piuT6tyO93V4An",
+            "_id": "WxwH50SbALmyc3Bd",
             "_stats": {
                 "compendiumSource": "Compendium.pf2e.actionspf2e.Item.K878asDgf1EF0B9S"
             },
             "flags": {
                 "pf2e": {
                     "grantedBy": {
-                        "id": "jGxWNB4tOiWSvURj",
+                        "id": "eDrEhFKTGazzwQ2e",
                         "onDelete": "cascade"
                     }
                 }
             },
+            "folder": "etjIWCWdHah6ssxB",
             "img": "systems/pf2e/icons/actions/OneAction.webp",
             "name": "Confident Finisher",
             "sort": 0,
@@ -2373,14 +2374,14 @@
             "type": "action"
         },
         {
-            "_id": "clgaDwm9icOzILoZ",
+            "_id": "BUjZFtIc49PxdqCa",
             "_stats": {
                 "compendiumSource": "Compendium.pf2e.classfeatures.Item.Jgid6Ja6Y879COlN"
             },
             "flags": {
                 "pf2e": {
                     "grantedBy": {
-                        "id": "xjUnhphFQhRU5ZoL",
+                        "id": "cDn9EK3QGHfO0nw9",
                         "onDelete": "cascade"
                     }
                 }
@@ -2483,7 +2484,7 @@
             "type": "feat"
         },
         {
-            "_id": "tSrNQ33Zb6mU48Nl",
+            "_id": "3V8NixKGxfXifdd5",
             "_stats": {
                 "compendiumSource": "Compendium.pf2e.classfeatures.Item.LzYi0OuOoypNb6jd"
             },
@@ -2521,7 +2522,12 @@
                             "criticalSuccess"
                         ],
                         "predicate": [
-                            "item:trait:bravado",
+                            {
+                                "or": [
+                                    "item:trait:bravado",
+                                    "self:action:trait:bravado"
+                                ]
+                            },
                             {
                                 "or": [
                                     {
@@ -2544,7 +2550,12 @@
                             "failure"
                         ],
                         "predicate": [
-                            "item:trait:bravado",
+                            {
+                                "or": [
+                                    "item:trait:bravado",
+                                    "self:action:trait:bravado"
+                                ]
+                            },
                             {
                                 "or": [
                                     {
@@ -2596,7 +2607,7 @@
             "type": "feat"
         },
         {
-            "_id": "0kQQT6BxCtW7BF0u",
+            "_id": "DIxgm28KIIdntcZW",
             "_stats": {
                 "compendiumSource": "Compendium.pf2e.classfeatures.Item.RQH6vigvhmiYKKjg"
             },
@@ -2727,7 +2738,7 @@
             "type": "feat"
         },
         {
-            "_id": "7PVC4YqjW17ONATG",
+            "_id": "te9JhtR5OWNgVgxB",
             "_stats": {
                 "compendiumSource": "Compendium.pf2e.classfeatures.Item.TALz3cU06Hb14Key"
             },
