@@ -27,7 +27,7 @@
             },
             {
                 "key": "RollOption",
-                "option": "self:action:trait:bravado",
+                "option": "item:trait:bravado",
                 "predicate": [
                     "opportune-riposte",
                     "action:disarm"

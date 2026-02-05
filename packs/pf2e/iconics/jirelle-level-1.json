@@ -2453,7 +2453,7 @@
                     {
                         "domain": "skill-check",
                         "key": "RollOption",
-                        "option": "self:action:trait:bravado",
+                        "option": "item:trait:bravado",
                         "predicate": [
                             {
                                 "or": [
@@ -2521,7 +2521,7 @@
                             "criticalSuccess"
                         ],
                         "predicate": [
-                            "self:action:trait:bravado",
+                            "item:trait:bravado",
                             {
                                 "or": [
                                     {
@@ -2544,7 +2544,7 @@
                             "failure"
                         ],
                         "predicate": [
-                            "self:action:trait:bravado",
+                            "item:trait:bravado",
                             {
                                 "or": [
                                     {
@@ -2573,7 +2573,7 @@
                     },
                     {
                         "key": "RollOption",
-                        "option": "self:action:trait:bravado",
+                        "option": "item:trait:bravado",
                         "predicate": [
                             "action:tumble-through"
                         ],
@@ -2761,7 +2761,7 @@
                     {
                         "key": "FlatModifier",
                         "predicate": [
-                            "self:action:trait:bravado",
+                            "item:trait:bravado",
                             {
                                 "or": [
                                     "encounter",
