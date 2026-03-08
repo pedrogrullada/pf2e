@@ -1351,6 +1351,11 @@
                     "RedClawLabel": "Red Claw"
                 }
             },
+            "Nasurgeth": {
+                "MidnightDepths": {
+                    "InWater": "Midnight Depths — In Water"
+                }
+            },
             "Necrohulk": {
                 "AlchemicalCartridgeRuptured": "Alchemical Cartridge Ruptured"
             },
