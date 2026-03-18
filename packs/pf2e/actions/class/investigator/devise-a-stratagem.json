@@ -40,14 +40,11 @@
                             "item:trait:agile",
                             "item:trait:finesse",
                             {
-                                "and": [
-                                    "item:ranged",
-                                    {
-                                        "not": "item:thrown-melee"
-                                    }
+                                "nor": [
+                                    "item:melee",
+                                    "item:thrown"
                                 ]
-                            },
-                            "item:base:sap"
+                            }
                         ]
                     }
                 ],
